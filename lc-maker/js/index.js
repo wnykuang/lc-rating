@@ -40,10 +40,10 @@ var ProblemListParser = /** @class */ (function () {
                 var childs = this.parseList(el);
                 for (var _i = 0, childs_1 = childs; _i < childs_1.length; _i++) {
                     var ch = childs_1[_i];
-                    var rep1 = repr0(lastH1);
+                    // var rep1 = repr0(lastH1);
                     var rep2 = repr(lastH2);
                     var seq = getSeq(lastH2);
-                    var title_1 = "".concat(seq).concat(rep1, " ").concat(rep2);
+                    var title_1 = "".concat(seq).concat(rep2);
                     this.list[title_1] = this.list[title_1] ? this.list[title_1].concat(ch) : [ch];
                 }
                 total += childs.length;

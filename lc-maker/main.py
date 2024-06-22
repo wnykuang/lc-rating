@@ -10,8 +10,8 @@ def load_headers():
                 hds[line[:sep]] = line[sep+1:].strip()
     return hds
 
-def load_list_as_dict():
-    with open("list.json", 'r', encoding="utf-8") as r:
+def load_list_as_dict(list_file="list.json"):
+    with open(list_file, 'r', encoding="utf-8") as r:
         import json
         return json.load(r)
     
@@ -24,7 +24,7 @@ def deleteAllFavs(lc: LeetCodeApi):
 创建题单 需要先提供 list.json
 '''
 def createList(lc: LeetCodeApi):
-    pb = load_list_as_dict()
+    pb = load_list_as_dict("list_algo.json")
     cnt = 0
     for k, v in pb.items():
         hash = ""
@@ -54,5 +54,5 @@ def printList():
 if __name__ == "__main__":
     hds = load_headers()
     lc = LeetCodeApi(headers=hds)
-    # createList(lc)
-    printList()
+    createList(lc)
+    # printList()

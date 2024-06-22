@@ -10,7 +10,6 @@ var ProblemListParser = /** @class */ (function () {
     }
     ProblemListParser.prototype.parser = function (selector) {
         this.title = document.querySelector(titleSelector).textContent;
-        // console.log("title: " + this.title);
         var _a;
         this.root = document.querySelector(selector);
         if (!this.root) {
@@ -29,7 +28,6 @@ var ProblemListParser = /** @class */ (function () {
                 title = el.textContent;
             }
             lastH1 = this.title;
-            // console.log(JSON.stringify(lastH1));
             this.g[lastH1] = this.title;
             if (nodeName == "H3") {
                 lastH2 = el.textContent || "";

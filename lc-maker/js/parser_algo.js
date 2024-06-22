@@ -1,10 +1,16 @@
 var rootSelector = 'div[class="e2v1tt3 css-1ayia3m-MarkdownContent"]';
+
+var titleSelector = 'span[class="css-jkstne-StyledTitle e2v1tt7"]';
+
+
 var ProblemListParser = /** @class */ (function () {
     function ProblemListParser() {
         this.list = {};
         this.g = {};
     }
     ProblemListParser.prototype.parser = function (selector) {
+        this.title = document.querySelector(titleSelector).textContent;
+        // console.log("title: " + this.title);
         var _a;
         this.root = document.querySelector(selector);
         if (!this.root) {
@@ -22,10 +28,9 @@ var ProblemListParser = /** @class */ (function () {
             if (id) {
                 title = el.textContent;
             }
-            if (nodeName == "H2") {
-                lastH1 = el.textContent || "";
-                this.g[lastH1] = "";
-            }
+            lastH1 = this.title;
+            // console.log(JSON.stringify(lastH1));
+            this.g[lastH1] = this.title;
             if (nodeName == "H3") {
                 lastH2 = el.textContent || "";
                 this.g[lastH2] = lastH1;
@@ -40,7 +45,7 @@ var ProblemListParser = /** @class */ (function () {
                 var childs = this.parseList(el);
                 for (var _i = 0, childs_1 = childs; _i < childs_1.length; _i++) {
                     var ch = childs_1[_i];
-                    var rep1 = "滑动窗口";
+                    var rep1 = fixTitle(this.title);
                     var rep2 = repr(lastH2);
                     var seq = getSeq(lastH2);
                     var title_1 = "".concat(seq).concat(rep1, " ").concat(rep2);
@@ -51,7 +56,7 @@ var ProblemListParser = /** @class */ (function () {
             el = el.nextElementSibling;
         }
         console.log(JSON.stringify(this.list, null, 2).slice(1, -1));
-        console.log("total: ".concat(total));
+        // console.log("total: ".concat(total));
     };
     ProblemListParser.prototype.parseList = function (col) {
         var _a, _b;
@@ -72,6 +77,23 @@ var ProblemListParser = /** @class */ (function () {
 function repr(s) {
     return s.replace(/\s+§\d+.\d+\s+/g, "");
 }
+
+function fixTitle(s){
+    // console.log("fixTitle: " + s)
+    try {
+        var regex = /】(.*?)（/;;
+        var match = s.match(regex);
+        if (match && match[1]) {
+            return match[1];
+        } else {
+            throw new Error("No match found");
+        }
+    } catch (error) {
+        console.error("Error in fixTitle:", error.message);
+        return null; // or any other fallback value you prefer
+    }
+}
+
 function getSeq(s) {
     var a = s.match(/§\d+.\d+/g);
     return a ? a[0] : "";

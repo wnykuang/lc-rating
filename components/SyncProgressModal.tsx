@@ -30,7 +30,7 @@ export default function SyncProgressModal({
 
   
   const handleFetch = () => {
-    const allProgress = new AllProgress(isAuthenticated);
+    const allProgress = new AllProgress();
     const result = allProgress.getAllProgress();
     setFetchedData(JSON.stringify(result, null, 2));
     setInputData(JSON.stringify(result, null, 2));
@@ -39,7 +39,7 @@ export default function SyncProgressModal({
 
   const handleSet = () => {
     try {
-      const allProgress = new AllProgress(isAuthenticated);
+      const allProgress = new AllProgress();
       const parsedData = JSON.parse(inputData);
       allProgress.setAllProgress(parsedData);
       setSyncStatus("set");

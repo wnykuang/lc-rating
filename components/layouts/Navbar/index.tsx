@@ -1,5 +1,5 @@
 "use client";
-import { GithubBasicBadge as GithubBadge  } from "../../gh"
+import { GithubBasicBadge as GithubBadge } from "../../gh";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import DropdownButton from "react-bootstrap/DropdownButton";
@@ -8,13 +8,13 @@ import Link from "next/dist/client/link";
 import Button from "react-bootstrap/esm/Button";
 import ThemeSwitchButton from "../../ThemeSwitchButton";
 import { useTheme } from "../../../hooks/useTheme";
-// import GithubProfile from "../../gh";
 import { useEffect, useState, useCallback } from "react";
 import SyncProgressModal from "@components/SyncProgressModal";
 
-export default function () {
+export default function NavbarComponent() {
   const { theme, toggleTheme } = useTheme();
   const [showModal, setShowModal] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   const handleModalState = useCallback((state: boolean) => {
     setShowModal(state);
@@ -26,10 +26,36 @@ export default function () {
 
   const handleOpenModal = () => handleModalState(true);
   const handleCloseModal = () => handleModalState(false);
-  
+
   useEffect(() => {
+    console.log("NavbarComponent mounted");
     toggleTheme(theme);
+    // Check if the user is already authenticated
+    const token = localStorage.getItem("jwtToken");
+    if (token) {
+      setIsAuthenticated(true);
+    }
+
+    // Check for token in URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const jwtToken = urlParams.get('token');
+    if (jwtToken) {
+      localStorage.setItem('jwtToken', jwtToken);
+      setIsAuthenticated(true);
+      // Remove token from URL
+      window.history.replaceState({}, document.title, window.location.pathname);
+    }
   }, []);
+
+  const handleLogin = () => {
+    window.location.href = "http://localhost:8787/api/login/github";
+  };
+
+  const handleLogout = () => {
+    localStorage.removeItem("jwtToken");
+    setIsAuthenticated(false);
+  };
+
   return (
     <Navbar expand="lg" className="position-sticky top-0 p-0">
       <Container className="navbar fw-bold ps-2 pe-2">
@@ -71,7 +97,7 @@ export default function () {
             <div className="nav-link d-flex">
               <Button className="fw-bold fs-6 p-1" onClick={handleOpenModal}>同步进度</Button>
             </div>
-            <SyncProgressModal show={showModal} onHide={handleCloseModal}/>
+            <SyncProgressModal show={showModal} onHide={handleCloseModal} isAuthenticated={isAuthenticated} />
 
             <DropdownButton color="primary" title="📑题单" className="nav-link d-flex">
               <Link className="nav-link px-lg-3" href="/list/slide_window">
@@ -122,6 +148,17 @@ export default function () {
             </a>{" "}
             感谢！
           </span>
+          <Nav>
+            {isAuthenticated ? (
+              <Button variant="outline-danger" onClick={handleLogout}>
+                Logout
+              </Button>
+            ) : (
+              <Button variant="outline-primary" onClick={handleLogin}>
+                Login with GitHub
+              </Button>
+            )}
+          </Nav>
           <span
             className="btn d-flex rounded-circle p-1 d-none d-lg-block d-xl-block d-sm-none"
             onClick={() => {

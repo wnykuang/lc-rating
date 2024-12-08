@@ -3,12 +3,35 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】滑动窗口与双指针（定长/不定长/至多/至少/恰好/单序列/双序列/三指针）",
     "original_src": "https://leetcode.cn/circle/discuss/0viNMK",
-    "last_update": "2024-11-17 01:26:59",
+    "last_update": "2024-12-05 11:34:18",
     "sort": 0,
     "child": [
         {
-            "title": "一、定长滑动窗口",
+            "title": "",
             "sort": 0,
+            "summary": "",
+            "child": [
+                {
+                    "title": "",
+                    "sort": 0,
+                    "isLeaf": true,
+                    "summary": "!<a href=\"https://pic.leetcode.cn/1718242805-sqSjqc-lc1456.png\">滑动窗口题单 双指针题单 力扣题目 灵茶山艾府</a><br>如果你刚开始刷题，还不熟悉**基本编程语法**和**常用库函数**，推荐先刷力扣官方的**入门题单**：<br>有了一些简单题的积累，就可以开始刷我的题单啦~<br>下面的题目已按照难度分排序，右侧数字为难度分。<br>如果遇到难度很大，题解都看不懂的题目，建议直接收藏，过段时间再来做。<br>",
+                    "child": [
+                        {
+                            "title": "「新」动计划 · 编程入门",
+                            "sort": 0,
+                            "src": "https://leetcode.cn/studyplan/primers-list/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "一、定长滑动窗口",
+            "sort": 1,
             "summary": "",
             "child": [
                 {
@@ -295,7 +318,7 @@ export default{
         },
         {
             "title": "二、不定长滑动窗口",
-            "sort": 1,
+            "sort": 2,
             "summary": "不定长滑动窗口主要分为三类：求最长子数组，求最短子数组，以及求子数组个数。<br>**推荐先完成 2000 分以下的题目，难题可以留到后面再做。**<br>",
             "child": [
                 {
@@ -853,7 +876,7 @@ export default{
         },
         {
             "title": "三、单序列双指针",
-            "sort": 2,
+            "sort": 3,
             "summary": "",
             "child": [
                 {
@@ -1084,19 +1107,11 @@ export default{
                     "title": "§3.2 同向双指针",
                     "sort": 1,
                     "isLeaf": true,
-                    "summary": "两个指针的移动方向相同（都向右，或者都向左）。<br>",
+                    "summary": "两个指针的移动方向相同（都向右，或者都向左）。<br>相似题目：<br>",
                     "child": [
                         {
-                            "title": "581. 最短无序连续子数组",
-                            "sort": 0,
-                            "src": "/shortest-unsorted-continuous-subarray/",
-                            "score": null,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "2972. 统计移除递增子数组的数目 II",
-                            "sort": 1,
+                            "sort": 0,
                             "src": "/count-the-number-of-incremovable-subarrays-ii/",
                             "score": 2152.8032001597,
                             "solution": null,
@@ -1104,7 +1119,7 @@ export default{
                         },
                         {
                             "title": "2122. 还原原数组",
-                            "sort": 2,
+                            "sort": 1,
                             "src": "/recover-the-original-array/",
                             "score": 2158.8988728254,
                             "solution": null,
@@ -1112,11 +1127,19 @@ export default{
                         },
                         {
                             "title": "3323. 通过插入区间最小化连通组",
-                            "sort": 3,
+                            "sort": 2,
                             "src": "/minimize-connected-groups-by-inserting-interval/",
                             "score": null,
                             "solution": null,
                             "isPremium": true
+                        },
+                        {
+                            "title": "581. 最短无序连续子数组",
+                            "sort": 3,
+                            "src": "/shortest-unsorted-continuous-subarray/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
                         }
                     ]
                 },
@@ -1212,7 +1235,7 @@ export default{
         },
         {
             "title": "四、双序列双指针",
-            "sort": 3,
+            "sort": 4,
             "summary": "",
             "child": [
                 {
@@ -1254,18 +1277,18 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1385. 两个数组间的距离值",
+                            "title": "1855. 下标对中的最大距离",
                             "sort": 4,
-                            "src": "/find-the-distance-value-between-two-arrays/",
-                            "score": 1234.8049089605,
+                            "src": "/maximum-distance-between-a-pair-of-values/",
+                            "score": 1514.8181710611,
                             "solution": null,
                             "isPremium": false
                         },
                         {
-                            "title": "1855. 下标对中的最大距离",
+                            "title": "1385. 两个数组间的距离值",
                             "sort": 5,
-                            "src": "/maximum-distance-between-a-pair-of-values/",
-                            "score": 1514.8181710611,
+                            "src": "/find-the-distance-value-between-two-arrays/",
+                            "score": 1234.8049089605,
                             "solution": null,
                             "isPremium": false
                         },
@@ -1467,7 +1490,7 @@ export default{
         },
         {
             "title": "五、三指针",
-            "sort": 4,
+            "sort": 5,
             "summary": "注：部分题目已整理到「§2.3.3 恰好型滑动窗口」中。<br>",
             "child": [
                 {
@@ -1529,8 +1552,231 @@ export default{
             ]
         },
         {
+            "title": "六、分组循环",
+            "sort": 6,
+            "summary": "**适用场景**：按照题目要求，数组会被分割成若干组，每一组的判断/处理逻辑是相同的。<br>**核心思想**：<br>- 外层循环负责遍历组之前的准备工作（记录开始位置），和遍历组之后的统计工作（更新答案最大值）。<br>- 内层循环负责遍历组，找出这一组最远在哪结束。<br>这个写法的好处是，各个逻辑块分工明确，也不需要特判最后一组（易错点）。以我的经验，这个写法是所有写法中最不容易出 bug 的，推荐大家记住。<br><a href=\"https://leetcode.cn/problems/longest-even-odd-subarray-with-threshold/solutions/2528771/jiao-ni-yi-ci-xing-ba-dai-ma-xie-dui-on-zuspx/\">讲解</a><br>",
+            "child": [
+                {
+                    "title": "",
+                    "sort": 0,
+                    "isLeaf": true,
+                    "summary": "",
+                    "child": [
+                        {
+                            "title": "1446. 连续字符",
+                            "sort": 0,
+                            "src": "/consecutive-characters/",
+                            "score": 1165.4768151611,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1869. 哪种连续子字符串更长",
+                            "sort": 1,
+                            "src": "/longer-contiguous-segments-of-ones-than-zeros/",
+                            "score": 1204.9864820183,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2414. 最长的字母序连续子字符串的长度",
+                            "sort": 2,
+                            "src": "/length-of-the-longest-alphabetical-continuous-substring/",
+                            "score": 1221.8477681772,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1957. 删除字符使字符串变好",
+                            "sort": 3,
+                            "src": "/delete-characters-to-make-fancy-string/",
+                            "score": 1357.6553050616,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "674. 最长连续递增序列",
+                            "sort": 4,
+                            "src": "/longest-continuous-increasing-subsequence/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "978. 最长湍流子数组",
+                            "sort": 5,
+                            "src": "/longest-turbulent-subarray/",
+                            "score": 1393.4123491817,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2110. 股票平滑下跌阶段的数目",
+                            "sort": 6,
+                            "src": "/number-of-smooth-descent-periods-of-a-stock/",
+                            "score": 1408.427592417,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "228. 汇总区间",
+                            "sort": 7,
+                            "src": "/summary-ranges/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2760. 最长奇偶子数组",
+                            "sort": 8,
+                            "src": "/longest-even-odd-subarray-with-threshold/",
+                            "score": 1420.3698647434,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1887. 使数组元素相等的减少操作次数",
+                            "sort": 9,
+                            "src": "/reduction-operations-to-make-the-array-elements-equal/",
+                            "score": 1427.7906804882,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "845. 数组中的最长山脉",
+                            "sort": 10,
+                            "src": "/longest-mountain-in-array/",
+                            "score": 1436.5343999134,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2038. 如果相邻两个颜色均相同则删除当前颜色",
+                            "sort": 11,
+                            "src": "/remove-colored-pieces-if-both-neighbors-are-the-same-color/",
+                            "score": 1467.7383709213,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1759. 统计同质子字符串的数目",
+                            "sort": 12,
+                            "src": "/count-number-of-homogenous-substrings/",
+                            "score": 1490.8990184504,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3011. 判断一个数组是否可以变为有序",
+                            "sort": 13,
+                            "src": "/find-if-array-can-be-sorted/",
+                            "score": 1496.6441112156,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3350. 检测相邻递增子数组 II",
+                            "sort": 14,
+                            "src": "/adjacent-increasing-subarrays-detection-ii/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1578. 使绳子变成彩色的最短时间",
+                            "sort": 15,
+                            "src": "/minimum-time-to-make-rope-colorful/",
+                            "score": 1574.0392121288,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1839. 所有元音按顺序排布的最长子字符串",
+                            "sort": 16,
+                            "src": "/longest-substring-of-all-vowels-in-order/",
+                            "score": 1580.3620959714,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2765. 最长交替子序列",
+                            "sort": 17,
+                            "src": "/longest-alternating-subarray/",
+                            "score": 1580.9748095835,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3255. 长度为 K 的子数组的能量值 II",
+                            "sort": 18,
+                            "src": "/find-the-power-of-k-size-subarrays-ii/",
+                            "score": 1595.0583171953,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3105. 最长的严格递增或递减子数组",
+                            "sort": 19,
+                            "src": "/longest-strictly-increasing-or-strictly-decreasing-subarray/",
+                            "score": 1217.0003384199,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "467. 环绕字符串中唯一的子字符串",
+                            "sort": 20,
+                            "src": "/unique-substrings-in-wraparound-string/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2948. 交换得到字典序最小的数组",
+                            "sort": 21,
+                            "src": "/make-lexicographically-smallest-array-by-swapping-elements/",
+                            "score": 2047.3919190727,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2393. 严格递增的子数组个数",
+                            "sort": 22,
+                            "src": "/count-strictly-increasing-subarrays/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": true
+                        },
+                        {
+                            "title": "2436. 使子数组最大公约数大于一的最小分割数",
+                            "sort": 23,
+                            "src": "/minimum-split-into-subarrays-with-gcd-greater-than-one/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": true
+                        },
+                        {
+                            "title": "2495. 乘积为偶数的子数组数",
+                            "sort": 24,
+                            "src": "/number-of-subarrays-having-even-product/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": true
+                        },
+                        {
+                            "title": "3063. 链表频率",
+                            "sort": 25,
+                            "src": "/linked-list-frequency/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "title": "思考",
-            "sort": 5,
+            "sort": 7,
             "summary": "做了一些题目后，请总结：滑动窗口和双指针的区别是什么？<br>欢迎在评论区发表你的做题总结。<br>",
             "child": []
         }

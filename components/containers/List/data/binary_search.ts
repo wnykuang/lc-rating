@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】二分算法（二分答案/最小化最大值/最大化最小值/第K小）",
     "original_src": "https://leetcode.cn/circle/discuss/SqopEo",
-    "last_update": "2025-02-08 04:11:16",
+    "last_update": "2025-02-12 10:15:49",
     "sort": 0,
     "child": [
         {
@@ -120,16 +120,8 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2856. 删除数对后的最小数组长度",
-                            "sort": 11,
-                            "src": "/minimum-array-length-after-pair-removals/",
-                            "score": 1749.9743684275,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "981. 基于时间的键值存储",
-                            "sort": 12,
+                            "sort": 11,
                             "src": "/time-based-key-value-store/",
                             "score": 1574.7542247682,
                             "solution": null,
@@ -137,7 +129,7 @@ export default{
                         },
                         {
                             "title": "1146. 快照数组",
-                            "sort": 13,
+                            "sort": 12,
                             "src": "/snapshot-array/",
                             "score": 1770.8924569497,
                             "solution": null,
@@ -145,7 +137,7 @@ export default{
                         },
                         {
                             "title": "658. 找到 K 个最接近的元素",
-                            "sort": 14,
+                            "sort": 13,
                             "src": "/find-k-closest-elements/",
                             "score": null,
                             "solution": null,
@@ -153,7 +145,7 @@ export default{
                         },
                         {
                             "title": "1818. 绝对差值和",
-                            "sort": 15,
+                            "sort": 14,
                             "src": "/minimum-absolute-sum-difference/",
                             "score": 1934.3556201811,
                             "solution": null,
@@ -161,7 +153,7 @@ export default{
                         },
                         {
                             "title": "911. 在线选举",
-                            "sort": 16,
+                            "sort": 15,
                             "src": "/online-election/",
                             "score": 2000.8021428612,
                             "solution": null,
@@ -169,7 +161,7 @@ export default{
                         },
                         {
                             "title": "LCP 08. 剧情触发时间",
-                            "sort": 17,
+                            "sort": 16,
                             "src": "/ju-qing-hong-fa-shi-jian/",
                             "score": null,
                             "solution": null,
@@ -177,7 +169,7 @@ export default{
                         },
                         {
                             "title": "1150. 检查一个数是否在数组中占绝大多数",
-                            "sort": 18,
+                            "sort": 17,
                             "src": "/check-if-a-number-is-majority-element-in-a-sorted-array/",
                             "score": 1249.9947800752,
                             "solution": null,
@@ -185,7 +177,7 @@ export default{
                         },
                         {
                             "title": "1064. 不动点",
-                            "sort": 19,
+                            "sort": 18,
                             "src": "/fixed-point/",
                             "score": 1307.9800903088,
                             "solution": null,
@@ -193,7 +185,7 @@ export default{
                         },
                         {
                             "title": "702. 搜索长度未知的有序数组",
-                            "sort": 20,
+                            "sort": 19,
                             "src": "/search-in-a-sorted-array-of-unknown-size/",
                             "score": null,
                             "solution": null,
@@ -201,7 +193,7 @@ export default{
                         },
                         {
                             "title": "1182. 与目标颜色间的最短距离",
-                            "sort": 21,
+                            "sort": 20,
                             "src": "/shortest-distance-to-target-color/",
                             "score": 1626.6740430119,
                             "solution": null,
@@ -209,7 +201,7 @@ export default{
                         },
                         {
                             "title": "2819. 购买巧克力后的最小相对损失",
-                            "sort": 22,
+                            "sort": 21,
                             "src": "/minimum-relative-loss-after-buying-chocolates/",
                             "score": null,
                             "solution": null,
@@ -217,7 +209,7 @@ export default{
                         },
                         {
                             "title": "2936. 包含相等值数字块的数量",
-                            "sort": 23,
+                            "sort": 22,
                             "src": "/number-of-equal-numbers-blocks/",
                             "score": null,
                             "solution": null,
@@ -225,7 +217,7 @@ export default{
                         },
                         {
                             "title": "1287. 有序数组中出现次数超过 25% 的元素",
-                            "sort": 24,
+                            "sort": 23,
                             "src": "/element-appearing-more-than-25-in-sorted-array/",
                             "score": 1179.1495967491,
                             "solution": null,
@@ -244,7 +236,7 @@ export default{
                     "title": "",
                     "sort": 0,
                     "isLeaf": true,
-                    "summary": "> “花费一个 $\\log$ 的时间，增加了一个条件。” —— 二分答案<br>",
+                    "summary": "> “花费一个 $\\log$ 的时间，增加了一个条件。” —— 二分答案<br>题目求什么，就二分什么。<br>",
                     "child": [
                         {
                             "title": "1283. 使结果不超过阈值的最小除数",
@@ -691,8 +683,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1102. 得分最高的路径",
+                            "title": "3449. 最大化游戏分数的最小值",
                             "sort": 5,
+                            "src": "/maximize-the-minimum-game-score/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1102. 得分最高的路径",
+                            "sort": 6,
                             "src": "/path-with-maximum-minimum-value/",
                             "score": 2011.3542735398,
                             "solution": null,
@@ -700,7 +700,7 @@ export default{
                         },
                         {
                             "title": "1231. 分享巧克力",
-                            "sort": 6,
+                            "sort": 7,
                             "src": "/divide-chocolate/",
                             "score": 2029.1301557536,
                             "solution": null,

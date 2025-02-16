@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】动态规划（入门/背包/状态机/划分/区间/状压/数位/树形/数据结构优化）",
     "original_src": "https://leetcode.cn/circle/discuss/tXLS3i",
-    "last_update": "2025-02-03 00:47:07",
+    "last_update": "2025-02-11 03:33:53",
     "sort": 0,
     "child": [
         {
@@ -1073,7 +1073,7 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1911. 最大子序列交替和",
+                            "title": "1911. 最大交替子序列和",
                             "sort": 18,
                             "src": "/maximum-alternating-subsequence-sum/",
                             "score": 1785.6872758693,
@@ -1464,8 +1464,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1478. 安排邮筒",
+                            "title": "2209. 用地毯覆盖后的最少白色砖块",
                             "sort": 7,
+                            "src": "/minimum-white-tiles-after-covering-with-carpets/",
+                            "score": 2105.8582288624,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1478. 安排邮筒",
+                            "sort": 8,
                             "src": "/allocate-mailboxes/",
                             "score": 2190.1757477854,
                             "solution": null,
@@ -1473,7 +1481,7 @@ export default{
                         },
                         {
                             "title": "1959. K 次调整数组大小浪费的最小总空间",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/minimum-total-space-wasted-with-k-resizing-operations/",
                             "score": 2310.3824631335,
                             "solution": null,
@@ -1481,7 +1489,7 @@ export default{
                         },
                         {
                             "title": "2478. 完美分割的方案数",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/number-of-beautiful-partitions/",
                             "score": 2344.3664724791,
                             "solution": null,
@@ -1489,7 +1497,7 @@ export default{
                         },
                         {
                             "title": "3077. K 个不相交子数组的最大能量值",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/maximum-strength-of-k-disjoint-subarrays/",
                             "score": 2556.5072256577,
                             "solution": null,
@@ -1497,7 +1505,7 @@ export default{
                         },
                         {
                             "title": "2911. 得到 K 个半回文串的最少修改次数",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/minimum-changes-to-make-k-semi-palindromes/",
                             "score": 2607.9418744903,
                             "solution": null,
@@ -1505,7 +1513,7 @@ export default{
                         },
                         {
                             "title": "3117. 划分数组得到最小的值之和",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/minimum-sum-of-values-by-dividing-array/",
                             "score": 2735.0909781144,
                             "solution": null,
@@ -2055,16 +2063,8 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2209. 用地毯覆盖后的最少白色砖块",
-                            "sort": 17,
-                            "src": "/minimum-white-tiles-after-covering-with-carpets/",
-                            "score": 2105.8582288624,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "1444. 切披萨的方案数",
-                            "sort": 18,
+                            "sort": 17,
                             "src": "/number-of-ways-of-cutting-a-pizza/",
                             "score": 2126.6864346508,
                             "solution": null,
@@ -2072,7 +2072,7 @@ export default{
                         },
                         {
                             "title": "3320. 统计能获胜的出招序列数",
-                            "sort": 19,
+                            "sort": 18,
                             "src": "/count-the-number-of-winning-sequences/",
                             "score": 2153.126336475,
                             "solution": null,
@@ -2080,7 +2080,7 @@ export default{
                         },
                         {
                             "title": "1420. 生成数组",
-                            "sort": 20,
+                            "sort": 19,
                             "src": "/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/",
                             "score": 2175.6850426027,
                             "solution": null,
@@ -2088,7 +2088,7 @@ export default{
                         },
                         {
                             "title": "3429. 粉刷房子 IV",
-                            "sort": 21,
+                            "sort": 20,
                             "src": "/paint-house-iv/",
                             "score": 2165.6524727814,
                             "solution": null,
@@ -2096,7 +2096,7 @@ export default{
                         },
                         {
                             "title": "3193. 统计逆序对的数目",
-                            "sort": 22,
+                            "sort": 21,
                             "src": "/count-the-number-of-inversions/",
                             "score": 2266.3248398876,
                             "solution": null,
@@ -2104,7 +2104,7 @@ export default{
                         },
                         {
                             "title": "629. K 个逆序对数组",
-                            "sort": 23,
+                            "sort": 22,
                             "src": "/k-inverse-pairs-array/",
                             "score": null,
                             "solution": null,
@@ -2112,7 +2112,7 @@ export default{
                         },
                         {
                             "title": "1079. 活字印刷",
-                            "sort": 24,
+                            "sort": 23,
                             "src": "/letter-tile-possibilities/",
                             "score": 1740.5014205942,
                             "solution": null,
@@ -2120,7 +2120,7 @@ export default{
                         },
                         {
                             "title": "1866. 恰有 K 根木棍可以看到的排列数目",
-                            "sort": 25,
+                            "sort": 24,
                             "src": "/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/",
                             "score": 2333.0621537307,
                             "solution": null,
@@ -2128,7 +2128,7 @@ export default{
                         },
                         {
                             "title": "2312. 卖木头块",
-                            "sort": 26,
+                            "sort": 25,
                             "src": "/selling-pieces-of-wood/",
                             "score": 2363.0240184484,
                             "solution": null,
@@ -2136,7 +2136,7 @@ export default{
                         },
                         {
                             "title": "3177. 求出最长好子序列 II",
-                            "sort": 27,
+                            "sort": 26,
                             "src": "/find-the-maximum-length-of-a-good-subsequence-ii/",
                             "score": 2364.8208393306,
                             "solution": null,
@@ -2144,7 +2144,7 @@ export default{
                         },
                         {
                             "title": "1884. 鸡蛋掉落-两枚鸡蛋",
-                            "sort": 28,
+                            "sort": 27,
                             "src": "/egg-drop-with-2-eggs-and-n-floors/",
                             "score": null,
                             "solution": null,
@@ -2152,9 +2152,17 @@ export default{
                         },
                         {
                             "title": "887. 鸡蛋掉落",
-                            "sort": 29,
+                            "sort": 28,
                             "src": "/super-egg-drop/",
                             "score": 2376.8658923518,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3448. 统计可以被最后一个数位整除的子字符串数目",
+                            "sort": 29,
+                            "src": "/count-substrings-divisible-by-last-digit/",
+                            "score": null,
                             "solution": null,
                             "isPremium": false
                         },
@@ -3913,8 +3921,24 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "LCP 07. 传递信息",
+                            "title": "913. 猫和老鼠",
                             "sort": 7,
+                            "src": "/cat-and-mouse/",
+                            "score": 2566.5910742837,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1728. 猫和老鼠 II",
+                            "sort": 8,
+                            "src": "/cat-and-mouse-ii/",
+                            "score": 2849.4841858619,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "LCP 07. 传递信息",
+                            "sort": 9,
                             "src": "/chuan-di-xin-xi/",
                             "score": null,
                             "solution": null,
@@ -3922,7 +3946,7 @@ export default{
                         },
                         {
                             "title": "1548. 图中最相似的路径",
-                            "sort": 8,
+                            "sort": 10,
                             "src": "/the-most-similar-path-in-a-graph/",
                             "score": null,
                             "solution": null,
@@ -4032,8 +4056,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "294. 翻转游戏 II",
+                            "title": "1728. 猫和老鼠 II",
                             "sort": 11,
+                            "src": "/cat-and-mouse-ii/",
+                            "score": 2849.4841858619,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "294. 翻转游戏 II",
+                            "sort": 12,
                             "src": "/flip-game-ii/",
                             "score": null,
                             "solution": null,

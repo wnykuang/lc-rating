@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】常用数据结构（前缀和/差分/栈/队列/堆/字典树/并查集/树状数组/线段树）",
     "original_src": "https://leetcode.cn/circle/discuss/mOr1u6",
-    "last_update": "2025-02-08 06:17:28",
+    "last_update": "2025-02-14 05:02:41",
     "sort": 0,
     "child": [
         {
@@ -476,7 +476,7 @@ export default{
                     "title": "§1.2 前缀和与哈希表",
                     "sort": 1,
                     "isLeaf": true,
-                    "summary": "通常要用到「枚举右，维护左」的技巧。<br><a href=\"https://leetcode.cn/problems/subarray-sum-equals-k/solution/qian-zhui-he-ha-xi-biao-cong-liang-ci-bi-4mwr/\">讲解</a><br>**前缀和与有序集合**：<br>",
+                    "summary": "通常要用到「枚举右，维护左」的技巧。<br><a href=\"https://leetcode.cn/problems/subarray-sum-equals-k/solution/qian-zhui-he-ha-xi-biao-cong-liang-ci-bi-4mwr/\">讲解</a><br>**前缀和与有序集合**：<br>**思维扩展**：<br>",
                     "child": [
                         {
                             "title": "930. 和相同的二元子数组",
@@ -623,16 +623,8 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2025. 分割数组的最多方案数",
-                            "sort": 18,
-                            "src": "/maximum-number-of-ways-to-partition-an-array/",
-                            "score": 2217.8090802563,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "2949. 统计美丽子字符串 II",
-                            "sort": 19,
+                            "sort": 18,
                             "src": "/count-beautiful-substrings-ii/",
                             "score": 2444.7192647604,
                             "solution": null,
@@ -640,7 +632,7 @@ export default{
                         },
                         {
                             "title": "325. 和等于 k 的最长子数组长度",
-                            "sort": 20,
+                            "sort": 19,
                             "src": "/maximum-size-subarray-sum-equals-k/",
                             "score": null,
                             "solution": null,
@@ -648,7 +640,7 @@ export default{
                         },
                         {
                             "title": "548. 将数组分割成和相等的子数组",
-                            "sort": 21,
+                            "sort": 20,
                             "src": "/split-array-with-equal-sum/",
                             "score": null,
                             "solution": null,
@@ -656,7 +648,7 @@ export default{
                         },
                         {
                             "title": "1983. 范围和相等的最宽索引对",
-                            "sort": 22,
+                            "sort": 21,
                             "src": "/widest-pair-of-indices-with-equal-range-sum/",
                             "score": null,
                             "solution": null,
@@ -664,7 +656,7 @@ export default{
                         },
                         {
                             "title": "2489. 固定比率的子字符串数",
-                            "sort": 23,
+                            "sort": 22,
                             "src": "/number-of-substrings-with-fixed-ratio/",
                             "score": null,
                             "solution": null,
@@ -672,7 +664,7 @@ export default{
                         },
                         {
                             "title": "2950. 可整除子串的数量",
-                            "sort": 24,
+                            "sort": 23,
                             "src": "/number-of-divisible-substrings/",
                             "score": null,
                             "solution": null,
@@ -680,9 +672,17 @@ export default{
                         },
                         {
                             "title": "3364. 最小正和子数组",
-                            "sort": 25,
+                            "sort": 24,
                             "src": "/minimum-positive-sum-subarray/",
                             "score": 1300.5576941005,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2025. 分割数组的最多方案数",
+                            "sort": 25,
+                            "src": "/maximum-number-of-ways-to-partition-an-array/",
+                            "score": 2217.8090802563,
                             "solution": null,
                             "isPremium": false
                         }
@@ -1027,7 +1027,7 @@ export default{
                     "title": "§2.1 一维差分（扫描线）",
                     "sort": 0,
                     "isLeaf": true,
-                    "summary": "<a href=\"https://leetcode.cn/problems/car-pooling/solution/suan-fa-xiao-ke-tang-chai-fen-shu-zu-fu-9d4ra/\">原理讲解</a>（推荐和<a href=\"https://leetcode.cn/problems/stamping-the-grid/solution/wu-nao-zuo-fa-er-wei-qian-zhui-he-er-wei-zwiu/\">【图解】从一维差分到二维差分</a> 一起看）<br>",
+                    "summary": "差分与前缀和的关系，类似导数与积分的关系。<br>差分的前缀和就是原数组。<br><a href=\"https://leetcode.cn/problems/car-pooling/solution/suan-fa-xiao-ke-tang-chai-fen-shu-zu-fu-9d4ra/\">原理讲解</a>（推荐和<a href=\"https://leetcode.cn/problems/stamping-the-grid/solution/wu-nao-zuo-fa-er-wei-qian-zhui-he-er-wei-zwiu/\">【图解】从一维差分到二维差分</a> 一起看）<br>",
                     "child": [
                         {
                             "title": "2848. 与车相交的点",

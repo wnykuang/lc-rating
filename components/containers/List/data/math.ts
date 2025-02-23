@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】数学算法（数论/组合/概率期望/博弈/计算几何/随机算法）",
     "original_src": "https://leetcode.cn/circle/discuss/IYT3ss",
-    "last_update": "2025-02-13 01:47:57",
+    "last_update": "2025-02-18 04:12:30",
     "sort": 0,
     "child": [
         {
@@ -757,8 +757,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2147. 分隔长廊的方案数",
+                            "title": "3067. 在带权树网络中统计可连接服务器对数目",
                             "sort": 6,
+                            "src": "/count-pairs-of-connectable-servers-in-a-weighted-tree-network/",
+                            "score": 1908.9411092109,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2147. 分隔长廊的方案数",
+                            "sort": 7,
                             "src": "/number-of-ways-to-divide-a-long-corridor/",
                             "score": 1914.6717285348,
                             "solution": null,
@@ -766,7 +774,7 @@ export default{
                         },
                         {
                             "title": "2963. 统计好分割方案的数目",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/count-the-number-of-good-partitions/",
                             "score": 1984.9685663849,
                             "solution": null,
@@ -774,7 +782,7 @@ export default{
                         },
                         {
                             "title": "2306. 公司命名",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/naming-a-company/",
                             "score": 2305.4498281454,
                             "solution": null,
@@ -782,7 +790,7 @@ export default{
                         },
                         {
                             "title": "2867. 统计树中的合法路径数目",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/count-valid-paths-in-a-tree/",
                             "score": 2428.3242593838,
                             "solution": null,
@@ -790,7 +798,7 @@ export default{
                         },
                         {
                             "title": "2450. 应用操作后不同二进制字符串的数量",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/number-of-distinct-binary-strings-after-applying-operations/",
                             "score": null,
                             "solution": null,

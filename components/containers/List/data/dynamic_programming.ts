@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】动态规划（入门/背包/状态机/划分/区间/状压/数位/树形/数据结构优化）",
     "original_src": "https://leetcode.cn/circle/discuss/tXLS3i",
-    "last_update": "2025-02-21 23:53:26",
+    "last_update": "2025-03-01 03:22:44",
     "sort": 0,
     "child": [
         {
@@ -1055,8 +1055,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1416. 恢复数组",
+                            "title": "1043. 分隔数组以得到最大和",
                             "sort": 7,
+                            "src": "/partition-array-for-maximum-sum/",
+                            "score": 1916.0689858272,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1416. 恢复数组",
+                            "sort": 8,
                             "src": "/restore-the-array/",
                             "score": 1919.6391896894,
                             "solution": null,
@@ -1064,7 +1072,7 @@ export default{
                         },
                         {
                             "title": "2472. 不重叠回文子字符串的最大数目",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/maximum-number-of-non-overlapping-palindrome-substrings/",
                             "score": 2013.4354344791,
                             "solution": null,
@@ -1072,7 +1080,7 @@ export default{
                         },
                         {
                             "title": "1105. 填充书架",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/filling-bookcase-shelves/",
                             "score": 2014.2979320644,
                             "solution": null,
@@ -1080,7 +1088,7 @@ export default{
                         },
                         {
                             "title": "2547. 拆分数组的最小代价",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/minimum-cost-to-split-an-array/",
                             "score": 2019.9859462755,
                             "solution": null,
@@ -1088,7 +1096,7 @@ export default{
                         },
                         {
                             "title": "2430. 对字母串可执行的最大删除数",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/maximum-deletions-on-a-string/",
                             "score": 2101.867342004,
                             "solution": null,
@@ -1096,7 +1104,7 @@ export default{
                         },
                         {
                             "title": "2463. 最小移动总距离",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/minimum-total-distance-traveled/",
                             "score": 2453.9054896968,
                             "solution": null,
@@ -1104,7 +1112,7 @@ export default{
                         },
                         {
                             "title": "2977. 转换字符串的最小成本 II",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/minimum-cost-to-convert-string-ii/",
                             "score": 2695.809667046,
                             "solution": null,
@@ -1112,7 +1120,7 @@ export default{
                         },
                         {
                             "title": "3441. 变成好标题的最少代价",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/minimum-cost-good-caption/",
                             "score": null,
                             "solution": null,
@@ -1120,7 +1128,7 @@ export default{
                         },
                         {
                             "title": "2052. 将句子分隔成行的最低成本",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/minimum-cost-to-separate-sentence-into-rows/",
                             "score": null,
                             "solution": null,
@@ -1128,7 +1136,7 @@ export default{
                         },
                         {
                             "title": "2464. 有效分割中的最少子数组数目",
-                            "sort": 16,
+                            "sort": 17,
                             "src": "/minimum-subarrays-in-a-valid-split/",
                             "score": null,
                             "solution": null,
@@ -1151,24 +1159,8 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1043. 分隔数组以得到最大和",
-                            "sort": 1,
-                            "src": "/partition-array-for-maximum-sum/",
-                            "score": 1916.0689858272,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
-                            "title": "1745. 分割回文串 IV",
-                            "sort": 2,
-                            "src": "/palindrome-partitioning-iv/",
-                            "score": 1924.964639491,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "813. 最大平均值和的分组",
-                            "sort": 3,
+                            "sort": 1,
                             "src": "/largest-sum-of-averages/",
                             "score": 1936.6613414859,
                             "solution": null,
@@ -1176,15 +1168,23 @@ export default{
                         },
                         {
                             "title": "1278. 分割回文串 III",
-                            "sort": 4,
+                            "sort": 2,
                             "src": "/palindrome-partitioning-iii/",
                             "score": 1979.1323403633,
                             "solution": null,
                             "isPremium": false
                         },
                         {
+                            "title": "1745. 分割回文串 IV",
+                            "sort": 3,
+                            "src": "/palindrome-partitioning-iv/",
+                            "score": 1924.964639491,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
                             "title": "1335. 工作计划的最低难度",
-                            "sort": 5,
+                            "sort": 4,
                             "src": "/minimum-difficulty-of-a-job-schedule/",
                             "score": 2034.9420578559,
                             "solution": null,
@@ -1192,7 +1192,7 @@ export default{
                         },
                         {
                             "title": "1473. 粉刷房子 III",
-                            "sort": 6,
+                            "sort": 5,
                             "src": "/paint-house-iii/",
                             "score": 2056.335494216,
                             "solution": null,
@@ -1200,7 +1200,7 @@ export default{
                         },
                         {
                             "title": "2209. 用地毯覆盖后的最少白色砖块",
-                            "sort": 7,
+                            "sort": 6,
                             "src": "/minimum-white-tiles-after-covering-with-carpets/",
                             "score": 2105.8582288624,
                             "solution": null,
@@ -1208,7 +1208,7 @@ export default{
                         },
                         {
                             "title": "1478. 安排邮筒",
-                            "sort": 8,
+                            "sort": 7,
                             "src": "/allocate-mailboxes/",
                             "score": 2190.1757477854,
                             "solution": null,
@@ -1216,7 +1216,7 @@ export default{
                         },
                         {
                             "title": "1959. K 次调整数组大小浪费的最小总空间",
-                            "sort": 9,
+                            "sort": 8,
                             "src": "/minimum-total-space-wasted-with-k-resizing-operations/",
                             "score": 2310.3824631335,
                             "solution": null,
@@ -1224,7 +1224,7 @@ export default{
                         },
                         {
                             "title": "2478. 完美分割的方案数",
-                            "sort": 10,
+                            "sort": 9,
                             "src": "/number-of-beautiful-partitions/",
                             "score": 2344.3664724791,
                             "solution": null,
@@ -1232,7 +1232,7 @@ export default{
                         },
                         {
                             "title": "3077. K 个不相交子数组的最大能量值",
-                            "sort": 11,
+                            "sort": 10,
                             "src": "/maximum-strength-of-k-disjoint-subarrays/",
                             "score": 2556.5072256577,
                             "solution": null,
@@ -1240,7 +1240,7 @@ export default{
                         },
                         {
                             "title": "2911. 得到 K 个半回文串的最少修改次数",
-                            "sort": 12,
+                            "sort": 11,
                             "src": "/minimum-changes-to-make-k-semi-palindromes/",
                             "score": 2607.9418744903,
                             "solution": null,
@@ -1248,7 +1248,7 @@ export default{
                         },
                         {
                             "title": "3117. 划分数组得到最小的值之和",
-                            "sort": 13,
+                            "sort": 12,
                             "src": "/minimum-sum-of-values-by-dividing-array/",
                             "score": 2735.0909781144,
                             "solution": null,
@@ -1444,6 +1444,14 @@ export default{
                             "score": null,
                             "solution": null,
                             "isPremium": false
+                        },
+                        {
+                            "title": "1186. 删除一次得到子数组最大和",
+                            "sort": 8,
+                            "src": "/maximum-subarray-sum-with-one-deletion/",
+                            "score": 1799.4635458535,
+                            "solution": null,
+                            "isPremium": false
                         }
                     ]
                 },
@@ -1478,16 +1486,8 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1186. 删除一次得到子数组最大和",
-                            "sort": 3,
-                            "src": "/maximum-subarray-sum-with-one-deletion/",
-                            "score": 1799.4635458535,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "1594. 矩阵的最大非负积",
-                            "sort": 4,
+                            "sort": 3,
                             "src": "/maximum-non-negative-product-in-a-matrix/",
                             "score": 1807.4618172386,
                             "solution": null,
@@ -1495,7 +1495,7 @@ export default{
                         },
                         {
                             "title": "3196. 最大化子数组的总成本",
-                            "sort": 5,
+                            "sort": 4,
                             "src": "/maximize-total-cost-of-alternating-subarrays/",
                             "score": 1846.7401375892,
                             "solution": null,
@@ -1503,7 +1503,7 @@ export default{
                         },
                         {
                             "title": "935. 骑士拨号器",
-                            "sort": 6,
+                            "sort": 5,
                             "src": "/knight-dialer/",
                             "score": 1690.1655236843,
                             "solution": null,
@@ -1511,7 +1511,7 @@ export default{
                         },
                         {
                             "title": "1537. 最大得分",
-                            "sort": 7,
+                            "sort": 6,
                             "src": "/get-the-maximum-score/",
                             "score": 1961.4987013156,
                             "solution": null,
@@ -1519,7 +1519,7 @@ export default{
                         },
                         {
                             "title": "2919. 使数组变美的最小增量运算数",
-                            "sort": 8,
+                            "sort": 7,
                             "src": "/minimum-increment-operations-to-make-array-beautiful/",
                             "score": 2030.922770301,
                             "solution": null,
@@ -1527,7 +1527,7 @@ export default{
                         },
                         {
                             "title": "801. 使序列递增的最小交换次数",
-                            "sort": 9,
+                            "sort": 8,
                             "src": "/minimum-swaps-to-make-sequences-increasing/",
                             "score": 2066.0972575597,
                             "solution": null,
@@ -1535,7 +1535,7 @@ export default{
                         },
                         {
                             "title": "3434. 子数组操作后的最大频率",
-                            "sort": 10,
+                            "sort": 9,
                             "src": "/maximum-frequency-after-subarray-operation/",
                             "score": null,
                             "solution": null,
@@ -1543,7 +1543,7 @@ export default{
                         },
                         {
                             "title": "1955. 统计特殊子序列的数目",
-                            "sort": 11,
+                            "sort": 10,
                             "src": "/count-number-of-special-subsequences/",
                             "score": 2125.3125624762,
                             "solution": null,
@@ -1551,9 +1551,17 @@ export default{
                         },
                         {
                             "title": "3068. 最大节点价值之和",
-                            "sort": 12,
+                            "sort": 11,
                             "src": "/find-the-maximum-sum-of-node-values/",
                             "score": 2267.7081680968,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2272. 最大波动的子字符串",
+                            "sort": 12,
+                            "src": "/substring-with-largest-variance/",
+                            "score": 2515.7520586008,
                             "solution": null,
                             "isPremium": false
                         },
@@ -1701,8 +1709,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "3205. 最大数组跳跃得分 I",
+                            "title": "3464. 正方形上的点之间的最大距离",
                             "sort": 10,
+                            "src": "/maximize-the-distance-between-points-on-a-square/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3205. 最大数组跳跃得分 I",
+                            "sort": 11,
                             "src": "/maximum-array-hopping-score-i/",
                             "score": null,
                             "solution": null,
@@ -1710,7 +1726,7 @@ export default{
                         },
                         {
                             "title": "1259. 不相交的握手",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/handshakes-that-dont-cross/",
                             "score": 1951.3509259668,
                             "solution": null,
@@ -2412,8 +2428,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "3040. 相同分数的最大操作数目 II",
+                            "title": "647. 回文子串",
                             "sort": 1,
+                            "src": "/palindromic-substrings/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3040. 相同分数的最大操作数目 II",
+                            "sort": 2,
                             "src": "/maximum-number-of-operations-with-the-same-score-ii/",
                             "score": 1708.7149486078,
                             "solution": null,
@@ -2421,7 +2445,7 @@ export default{
                         },
                         {
                             "title": "375. 猜数字大小 II",
-                            "sort": 2,
+                            "sort": 3,
                             "src": "/guess-number-higher-or-lower-ii/",
                             "score": null,
                             "solution": null,
@@ -2429,7 +2453,7 @@ export default{
                         },
                         {
                             "title": "1130. 叶值的最小代价生成树",
-                            "sort": 3,
+                            "sort": 4,
                             "src": "/minimum-cost-tree-from-leaf-values/",
                             "score": 1919.1749818083,
                             "solution": null,
@@ -2437,7 +2461,7 @@ export default{
                         },
                         {
                             "title": "96. 不同的二叉搜索树",
-                            "sort": 4,
+                            "sort": 5,
                             "src": "/unique-binary-search-trees/",
                             "score": null,
                             "solution": null,
@@ -2445,7 +2469,7 @@ export default{
                         },
                         {
                             "title": "1770. 执行乘法运算的最大分数",
-                            "sort": 5,
+                            "sort": 6,
                             "src": "/maximum-score-from-performing-multiplication-operations/",
                             "score": 2068.0043466118,
                             "solution": null,
@@ -2453,7 +2477,7 @@ export default{
                         },
                         {
                             "title": "1547. 切棍子的最小成本",
-                            "sort": 6,
+                            "sort": 7,
                             "src": "/minimum-cost-to-cut-a-stick/",
                             "score": 2116.493528295,
                             "solution": null,
@@ -2461,7 +2485,7 @@ export default{
                         },
                         {
                             "title": "1039. 多边形三角剖分的最低得分",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/minimum-score-triangulation-of-polygon/solution/shi-pin-jiao-ni-yi-bu-bu-si-kao-dong-tai-aty6/",
                             "score": 2130.1135718486,
                             "solution": null,
@@ -2469,7 +2493,7 @@ export default{
                         },
                         {
                             "title": "1000. 合并石头的最低成本",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/minimum-cost-to-merge-stones/",
                             "score": 2422.5309771173,
                             "solution": null,
@@ -2477,7 +2501,7 @@ export default{
                         },
                         {
                             "title": "2019. 解出数学表达式的学生分数",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/the-score-of-students-solving-math-expression/",
                             "score": 2583.9006314254,
                             "solution": null,
@@ -2485,7 +2509,7 @@ export default{
                         },
                         {
                             "title": "3277. 查询子数组最大异或值",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/maximum-xor-score-subarray-queries/",
                             "score": 2692.6778614397,
                             "solution": null,
@@ -2493,7 +2517,7 @@ export default{
                         },
                         {
                             "title": "87. 扰乱字符串",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/scramble-string/",
                             "score": null,
                             "solution": null,
@@ -2501,7 +2525,7 @@ export default{
                         },
                         {
                             "title": "312. 戳气球",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/burst-balloons/",
                             "score": null,
                             "solution": null,
@@ -2509,7 +2533,7 @@ export default{
                         },
                         {
                             "title": "664. 奇怪的打印机",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/strange-printer/",
                             "score": null,
                             "solution": null,
@@ -2517,7 +2541,7 @@ export default{
                         },
                         {
                             "title": "546. 移除盒子",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/remove-boxes/",
                             "score": null,
                             "solution": null,
@@ -2525,7 +2549,7 @@ export default{
                         },
                         {
                             "title": "471. 编码最短长度的字符串",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/encode-string-with-shortest-length/",
                             "score": null,
                             "solution": null,
@@ -2533,7 +2557,7 @@ export default{
                         },
                         {
                             "title": "3018. 可处理的最大删除操作数 I",
-                            "sort": 16,
+                            "sort": 17,
                             "src": "/maximum-number-of-removal-queries-that-can-be-processed-i/",
                             "score": null,
                             "solution": null,
@@ -4363,8 +4387,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2909. 元素和最小的山形三元组 II",
+                            "title": "2012. 数组美丽值求和",
                             "sort": 7,
+                            "src": "/sum-of-beauty-in-the-array/",
+                            "score": 1467.9366439696,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2909. 元素和最小的山形三元组 II",
+                            "sort": 8,
                             "src": "/minimum-sum-of-mountain-triplets-ii/",
                             "score": 1478.8676835951,
                             "solution": null,
@@ -4372,7 +4404,7 @@ export default{
                         },
                         {
                             "title": "2483. 商店的最少代价",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/minimum-penalty-for-a-shop/",
                             "score": 1494.500749598,
                             "solution": null,
@@ -4380,7 +4412,7 @@ export default{
                         },
                         {
                             "title": "1525. 字符串的好分割数目",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/number-of-good-ways-to-split-a-string/",
                             "score": 1499.7136257352,
                             "solution": null,
@@ -4388,7 +4420,7 @@ export default{
                         },
                         {
                             "title": "3354. 使数组元素等于零",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/make-array-elements-equal-to-zero/",
                             "score": 1397.2898626243,
                             "solution": null,
@@ -4396,7 +4428,7 @@ export default{
                         },
                         {
                             "title": "2874. 有序三元组中的最大值 II",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/maximum-value-of-an-ordered-triplet-ii/",
                             "score": 1583.212966224,
                             "solution": null,
@@ -4404,7 +4436,7 @@ export default{
                         },
                         {
                             "title": "123. 买卖股票的最佳时机 III",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/best-time-to-buy-and-sell-stock-iii/",
                             "score": null,
                             "solution": null,
@@ -4412,7 +4444,7 @@ export default{
                         },
                         {
                             "title": "2222. 选择建筑的方案数",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/number-of-ways-to-select-buildings/",
                             "score": 1656.5588918365,
                             "solution": null,
@@ -4420,7 +4452,7 @@ export default{
                         },
                         {
                             "title": "1031. 两个非重叠子数组的最大和",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/maximum-sum-of-two-non-overlapping-subarrays/",
                             "score": 1680.4852623991,
                             "solution": null,
@@ -4428,7 +4460,7 @@ export default{
                         },
                         {
                             "title": "689. 三个无重叠子数组的最大和",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/maximum-sum-of-3-non-overlapping-subarrays/",
                             "score": null,
                             "solution": null,
@@ -4436,7 +4468,7 @@ export default{
                         },
                         {
                             "title": "2420. 找到所有好下标",
-                            "sort": 16,
+                            "sort": 17,
                             "src": "/find-all-good-indices/",
                             "score": 1695.0815222626,
                             "solution": null,
@@ -4444,7 +4476,7 @@ export default{
                         },
                         {
                             "title": "2100. 适合野炊的日子",
-                            "sort": 17,
+                            "sort": 18,
                             "src": "/find-good-days-to-rob-the-bank/",
                             "score": 1702.4962514406,
                             "solution": null,
@@ -4452,7 +4484,7 @@ export default{
                         },
                         {
                             "title": "926. 将字符串翻转到单调递增",
-                            "sort": 18,
+                            "sort": 19,
                             "src": "/flip-string-to-monotone-increasing/",
                             "score": 1601.511760532,
                             "solution": null,
@@ -4460,7 +4492,7 @@ export default{
                         },
                         {
                             "title": "334. 递增的三元子序列",
-                            "sort": 19,
+                            "sort": 20,
                             "src": "/increasing-triplet-subsequence/",
                             "score": null,
                             "solution": null,
@@ -4468,7 +4500,7 @@ export default{
                         },
                         {
                             "title": "2712. 使所有字符相等的最小成本",
-                            "sort": 20,
+                            "sort": 21,
                             "src": "/minimum-cost-to-make-all-characters-equal/",
                             "score": 1791.0336923305,
                             "solution": null,
@@ -4476,7 +4508,7 @@ export default{
                         },
                         {
                             "title": "1653. 使字符串平衡的最少删除次数",
-                            "sort": 21,
+                            "sort": 22,
                             "src": "/minimum-deletions-to-make-string-balanced/",
                             "score": 1793.8027487553,
                             "solution": null,
@@ -4484,7 +4516,7 @@ export default{
                         },
                         {
                             "title": "1186. 删除一次得到子数组最大和",
-                            "sort": 22,
+                            "sort": 23,
                             "src": "/maximum-subarray-sum-with-one-deletion/",
                             "score": 1799.4635458535,
                             "solution": null,
@@ -4492,7 +4524,7 @@ export default{
                         },
                         {
                             "title": "42. 接雨水",
-                            "sort": 23,
+                            "sort": 24,
                             "src": "/trapping-rain-water/",
                             "score": null,
                             "solution": "https://www.bilibili.com/video/BV1Qg411q7ia/?t=3m05s",
@@ -4500,7 +4532,7 @@ export default{
                         },
                         {
                             "title": "2711. 对角线上不同值的数量差",
-                            "sort": 24,
+                            "sort": 25,
                             "src": "/difference-of-number-of-distinct-values-on-diagonals/",
                             "score": 1428.7246677159,
                             "solution": null,
@@ -4508,7 +4540,7 @@ export default{
                         },
                         {
                             "title": "1477. 找两个和为目标值且不重叠的子数组",
-                            "sort": 25,
+                            "sort": 26,
                             "src": "/find-two-non-overlapping-sub-arrays-each-with-target-sum/",
                             "score": 1850.5506342426,
                             "solution": null,
@@ -4516,7 +4548,7 @@ export default{
                         },
                         {
                             "title": "2680. 最大或值",
-                            "sort": 26,
+                            "sort": 27,
                             "src": "/maximum-or/",
                             "score": 1912.1926699881,
                             "solution": null,
@@ -4524,7 +4556,7 @@ export default{
                         },
                         {
                             "title": "1671. 得到山形数组的最少删除次数",
-                            "sort": 27,
+                            "sort": 28,
                             "src": "/minimum-number-of-removals-to-make-mountain-array/",
                             "score": 1912.8455659711,
                             "solution": null,
@@ -4532,7 +4564,7 @@ export default{
                         },
                         {
                             "title": "1888. 使二进制字符串字符交替的最少反转次数",
-                            "sort": 28,
+                            "sort": 29,
                             "src": "/minimum-number-of-flips-to-make-the-binary-string-alternating/",
                             "score": 2005.5862669078,
                             "solution": null,
@@ -4540,7 +4572,7 @@ export default{
                         },
                         {
                             "title": "238. 除自身以外数组的乘积",
-                            "sort": 29,
+                            "sort": 30,
                             "src": "/product-of-array-except-self/",
                             "score": null,
                             "solution": null,
@@ -4548,7 +4580,7 @@ export default{
                         },
                         {
                             "title": "2906. 构造乘积矩阵",
-                            "sort": 30,
+                            "sort": 31,
                             "src": "/construct-product-matrix/",
                             "score": 2074.8331146269,
                             "solution": null,
@@ -4556,7 +4588,7 @@ export default{
                         },
                         {
                             "title": "3334. 数组的最大因子得分",
-                            "sort": 31,
+                            "sort": 32,
                             "src": "/find-the-maximum-factor-score-of-array/",
                             "score": 1518.7783368146,
                             "solution": null,
@@ -4564,7 +4596,7 @@ export default{
                         },
                         {
                             "title": "2167. 移除所有载有违禁货物车厢所需的最少时间",
-                            "sort": 32,
+                            "sort": 33,
                             "src": "/minimum-time-to-remove-all-cars-containing-illegal-goods/",
                             "score": 2219.3465296423,
                             "solution": null,
@@ -4572,7 +4604,7 @@ export default{
                         },
                         {
                             "title": "2484. 统计回文子序列数目",
-                            "sort": 33,
+                            "sort": 34,
                             "src": "/count-palindromic-subsequences/",
                             "score": 2223.1762282199,
                             "solution": null,
@@ -4580,7 +4612,7 @@ export default{
                         },
                         {
                             "title": "2163. 删除元素后和的最小差值",
-                            "sort": 34,
+                            "sort": 35,
                             "src": "/minimum-difference-in-sums-after-removal-of-elements/",
                             "score": 2225.3877535768,
                             "solution": null,
@@ -4588,7 +4620,7 @@ export default{
                         },
                         {
                             "title": "2565. 最少得分子序列",
-                            "sort": 35,
+                            "sort": 36,
                             "src": "/subsequence-with-the-minimum-score/",
                             "score": 2432.4146343542,
                             "solution": null,
@@ -4596,7 +4628,7 @@ export default{
                         },
                         {
                             "title": "1995. 统计特殊四元组",
-                            "sort": 36,
+                            "sort": 37,
                             "src": "/count-special-quadruplets/",
                             "score": 1352.1791099256,
                             "solution": null,
@@ -4604,7 +4636,7 @@ export default{
                         },
                         {
                             "title": "2552. 统计上升四元组",
-                            "sort": 37,
+                            "sort": 38,
                             "src": "/count-increasing-quadruplets/",
                             "score": 2432.713399111,
                             "solution": null,
@@ -4612,7 +4644,7 @@ export default{
                         },
                         {
                             "title": "3302. 字典序最小的合法序列",
-                            "sort": 38,
+                            "sort": 39,
                             "src": "/find-the-lexicographically-smallest-valid-sequence/",
                             "score": 2473.6778280303,
                             "solution": null,
@@ -4620,7 +4652,7 @@ export default{
                         },
                         {
                             "title": "3404. 统计特殊子序列的数目",
-                            "sort": 39,
+                            "sort": 40,
                             "src": "/count-special-subsequences/",
                             "score": 2445.3859371333,
                             "solution": null,
@@ -4628,7 +4660,7 @@ export default{
                         },
                         {
                             "title": "3303. 第一个几乎相等子字符串的下标",
-                            "sort": 40,
+                            "sort": 41,
                             "src": "/find-the-occurrence-of-first-almost-equal-substring/",
                             "score": 2509.3686325754,
                             "solution": null,
@@ -4636,7 +4668,7 @@ export default{
                         },
                         {
                             "title": "3287. 求出数组中最大序列值",
-                            "sort": 41,
+                            "sort": 42,
                             "src": "/find-the-maximum-sequence-value-of-array/",
                             "score": 2545.108406046,
                             "solution": null,
@@ -4644,7 +4676,7 @@ export default{
                         },
                         {
                             "title": "3257. 放三个车的价值之和最大 II",
-                            "sort": 42,
+                            "sort": 43,
                             "src": "/maximum-value-sum-by-placing-three-rooks-ii/",
                             "score": 2553.2367142614,
                             "solution": null,
@@ -4652,7 +4684,7 @@ export default{
                         },
                         {
                             "title": "3410. 删除所有值为某个元素后的最大子数组和",
-                            "sort": 43,
+                            "sort": 44,
                             "src": "/maximize-subarray-sum-after-removing-all-occurrences-of-one-element/",
                             "score": 2843.655465882,
                             "solution": null,
@@ -4660,7 +4692,7 @@ export default{
                         },
                         {
                             "title": "3003. 执行操作后的最大分割数量",
-                            "sort": 44,
+                            "sort": 45,
                             "src": "/maximize-the-number-of-partitions-after-operations/",
                             "score": 3039.3003256659,
                             "solution": null,
@@ -4668,7 +4700,7 @@ export default{
                         },
                         {
                             "title": "487. 最大连续 1 的个数 II",
-                            "sort": 45,
+                            "sort": 46,
                             "src": "/max-consecutive-ones-ii/",
                             "score": null,
                             "solution": null,
@@ -4676,7 +4708,7 @@ export default{
                         },
                         {
                             "title": "1746. 经过一次操作后的最大子数组和",
-                            "sort": 46,
+                            "sort": 47,
                             "src": "/maximum-subarray-sum-after-one-operation/",
                             "score": null,
                             "solution": null,
@@ -5008,16 +5040,8 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2272. 最大波动的子字符串",
-                            "sort": 17,
-                            "src": "/substring-with-largest-variance/",
-                            "score": 2515.7520586008,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "1896. 反转表达式值的最少操作次数",
-                            "sort": 18,
+                            "sort": 17,
                             "src": "/minimum-cost-to-change-the-final-value-of-expression/",
                             "score": 2531.6452775023,
                             "solution": null,
@@ -5025,7 +5049,7 @@ export default{
                         },
                         {
                             "title": "1531. 压缩字符串 II",
-                            "sort": 19,
+                            "sort": 18,
                             "src": "/string-compression-ii/",
                             "score": 2575.9570281316,
                             "solution": null,
@@ -5033,7 +5057,7 @@ export default{
                         },
                         {
                             "title": "964. 表示数字的最少运算符",
-                            "sort": 20,
+                            "sort": 19,
                             "src": "/least-operators-to-express-number/",
                             "score": 2594.135673452,
                             "solution": null,
@@ -5041,7 +5065,7 @@ export default{
                         },
                         {
                             "title": "1787. 使所有区间的异或结果为零",
-                            "sort": 21,
+                            "sort": 20,
                             "src": "/make-the-xor-of-all-segments-equal-to-zero/",
                             "score": 2640.3824813624,
                             "solution": null,
@@ -5049,7 +5073,7 @@ export default{
                         },
                         {
                             "title": "2060. 同源字符串检测",
-                            "sort": 22,
+                            "sort": 21,
                             "src": "/check-if-an-original-string-exists-given-two-encoded-strings/",
                             "score": 2803.7652028979,
                             "solution": null,
@@ -5057,7 +5081,7 @@ export default{
                         },
                         {
                             "title": "2809. 使数组和小于等于 x 的最少时间",
-                            "sort": 23,
+                            "sort": 22,
                             "src": "/minimum-time-to-make-array-sum-at-most-x/",
                             "score": 2978.7961959355,
                             "solution": null,
@@ -5065,7 +5089,7 @@ export default{
                         },
                         {
                             "title": "LCP 14. 切分数组",
-                            "sort": 24,
+                            "sort": 23,
                             "src": "/qie-fen-shu-zu/",
                             "score": null,
                             "solution": null,
@@ -5073,7 +5097,7 @@ export default{
                         },
                         {
                             "title": "LCP 36. 最多牌组数",
-                            "sort": 25,
+                            "sort": 24,
                             "src": "/Up5XYM/",
                             "score": null,
                             "solution": null,
@@ -5081,7 +5105,7 @@ export default{
                         },
                         {
                             "title": "LCP 38. 守卫城堡",
-                            "sort": 26,
+                            "sort": 25,
                             "src": "/7rLGCR/",
                             "score": null,
                             "solution": null,
@@ -5089,7 +5113,7 @@ export default{
                         },
                         {
                             "title": "LCP 43. 十字路口的交通",
-                            "sort": 27,
+                            "sort": 26,
                             "src": "/Y1VbOX/",
                             "score": null,
                             "solution": null,
@@ -5097,7 +5121,7 @@ export default{
                         },
                         {
                             "title": "LCP 65. 舒适的湿度",
-                            "sort": 28,
+                            "sort": 27,
                             "src": "/3aqs1c/",
                             "score": null,
                             "solution": null,
@@ -5105,7 +5129,7 @@ export default{
                         },
                         {
                             "title": "3299. 连续子序列的和",
-                            "sort": 29,
+                            "sort": 28,
                             "src": "/sum-of-consecutive-subsequences/",
                             "score": null,
                             "solution": null,
@@ -5113,7 +5137,7 @@ export default{
                         },
                         {
                             "title": "2189. 建造纸牌屋的方法数",
-                            "sort": 30,
+                            "sort": 29,
                             "src": "/number-of-ways-to-build-house-of-cards/",
                             "score": null,
                             "solution": null,
@@ -5121,7 +5145,7 @@ export default{
                         },
                         {
                             "title": "2597. 美丽子集的数目",
-                            "sort": 31,
+                            "sort": 30,
                             "src": "/the-number-of-beautiful-subsets/",
                             "score": 2023.4303440211,
                             "solution": null,
@@ -5129,7 +5153,7 @@ export default{
                         },
                         {
                             "title": "2638. 统计 K-Free 子集的总数",
-                            "sort": 32,
+                            "sort": 31,
                             "src": "/count-the-number-of-k-free-subsets/",
                             "score": null,
                             "solution": null,

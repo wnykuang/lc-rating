@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】贪心算法（基本贪心策略/反悔/区间/字典序/数学/思维/构造）",
     "original_src": "https://leetcode.cn/circle/discuss/g6KTKL",
-    "last_update": "2025-03-01 14:15:49",
+    "last_update": "2025-03-05 03:04:24",
     "sort": 0,
     "child": [
         {
@@ -1027,7 +1027,7 @@ export default{
                     "title": "§1.9 反悔贪心",
                     "sort": 8,
                     "isLeaf": true,
-                    "summary": "一般要用到**堆**。<br><a href=\"https://leetcode.cn/problems/p0NxJO/solution/fan-hui-tan-xin-fu-ti-dan-pythonjavacgoj-hxup/\">讲解</a><br>**思维扩展**：<br>> 注：在网络流中，寻找增广路的过程也是一种反悔贪心。<br>",
+                    "summary": "一般要用到**堆**。<br><a href=\"https://leetcode.cn/problems/p0NxJO/solution/fan-hui-tan-xin-fu-ti-dan-pythonjavacgoj-hxup/\">讲解</a><br>",
                     "child": [
                         {
                             "title": "LCP 30. 魔塔游戏",
@@ -1092,14 +1092,6 @@ export default{
                             "score": null,
                             "solution": null,
                             "isPremium": true
-                        },
-                        {
-                            "title": "2463. 最小移动总距离",
-                            "sort": 8,
-                            "src": "/minimum-total-distance-traveled/",
-                            "score": 2453.9054896968,
-                            "solution": null,
-                            "isPremium": false
                         }
                     ]
                 }
@@ -1636,8 +1628,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "555. 分割连接字符串",
+                            "title": "3474. 字典序最小的生成字符串",
                             "sort": 28,
+                            "src": "/lexicographically-smallest-generated-string/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "555. 分割连接字符串",
+                            "sort": 29,
                             "src": "/split-concatenated-strings/",
                             "score": null,
                             "solution": null,
@@ -1645,7 +1645,7 @@ export default{
                         },
                         {
                             "title": "3088. 使字符串反回文",
-                            "sort": 29,
+                            "sort": 30,
                             "src": "/make-string-anti-palindrome/",
                             "score": null,
                             "solution": null,
@@ -2295,6 +2295,14 @@ export default{
                             "score": 3077.2342981036,
                             "solution": null,
                             "isPremium": false
+                        },
+                        {
+                            "title": "3431. 对数字排序的最小解锁下标",
+                            "sort": 13,
+                            "src": "/minimum-unlocked-indices-to-sort-nums/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": true
                         }
                     ]
                 },
@@ -2433,8 +2441,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2546. 执行逐位运算使字符串相等",
+                            "title": "3471. 找出最大的几近缺失整数",
                             "sort": 16,
+                            "src": "/find-the-largest-almost-missing-integer/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2546. 执行逐位运算使字符串相等",
+                            "sort": 17,
                             "src": "/apply-bitwise-operations-to-make-strings-equal/",
                             "score": 1604.6299874552,
                             "solution": null,
@@ -2442,7 +2458,7 @@ export default{
                         },
                         {
                             "title": "1503. 所有蚂蚁掉下来前的最后一刻",
-                            "sort": 17,
+                            "sort": 18,
                             "src": "/last-moment-before-all-ants-fall-out-of-a-plank/",
                             "score": 1618.6016480451,
                             "solution": null,
@@ -2450,7 +2466,7 @@ export default{
                         },
                         {
                             "title": "2860. 让所有学生保持开心的分组方法数",
-                            "sort": 18,
+                            "sort": 19,
                             "src": "/happy-students/",
                             "score": 1625.7172632295,
                             "solution": null,
@@ -2458,7 +2474,7 @@ export default{
                         },
                         {
                             "title": "1332. 删除回文子序列",
-                            "sort": 19,
+                            "sort": 20,
                             "src": "/remove-palindromic-subsequences/",
                             "score": 1628.5072578803,
                             "solution": null,
@@ -2466,7 +2482,7 @@ export default{
                         },
                         {
                             "title": "1975. 最大方阵和",
-                            "sort": 20,
+                            "sort": 21,
                             "src": "/maximum-matrix-sum/",
                             "score": 1648.0880791614,
                             "solution": null,
@@ -2474,7 +2490,7 @@ export default{
                         },
                         {
                             "title": "1145. 二叉树着色游戏",
-                            "sort": 21,
+                            "sort": 22,
                             "src": "/binary-tree-coloring-game/",
                             "score": 1741.4527995252,
                             "solution": null,
@@ -2482,7 +2498,7 @@ export default{
                         },
                         {
                             "title": "1297. 子串的最大出现次数",
-                            "sort": 22,
+                            "sort": 23,
                             "src": "/maximum-number-of-occurrences-of-a-substring/",
                             "score": 1748.1523771585,
                             "solution": null,
@@ -2490,7 +2506,7 @@ export default{
                         },
                         {
                             "title": "3282. 到达数组末尾的最大得分",
-                            "sort": 23,
+                            "sort": 24,
                             "src": "/reach-end-of-array-with-max-score/",
                             "score": 1771.7317932329,
                             "solution": null,
@@ -2498,7 +2514,7 @@ export default{
                         },
                         {
                             "title": "2332. 坐上公交的最晚时间",
-                            "sort": 24,
+                            "sort": 25,
                             "src": "/the-latest-time-to-catch-a-bus/",
                             "score": 1840.9122452886,
                             "solution": null,
@@ -2506,7 +2522,7 @@ export default{
                         },
                         {
                             "title": "2680. 最大或值",
-                            "sort": 25,
+                            "sort": 26,
                             "src": "/maximum-or/",
                             "score": 1912.1926699881,
                             "solution": null,
@@ -2514,7 +2530,7 @@ export default{
                         },
                         {
                             "title": "2731. 移动机器人",
-                            "sort": 26,
+                            "sort": 27,
                             "src": "/movement-of-robots/",
                             "score": 1922.9521758079,
                             "solution": null,
@@ -2522,7 +2538,7 @@ export default{
                         },
                         {
                             "title": "2556. 二进制矩阵中翻转最多一次使路径不连通",
-                            "sort": 27,
+                            "sort": 28,
                             "src": "/disconnect-path-in-a-binary-matrix-by-at-most-one-flip/",
                             "score": 2368.6674771307,
                             "solution": null,
@@ -2530,7 +2546,7 @@ export default{
                         },
                         {
                             "title": "3125. 使得按位与结果为 0 的最大数字",
-                            "sort": 28,
+                            "sort": 29,
                             "src": "/maximum-number-that-makes-result-of-bitwise-and-zero/",
                             "score": null,
                             "solution": null,
@@ -2538,7 +2554,7 @@ export default{
                         },
                         {
                             "title": "1794. 统计距离最小的子串对个数",
-                            "sort": 29,
+                            "sort": 30,
                             "src": "/count-pairs-of-equal-substrings-with-minimum-difference/",
                             "score": null,
                             "solution": null,
@@ -3015,8 +3031,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2753. 计算一个环形街道上的房屋数量 II",
+                            "title": "3460. 最多删除一次后的最长公共前缀",
                             "sort": 17,
+                            "src": "/longest-common-prefix-after-at-most-one-removal/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": true
+                        },
+                        {
+                            "title": "2753. 计算一个环形街道上的房屋数量 II",
+                            "sort": 18,
                             "src": "/count-houses-in-a-circular-street-ii/",
                             "score": null,
                             "solution": null,
@@ -3024,7 +3048,7 @@ export default{
                         },
                         {
                             "title": "LCS 02. 完成一半题目",
-                            "sort": 18,
+                            "sort": 19,
                             "src": "/WqXACV/",
                             "score": null,
                             "solution": null,

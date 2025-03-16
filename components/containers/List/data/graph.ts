@@ -1203,7 +1203,7 @@ export default{
                             "title": "3435. 最短公共超序列的字母出现频率",
                             "sort": 9,
                             "src": "/frequencies-of-shortest-supersequences/",
-                            "score": null,
+                            "score": 3027.89612787,
                             "solution": null,
                             "isPremium": false
                         },

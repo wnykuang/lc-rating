@@ -185,7 +185,7 @@ export default{
                             "title": "3462. 提取至多 K 个元素的最大总和",
                             "sort": 18,
                             "src": "/maximum-sum-with-at-most-k-elements/",
-                            "score": null,
+                            "score": 1416.0720873451,
                             "solution": null,
                             "isPremium": false
                         },
@@ -241,7 +241,7 @@ export default{
                             "title": "3457. 吃披萨",
                             "sort": 25,
                             "src": "/eat-pizzas/",
-                            "score": null,
+                            "score": 1704.1007546159,
                             "solution": null,
                             "isPremium": false
                         },
@@ -289,7 +289,7 @@ export default{
                             "title": "3440. 重新安排会议得到最多空余时间 II",
                             "sort": 31,
                             "src": "/reschedule-meetings-for-maximum-free-time-ii/",
-                            "score": null,
+                            "score": 1997.5972097891,
                             "solution": null,
                             "isPremium": false
                         },
@@ -721,7 +721,7 @@ export default{
                             "title": "3449. 最大化游戏分数的最小值",
                             "sort": 23,
                             "src": "/maximize-the-minimum-game-score/",
-                            "score": null,
+                            "score": 2748.125042961,
                             "solution": null,
                             "isPremium": false
                         },
@@ -881,7 +881,7 @@ export default{
                             "title": "3457. 吃披萨",
                             "sort": 1,
                             "src": "/eat-pizzas/",
-                            "score": null,
+                            "score": 1704.1007546159,
                             "solution": null,
                             "isPremium": false
                         },
@@ -1136,7 +1136,7 @@ export default{
                             "title": "3458. 选择 K 个互不重叠的特殊子字符串",
                             "sort": 3,
                             "src": "/select-k-disjoint-special-substrings/",
-                            "score": null,
+                            "score": 2220.5047767138,
                             "solution": null,
                             "isPremium": false
                         }
@@ -1631,7 +1631,7 @@ export default{
                             "title": "3474. 字典序最小的生成字符串",
                             "sort": 28,
                             "src": "/lexicographically-smallest-generated-string/",
-                            "score": null,
+                            "score": 2605.3698165497,
                             "solution": null,
                             "isPremium": false
                         },
@@ -2093,7 +2093,7 @@ export default{
                             "title": "3441. 变成好标题的最少代价",
                             "sort": 10,
                             "src": "/minimum-cost-good-caption/",
-                            "score": null,
+                            "score": 2764.5966131386,
                             "solution": null,
                             "isPremium": false
                         },
@@ -2340,7 +2340,7 @@ export default{
                             "title": "3432. 统计元素和差值为偶数的分区方案",
                             "sort": 3,
                             "src": "/count-partitions-with-even-sum-difference/",
-                            "score": null,
+                            "score": 1199.8475039745,
                             "solution": null,
                             "isPremium": false
                         },
@@ -2444,7 +2444,7 @@ export default{
                             "title": "3471. 找出最大的几近缺失整数",
                             "sort": 16,
                             "src": "/find-the-largest-almost-missing-integer/",
-                            "score": null,
+                            "score": 1308.2307785298,
                             "solution": null,
                             "isPremium": false
                         },
@@ -2954,7 +2954,7 @@ export default{
                             "title": "3443. K 次修改后的最大曼哈顿距离",
                             "sort": 7,
                             "src": "/maximum-manhattan-distance-after-k-changes/",
-                            "score": null,
+                            "score": 1855.9197348195,
                             "solution": null,
                             "isPremium": false
                         },

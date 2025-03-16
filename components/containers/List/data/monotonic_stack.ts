@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享｜【题单】单调栈（矩形面积/贡献法/最小字典序）",
     "original_src": "https://leetcode.cn/circle/discuss/9oZFK9",
-    "last_update": "2024-12-25 14:46:19",
+    "last_update": "2025-03-11 04:19:09",
     "sort": 0,
     "child": [
         {
@@ -23,13 +23,13 @@ export default{
         {
             "title": "单调栈",
             "sort": 1,
-            "summary": "",
+            "summary": "请先学习：<a href=\"https://www.bilibili.com/video/BV1VN411J7S7/\">单调栈【基础算法精讲 26】</a><br>",
             "child": [
                 {
-                    "title": "",
+                    "title": "基础",
                     "sort": 0,
                     "isLeaf": true,
-                    "summary": "请先学习：<a href=\"https://www.bilibili.com/video/BV1VN411J7S7/\">单调栈【基础算法精讲 26】</a><br>",
+                    "summary": "",
                     "child": [
                         {
                             "title": "739. 每日温度",
@@ -64,8 +64,32 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1019. 链表中的下一个更大节点",
+                            "title": "901. 股票价格跨度",
                             "sort": 4,
+                            "src": "/online-stock-span/",
+                            "score": 1708.8735585776,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "853. 车队",
+                            "sort": 5,
+                            "src": "/car-fleet/",
+                            "score": 1678.1133886034,
+                            "solution": null,
+                            "isPremium": false
+                        }
+                    ]
+                },
+                {
+                    "title": "进阶（选做）",
+                    "sort": 1,
+                    "isLeaf": true,
+                    "summary": "",
+                    "child": [
+                        {
+                            "title": "1019. 链表中的下一个更大节点",
+                            "sort": 0,
                             "src": "/next-greater-node-in-linked-list/",
                             "score": 1570.8347522104,
                             "solution": null,
@@ -73,47 +97,23 @@ export default{
                         },
                         {
                             "title": "962. 最大宽度坡",
-                            "sort": 5,
+                            "sort": 1,
                             "src": "/maximum-width-ramp/",
                             "score": 1607.80608595,
                             "solution": null,
                             "isPremium": false
                         },
                         {
-                            "title": "853. 车队",
-                            "sort": 6,
-                            "src": "/car-fleet/",
-                            "score": 1678.1133886034,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
-                            "title": "901. 股票价格跨度",
-                            "sort": 7,
-                            "src": "/online-stock-span/",
-                            "score": 1708.8735585776,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "1124. 表现良好的最长时间段",
-                            "sort": 8,
+                            "sort": 2,
                             "src": "/longest-well-performing-interval/",
                             "score": 1908.3866125757,
                             "solution": null,
                             "isPremium": false
                         },
                         {
-                            "title": "1793. 好子数组的最大分数",
-                            "sort": 9,
-                            "src": "/maximum-score-of-a-good-subarray/",
-                            "score": 1945.7515607928,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "456. 132 模式",
-                            "sort": 10,
+                            "sort": 3,
                             "src": "/132-pattern/",
                             "score": null,
                             "solution": null,
@@ -121,7 +121,7 @@ export default{
                         },
                         {
                             "title": "3113. 边界元素是最大值的子数组数目",
-                            "sort": 11,
+                            "sort": 4,
                             "src": "/find-the-number-of-subarrays-where-boundary-elements-are-maximum/",
                             "score": 2046.2618466463,
                             "solution": null,
@@ -129,7 +129,7 @@ export default{
                         },
                         {
                             "title": "2866. 美丽塔 II",
-                            "sort": 12,
+                            "sort": 5,
                             "src": "/beautiful-towers-ii/",
                             "score": 2071.6322841217,
                             "solution": null,
@@ -137,7 +137,7 @@ export default{
                         },
                         {
                             "title": "1944. 队列中可以看到的人数",
-                            "sort": 13,
+                            "sort": 6,
                             "src": "/number-of-visible-people-in-a-queue/",
                             "score": 2104.9526046945,
                             "solution": null,
@@ -145,7 +145,7 @@ export default{
                         },
                         {
                             "title": "2454. 下一个更大元素 IV",
-                            "sort": 14,
+                            "sort": 7,
                             "src": "/next-greater-element-iv/",
                             "score": 2175.1190473433,
                             "solution": null,
@@ -153,7 +153,7 @@ export default{
                         },
                         {
                             "title": "1130. 叶值的最小代价生成树",
-                            "sort": 15,
+                            "sort": 8,
                             "src": "/minimum-cost-tree-from-leaf-values/",
                             "score": 1919.1749818083,
                             "solution": null,
@@ -161,7 +161,7 @@ export default{
                         },
                         {
                             "title": "2289. 使数组按非递减顺序排列",
-                            "sort": 16,
+                            "sort": 9,
                             "src": "/steps-to-make-array-non-decreasing/",
                             "score": 2481.8722909195,
                             "solution": null,
@@ -169,15 +169,23 @@ export default{
                         },
                         {
                             "title": "1776. 车队 II",
-                            "sort": 17,
+                            "sort": 10,
                             "src": "/car-fleet-ii/",
                             "score": 2530.6905139914,
                             "solution": null,
                             "isPremium": false
                         },
                         {
+                            "title": "3420. 统计 K 次操作以内得到非递减子数组的数目",
+                            "sort": 11,
+                            "src": "/count-non-decreasing-subarrays-after-k-operations/",
+                            "score": 2854.6879585019,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
                             "title": "3221. 最大数组跳跃得分 II",
-                            "sort": 18,
+                            "sort": 12,
                             "src": "/maximum-array-hopping-score-ii/",
                             "score": null,
                             "solution": null,
@@ -185,7 +193,7 @@ export default{
                         },
                         {
                             "title": "1966. 未排序数组中的可被二分搜索的数",
-                            "sort": 19,
+                            "sort": 13,
                             "src": "/binary-searchable-numbers-in-an-unsorted-array/",
                             "score": null,
                             "solution": null,
@@ -193,7 +201,7 @@ export default{
                         },
                         {
                             "title": "2832. 每个元素为最大值的最大范围",
-                            "sort": 20,
+                            "sort": 14,
                             "src": "/maximal-range-that-each-element-is-maximum-in-it/",
                             "score": null,
                             "solution": null,
@@ -201,7 +209,7 @@ export default{
                         },
                         {
                             "title": "2282. 在一个网格中可以看到的人数",
-                            "sort": 21,
+                            "sort": 15,
                             "src": "/number-of-people-that-can-be-seen-in-a-grid/",
                             "score": null,
                             "solution": null,
@@ -318,8 +326,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2281. 巫师的总力量和（最小值×和）",
+                            "title": "3430. 最多 K 个元素的子数组的最值之和",
                             "sort": 4,
+                            "src": "/maximum-and-minimum-sums-of-at-most-size-k-subarrays/",
+                            "score": 2644.9681021386,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2281. 巫师的总力量和（最小值×和）",
+                            "sort": 5,
                             "src": "/sum-of-total-strength-of-wizards/",
                             "score": 2621.1208072273,
                             "solution": null,
@@ -327,7 +343,7 @@ export default{
                         },
                         {
                             "title": "3359. 查找最大元素不超过 K 的有序子矩阵",
-                            "sort": 5,
+                            "sort": 6,
                             "src": "/find-sorted-submatrices-with-maximum-element-at-most-k/",
                             "score": null,
                             "solution": null,
@@ -335,7 +351,7 @@ export default{
                         },
                         {
                             "title": "2334. 元素值大于变化阈值的子数组",
-                            "sort": 6,
+                            "sort": 7,
                             "src": "/subarray-with-elements-greater-than-varying-threshold/",
                             "score": 2381.2160234811,
                             "solution": null,

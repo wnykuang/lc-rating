@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】二分算法（二分答案/最小化最大值/最大化最小值/第K小）",
     "original_src": "https://leetcode.cn/circle/discuss/SqopEo",
-    "last_update": "2025-03-04 04:54:26",
+    "last_update": "2025-03-15 11:26:17",
     "sort": 0,
     "child": [
         {
@@ -228,7 +228,7 @@ export default{
                     "title": "§2.1 求最小",
                     "sort": 0,
                     "isLeaf": true,
-                    "summary": "题目求什么，就二分什么。<br>**思维扩展**：<br>",
+                    "summary": "题目求什么，就二分什么。<br>**注**：部分题目可以优化二分边界，减少二分次数，从而减少代码运行时间。对于初次接触二分答案的同学，无需强求自己写出最优的代码，设定一个比较大的二分上界也是可以的。<br>**思维扩展**：<br>",
                     "child": [
                         {
                             "title": "1283. 使结果不超过阈值的最小除数",
@@ -330,7 +330,7 @@ export default{
                             "title": "3453. 分割正方形 I",
                             "sort": 12,
                             "src": "/separate-squares-i/",
-                            "score": null,
+                            "score": 1735.4106121238,
                             "solution": null,
                             "isPremium": false
                         }
@@ -658,7 +658,7 @@ export default{
                             "title": "3464. 正方形上的点之间的最大距离",
                             "sort": 5,
                             "src": "/maximize-the-distance-between-points-on-a-square/",
-                            "score": null,
+                            "score": 2805.990278358,
                             "solution": null,
                             "isPremium": false
                         },
@@ -666,7 +666,7 @@ export default{
                             "title": "3449. 最大化游戏分数的最小值",
                             "sort": 6,
                             "src": "/maximize-the-minimum-game-score/",
-                            "score": null,
+                            "score": 2748.125042961,
                             "solution": null,
                             "isPremium": false
                         },

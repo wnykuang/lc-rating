@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】滑动窗口与双指针（定长/不定长/单序列/双序列/三指针/分组循环）",
     "original_src": "https://leetcode.cn/circle/discuss/0viNMK",
-    "last_update": "2025-02-23 02:20:04",
+    "last_update": "2025-03-11 11:47:57",
     "sort": 0,
     "child": [
         {
@@ -204,7 +204,7 @@ export default{
                             "title": "3439. 重新安排会议得到最多空余时间 I",
                             "sort": 4,
                             "src": "/reschedule-meetings-for-maximum-free-time-i/",
-                            "score": null,
+                            "score": 1728.8495630128,
                             "solution": null,
                             "isPremium": false
                         },
@@ -1141,8 +1141,16 @@ export default{
                     "summary": "两个指针的移动方向相同（都向右，或者都向左）。<br>相似题目：<br>",
                     "child": [
                         {
-                            "title": "1574. 删除最短的子数组使剩余数组有序",
+                            "title": "611. 有效三角形的个数",
                             "sort": 0,
+                            "src": "/valid-triangle-number/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1574. 删除最短的子数组使剩余数组有序",
+                            "sort": 1,
                             "src": "/shortest-subarray-to-be-removed-to-make-array-sorted/",
                             "score": 1931.7335479582,
                             "solution": null,
@@ -1150,7 +1158,7 @@ export default{
                         },
                         {
                             "title": "2972. 统计移除递增子数组的数目 II",
-                            "sort": 1,
+                            "sort": 2,
                             "src": "/count-the-number-of-incremovable-subarrays-ii/",
                             "score": 2152.8032001597,
                             "solution": null,
@@ -1158,7 +1166,7 @@ export default{
                         },
                         {
                             "title": "2122. 还原原数组",
-                            "sort": 2,
+                            "sort": 3,
                             "src": "/recover-the-original-array/",
                             "score": 2158.8988728254,
                             "solution": null,
@@ -1166,7 +1174,7 @@ export default{
                         },
                         {
                             "title": "2234. 花园的最大总美丽值",
-                            "sort": 3,
+                            "sort": 4,
                             "src": "/maximum-total-beauty-of-the-gardens/",
                             "score": 2561.508149216,
                             "solution": null,
@@ -1174,7 +1182,7 @@ export default{
                         },
                         {
                             "title": "3323. 通过插入区间最小化连通组",
-                            "sort": 4,
+                            "sort": 5,
                             "src": "/minimize-connected-groups-by-inserting-interval/",
                             "score": null,
                             "solution": null,
@@ -1182,7 +1190,7 @@ export default{
                         },
                         {
                             "title": "581. 最短无序连续子数组",
-                            "sort": 5,
+                            "sort": 6,
                             "src": "/shortest-unsorted-continuous-subarray/",
                             "score": null,
                             "solution": null,
@@ -1261,8 +1269,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2460. 对数组执行操作",
+                            "title": "3467. 将数组按照奇偶性转化",
                             "sort": 6,
+                            "src": "/transform-array-by-parity/",
+                            "score": 1165.8314068327,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2460. 对数组执行操作",
+                            "sort": 7,
                             "src": "/apply-operations-to-an-array/",
                             "score": 1223.9335618833,
                             "solution": null,
@@ -1270,7 +1286,7 @@ export default{
                         },
                         {
                             "title": "1089. 复写零",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/duplicate-zeros/",
                             "score": 1262.5890311992,
                             "solution": null,
@@ -1544,7 +1560,7 @@ export default{
                     "title": "",
                     "sort": 0,
                     "isLeaf": true,
-                    "summary": "",
+                    "summary": "**思维扩展**：<br>",
                     "child": [
                         {
                             "title": "2367. 等差三元组的数目",
@@ -1593,6 +1609,14 @@ export default{
                             "score": 1259.1979660519,
                             "solution": null,
                             "isPremium": true
+                        },
+                        {
+                            "title": "3464. 正方形上的点之间的最大距离",
+                            "sort": 6,
+                            "src": "/maximize-the-distance-between-points-on-a-square/",
+                            "score": 2805.990278358,
+                            "solution": null,
+                            "isPremium": false
                         }
                     ]
                 }
@@ -1637,7 +1661,7 @@ export default{
                             "title": "3456. 找出长度为 K 的特殊子字符串",
                             "sort": 3,
                             "src": "/find-special-substring-of-length-k/",
-                            "score": null,
+                            "score": 1244.425108458,
                             "solution": null,
                             "isPremium": false
                         },

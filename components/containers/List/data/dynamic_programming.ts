@@ -392,7 +392,7 @@ export default{
                             "title": "3459. 最长 V 形对角线段的长度",
                             "sort": 11,
                             "src": "/length-of-longest-v-shaped-diagonal-segment/",
-                            "score": null,
+                            "score": 2530.6462600383,
                             "solution": null,
                             "isPremium": false
                         },
@@ -1122,7 +1122,7 @@ export default{
                             "title": "3441. 变成好标题的最少代价",
                             "sort": 15,
                             "src": "/minimum-cost-good-caption/",
-                            "score": null,
+                            "score": 2764.5966131386,
                             "solution": null,
                             "isPremium": false
                         },
@@ -1218,7 +1218,7 @@ export default{
                             "title": "3473. 长度至少为 M 的 K 个子数组之和",
                             "sort": 8,
                             "src": "/sum-of-k-subarrays-with-length-at-least-m/",
-                            "score": null,
+                            "score": 2274.3994731363,
                             "solution": null,
                             "isPremium": false
                         },
@@ -1545,7 +1545,7 @@ export default{
                             "title": "3434. 子数组操作后的最大频率",
                             "sort": 9,
                             "src": "/maximum-frequency-after-subarray-operation/",
-                            "score": null,
+                            "score": 2093.9055608233,
                             "solution": null,
                             "isPremium": false
                         },
@@ -1720,7 +1720,7 @@ export default{
                             "title": "3464. 正方形上的点之间的最大距离",
                             "sort": 10,
                             "src": "/maximize-the-distance-between-points-on-a-square/",
-                            "score": null,
+                            "score": 2805.990278358,
                             "solution": null,
                             "isPremium": false
                         },
@@ -2168,7 +2168,7 @@ export default{
                             "title": "3469. 移除所有数组元素的最小代价",
                             "sort": 23,
                             "src": "/find-minimum-cost-to-remove-array-elements/",
-                            "score": null,
+                            "score": 2111.9501657249,
                             "solution": null,
                             "isPremium": false
                         },
@@ -2224,7 +2224,7 @@ export default{
                             "title": "3448. 统计可以被最后一个数位整除的子字符串数目",
                             "sort": 30,
                             "src": "/count-substrings-divisible-by-last-digit/",
-                            "score": null,
+                            "score": 2386.8250706801,
                             "solution": null,
                             "isPremium": false
                         },
@@ -2288,7 +2288,7 @@ export default{
                             "title": "3441. 变成好标题的最少代价",
                             "sort": 38,
                             "src": "/minimum-cost-good-caption/",
-                            "score": null,
+                            "score": 2764.5966131386,
                             "solution": null,
                             "isPremium": false
                         },
@@ -2399,7 +2399,7 @@ export default{
                             "title": "3472. 至多 K 次操作后的最长回文子序列",
                             "sort": 3,
                             "src": "/longest-palindromic-subsequence-after-at-most-k-operations/",
-                            "score": null,
+                            "score": 1883.8499315734,
                             "solution": null,
                             "isPremium": false
                         },
@@ -2846,7 +2846,7 @@ export default{
                             "title": "3444. 使数组包含目标值倍数的最少增量",
                             "sort": 6,
                             "src": "/minimum-increments-for-target-multiples-in-an-array/",
-                            "score": null,
+                            "score": 2336.5202025025,
                             "solution": null,
                             "isPremium": false
                         },
@@ -3284,7 +3284,7 @@ export default{
                             "title": "3473. 长度至少为 M 的 K 个子数组之和",
                             "sort": 3,
                             "src": "/sum-of-k-subarrays-with-length-at-least-m/",
-                            "score": null,
+                            "score": 2274.3994731363,
                             "solution": null,
                             "isPremium": false
                         },
@@ -4327,7 +4327,7 @@ export default{
                             "title": "3441. 变成好标题的最少代价",
                             "sort": 7,
                             "src": "/minimum-cost-good-caption/",
-                            "score": null,
+                            "score": 2764.5966131386,
                             "solution": null,
                             "isPremium": false
                         },

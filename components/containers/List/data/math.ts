@@ -305,7 +305,7 @@ export default{
                             "title": "3447. 将元素分配给有约束条件的组",
                             "sort": 7,
                             "src": "/assign-elements-to-groups-with-constraints/",
-                            "score": null,
+                            "score": 1730.9216686999,
                             "solution": null,
                             "isPremium": false
                         },
@@ -697,7 +697,7 @@ export default{
                             "title": "3463. 判断操作后字符串中的数字是否相等 II",
                             "sort": 6,
                             "src": "/check-if-digits-are-equal-in-string-after-operations-ii/",
-                            "score": null,
+                            "score": 2286.2394574531,
                             "solution": null,
                             "isPremium": false
                         }
@@ -2011,7 +2011,7 @@ export default{
                             "title": "3443. K 次修改后的最大曼哈顿距离",
                             "sort": 0,
                             "src": "/maximum-manhattan-distance-after-k-changes/",
-                            "score": null,
+                            "score": 1855.9197348195,
                             "solution": null,
                             "isPremium": false
                         },
@@ -2043,7 +2043,7 @@ export default{
                             "title": "3464. 正方形上的点之间的最大距离",
                             "sort": 4,
                             "src": "/maximize-the-distance-between-points-on-a-square/",
-                            "score": null,
+                            "score": 2805.990278358,
                             "solution": null,
                             "isPremium": false
                         },

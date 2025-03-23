@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】图论算法（DFS/BFS/拓扑排序/最短路/最小生成树/二分图/基环树/欧拉路径）",
     "original_src": "https://leetcode.cn/circle/discuss/01LUak",
-    "last_update": "2025-01-29 06:26:55",
+    "last_update": "2025-03-20 02:02:38",
     "sort": 0,
     "child": [
         {
@@ -88,16 +88,8 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "3387. 两天自由外汇交易后的最大货币数",
-                            "sort": 7,
-                            "src": "/maximize-amount-after-two-days-of-conversions/",
-                            "score": 1787.5923894417,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "3310. 移除可疑的方法",
-                            "sort": 8,
+                            "sort": 7,
                             "src": "/remove-methods-from-project/",
                             "score": 1710.5210499321,
                             "solution": null,
@@ -105,7 +97,7 @@ export default{
                         },
                         {
                             "title": "2685. 统计完全连通分量的数量",
-                            "sort": 9,
+                            "sort": 8,
                             "src": "/count-the-number-of-complete-components/",
                             "score": 1769.4344566771,
                             "solution": null,
@@ -113,9 +105,17 @@ export default{
                         },
                         {
                             "title": "2192. 有向无环图中一个节点的所有祖先",
-                            "sort": 10,
+                            "sort": 9,
                             "src": "/all-ancestors-of-a-node-in-a-directed-acyclic-graph/",
                             "score": 1787.8550568757,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3387. 两天自由外汇交易后的最大货币数",
+                            "sort": 10,
+                            "src": "/maximize-amount-after-two-days-of-conversions/",
+                            "score": 1787.5923894417,
                             "solution": null,
                             "isPremium": false
                         },
@@ -977,18 +977,18 @@ export default{
                     "summary": "**模拟费用流**<br>",
                     "child": [
                         {
-                            "title": "3376. 破解锁的最少时间 I",
+                            "title": "1947. 最大兼容性评分和",
                             "sort": 0,
-                            "src": "/minimum-time-to-break-locks-i/",
-                            "score": 1793.2112436729,
+                            "src": "/maximum-compatibility-score-sum/",
+                            "score": 1704.360891641,
                             "solution": null,
                             "isPremium": false
                         },
                         {
-                            "title": "1947. 最大兼容性评分和",
+                            "title": "3376. 破解锁的最少时间 I",
                             "sort": 1,
-                            "src": "/maximum-compatibility-score-sum/",
-                            "score": 1704.360891641,
+                            "src": "/minimum-time-to-break-locks-i/",
+                            "score": 1793.2112436729,
                             "solution": null,
                             "isPremium": false
                         },

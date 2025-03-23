@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】二分算法（二分答案/最小化最大值/最大化最小值/第K小）",
     "original_src": "https://leetcode.cn/circle/discuss/SqopEo",
-    "last_update": "2025-03-15 11:26:17",
+    "last_update": "2025-03-20 12:13:37",
     "sort": 0,
     "child": [
         {
@@ -120,8 +120,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2563. 统计公平数对的数目",
+                            "title": "3488. 距离最小相等元素查询",
                             "sort": 5,
+                            "src": "/closest-equal-element-queries/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2563. 统计公平数对的数目",
+                            "sort": 6,
                             "src": "/count-the-number-of-fair-pairs/",
                             "score": 1720.7470612766,
                             "solution": null,
@@ -129,7 +137,7 @@ export default{
                         },
                         {
                             "title": "2070. 每一个查询的最大美丽值",
-                            "sort": 6,
+                            "sort": 7,
                             "src": "/most-beautiful-item-for-each-query/",
                             "score": 1724.1545485476,
                             "solution": null,
@@ -137,7 +145,7 @@ export default{
                         },
                         {
                             "title": "1146. 快照数组",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/snapshot-array/",
                             "score": 1770.8924569497,
                             "solution": null,
@@ -145,7 +153,7 @@ export default{
                         },
                         {
                             "title": "981. 基于时间的键值存储",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/time-based-key-value-store/",
                             "score": 1574.7542247682,
                             "solution": null,
@@ -153,7 +161,7 @@ export default{
                         },
                         {
                             "title": "658. 找到 K 个最接近的元素",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/find-k-closest-elements/",
                             "score": null,
                             "solution": null,
@@ -161,7 +169,7 @@ export default{
                         },
                         {
                             "title": "1818. 绝对差值和",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/minimum-absolute-sum-difference/",
                             "score": 1934.3556201811,
                             "solution": null,
@@ -169,7 +177,7 @@ export default{
                         },
                         {
                             "title": "911. 在线选举",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/online-election/",
                             "score": 2000.8021428612,
                             "solution": null,
@@ -177,7 +185,7 @@ export default{
                         },
                         {
                             "title": "LCP 08. 剧情触发时间",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/ju-qing-hong-fa-shi-jian/",
                             "score": null,
                             "solution": null,
@@ -185,7 +193,7 @@ export default{
                         },
                         {
                             "title": "1182. 与目标颜色间的最短距离",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/shortest-distance-to-target-color/",
                             "score": 1626.6740430119,
                             "solution": null,
@@ -193,7 +201,7 @@ export default{
                         },
                         {
                             "title": "2819. 购买巧克力后的最小相对损失",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/minimum-relative-loss-after-buying-chocolates/",
                             "score": null,
                             "solution": null,
@@ -201,7 +209,7 @@ export default{
                         },
                         {
                             "title": "1287. 有序数组中出现次数超过 25% 的元素",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/element-appearing-more-than-25-in-sorted-array/",
                             "score": 1179.1495967491,
                             "solution": null,
@@ -209,7 +217,7 @@ export default{
                         },
                         {
                             "title": "1150. 检查一个数是否在数组中占绝大多数",
-                            "sort": 16,
+                            "sort": 17,
                             "src": "/check-if-a-number-is-majority-element-in-a-sorted-array/",
                             "score": 1249.9947800752,
                             "solution": null,
@@ -228,7 +236,14 @@ export default{
                     "title": "§2.1 求最小",
                     "sort": 0,
                     "isLeaf": true,
-                    "summary": "题目求什么，就二分什么。<br>**注**：部分题目可以优化二分边界，减少二分次数，从而减少代码运行时间。对于初次接触二分答案的同学，无需强求自己写出最优的代码，设定一个比较大的二分上界也是可以的。<br>**思维扩展**：<br>",
+                    "summary": "题目求什么，就二分什么。<br>",
+                    "child": []
+                },
+                {
+                    "title": "答疑",
+                    "sort": 1,
+                    "isLeaf": true,
+                    "summary": "**问**：什么是循环不变量？<br>**答**：想一想，对于求最小的题目，**开区间二分**的写法，为什么最终返回的是 $\\textit{right}$，而不是别的数？在初始化（循环之前）、循环中、循环结束后，都时时刻刻保证 `check(right) == true` 和 `check(left) == false`，这就叫**循环不变量**。根据循环不变量，循环结束时 `left + 1 == right`，那么 $\\textit{right}$ 就是最小的满足要求的数（因为再 $-1$ 就不满足要求了），所以答案是 $\\textit{right}$。<br>**注**：部分题目可以优化二分边界，减少二分次数，从而减少代码运行时间。对于初次接触二分答案的同学，无需强求自己写出最优的代码，设定一个比较大的二分上界也是可以的。<br>**思维扩展**：<br>",
                     "child": [
                         {
                             "title": "1283. 使结果不超过阈值的最小除数",
@@ -338,7 +353,7 @@ export default{
                 },
                 {
                     "title": "§2.2 求最大",
-                    "sort": 1,
+                    "sort": 2,
                     "isLeaf": true,
                     "summary": "<a href=\"https://leetcode.cn/problems/h-index-ii/solution/tu-jie-yi-tu-zhang-wo-er-fen-da-an-si-ch-d15k/\">一图掌握二分答案！四种写法！</a><br>在练习时，请注意「求最小」和「求最大」的二分写法上的区别。<br>前面的「求最小」和二分查找求「排序数组中某元素的第一个位置」是类似的，按照红蓝染色法，左边是不满足要求的（红色），右边则是满足要求的（蓝色）。<br>「求最大」的题目则相反，左边是满足要求的（蓝色），右边是不满足要求的（红色）。这会导致二分写法和上面的「求最小」有一些区别。<br>以开区间二分为例：<br>- 求最小：`check(mid) == true` 时更新 `right = mid`，反之更新 `left = mid`，最后返回 `right`。<br>- 求最大：`check(mid) == true` 时更新 `left = mid`，反之更新 `right = mid`，最后返回 `left`。<br>对于开区间写法，简单来说 `check(mid) == true` 时更新的是谁，最后就返回谁。相比其他二分写法，开区间写法不需要思考加一减一等细节，**推荐使用开区间写二分**。<br>",
                     "child": [
@@ -474,7 +489,7 @@ export default{
                 },
                 {
                     "title": "§2.3 二分间接值",
-                    "sort": 2,
+                    "sort": 3,
                     "isLeaf": true,
                     "summary": "二分的不是答案，而是一个和答案有关的值（间接值）。<br>",
                     "child": [
@@ -498,7 +513,7 @@ export default{
                 },
                 {
                     "title": "§2.4 最小化最大值",
-                    "sort": 3,
+                    "sort": 4,
                     "isLeaf": true,
                     "summary": "本质是二分答案求最小。二分的 $\\textit{mid}$ 表示上界。<br>",
                     "child": [
@@ -610,7 +625,7 @@ export default{
                 },
                 {
                     "title": "§2.5 最大化最小值",
-                    "sort": 4,
+                    "sort": 5,
                     "isLeaf": true,
                     "summary": "本质是二分答案求最大。二分的 $\\textit{mid}$ 表示下界。<br>",
                     "child": [
@@ -647,7 +662,7 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2528. 最大化城市的最小供电站数目",
+                            "title": "2528. 最大化城市的最小电量",
                             "sort": 4,
                             "src": "/maximize-the-minimum-powered-city/",
                             "score": 2235.5784618885,
@@ -655,18 +670,18 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "3464. 正方形上的点之间的最大距离",
+                            "title": "3449. 最大化游戏分数的最小值",
                             "sort": 5,
-                            "src": "/maximize-the-distance-between-points-on-a-square/",
-                            "score": 2805.990278358,
+                            "src": "/maximize-the-minimum-game-score/",
+                            "score": 2748.125042961,
                             "solution": null,
                             "isPremium": false
                         },
                         {
-                            "title": "3449. 最大化游戏分数的最小值",
+                            "title": "3464. 正方形上的点之间的最大距离",
                             "sort": 6,
-                            "src": "/maximize-the-minimum-game-score/",
-                            "score": 2748.125042961,
+                            "src": "/maximize-the-distance-between-points-on-a-square/",
+                            "score": 2805.990278358,
                             "solution": null,
                             "isPremium": false
                         },
@@ -690,7 +705,7 @@ export default{
                 },
                 {
                     "title": "§2.6 第 K 小/大",
-                    "sort": 5,
+                    "sort": 6,
                     "isLeaf": true,
                     "summary": "例如数组 $[1,1,1,2,2]$，其中第 $1$ 小、第 $2$ 小和第 $3$ 小的数都是 $1$，第 $4$ 小和第 $5$ 小的数都是 $2$。<br>- 第 $k$ 小等价于：求**最小**的 $x$，满足 $\\le x$ 的数**至少**有 $k$ 个。<br>- 第 $k$ 大等价于：求**最大**的 $x$，满足 $\\ge x$ 的数**至少**有 $k$ 个。<br>> 注 1：一般规定 $k$ 从 $1$ 开始，而不是像数组下标那样从 $0$ 开始。<br>><br>> 注 2：部分题目也可以用堆解决。<br>",
                     "child": [

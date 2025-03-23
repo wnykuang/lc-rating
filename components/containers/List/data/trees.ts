@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】链表、二叉树与回溯（前后指针/快慢指针/DFS/BFS/直径/LCA/一般树）",
     "original_src": "https://leetcode.cn/circle/discuss/K0n2gO",
-    "last_update": "2025-01-29 06:24:59",
+    "last_update": "2025-03-20 02:42:49",
     "sort": 0,
     "child": [
         {
@@ -2398,16 +2398,8 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "3425. 最长特殊路径",
-                            "sort": 8,
-                            "src": "/longest-special-path/",
-                            "score": 2434.6549114916,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "2791. 树中可以形成回文的路径数",
-                            "sort": 9,
+                            "sort": 8,
                             "src": "/count-paths-that-can-form-a-palindrome-in-a-tree/",
                             "score": 2677.1682592316,
                             "solution": null,
@@ -2611,7 +2603,7 @@ export default{
                     "title": "§3.8 最近公共祖先（LCA）",
                     "sort": 7,
                     "isLeaf": true,
-                    "summary": "<a href=\"https://leetcode.cn/problems/kth-ancestor-of-a-tree-node/solution/mo-ban-jiang-jie-shu-shang-bei-zeng-suan-v3rw/\">讲解</a><br>",
+                    "summary": "<a href=\"https://leetcode.cn/problems/kth-ancestor-of-a-tree-node/solution/mo-ban-jiang-jie-shu-shang-bei-zeng-suan-v3rw/\">讲解</a><br>**数组上的倍增**：<br>",
                     "child": [
                         {
                             "title": "1483. 树节点的第 K 个祖先",
@@ -2636,12 +2628,44 @@ export default{
                             "score": null,
                             "solution": null,
                             "isPremium": true
+                        },
+                        {
+                            "title": "3464. 正方形上的点之间的最大距离",
+                            "sort": 3,
+                            "src": "/maximize-the-distance-between-points-on-a-square/",
+                            "score": 2805.990278358,
+                            "solution": null,
+                            "isPremium": false
                         }
                     ]
                 },
                 {
-                    "title": "§3.9 其他",
+                    "title": "§3.9 树上滑动窗口",
                     "sort": 8,
+                    "isLeaf": true,
+                    "summary": "",
+                    "child": [
+                        {
+                            "title": "3425. 最长特殊路径",
+                            "sort": 0,
+                            "src": "/longest-special-path/",
+                            "score": 2434.6549114916,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3486. 最长特殊路径 II",
+                            "sort": 1,
+                            "src": "/longest-special-path-ii/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        }
+                    ]
+                },
+                {
+                    "title": "§3.10 其他",
+                    "sort": 9,
                     "isLeaf": true,
                     "summary": "另见 <a href=\"/lc-rating/list/dynamic_programming\">动态规划题单</a> 中的「树形 DP」。<br>",
                     "child": [
@@ -2725,8 +2749,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "784. 字母大小写全排列",
+                            "title": "1863. 找出所有子集的异或总和再求和",
                             "sort": 1,
+                            "src": "/sum-of-all-subset-xor-totals/",
+                            "score": 1372.1152262488,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "784. 字母大小写全排列",
+                            "sort": 2,
                             "src": "/letter-case-permutation/",
                             "score": 1341.5076441361,
                             "solution": null,
@@ -2734,7 +2766,7 @@ export default{
                         },
                         {
                             "title": "1286. 字母组合迭代器",
-                            "sort": 2,
+                            "sort": 3,
                             "src": "/iterator-for-combination/",
                             "score": 1591.4725328821,
                             "solution": null,
@@ -2742,7 +2774,7 @@ export default{
                         },
                         {
                             "title": "494. 目标和",
-                            "sort": 3,
+                            "sort": 4,
                             "src": "/target-sum/",
                             "score": null,
                             "solution": null,
@@ -2750,7 +2782,7 @@ export default{
                         },
                         {
                             "title": "LCP 51. 烹饪料理",
-                            "sort": 4,
+                            "sort": 5,
                             "src": "/UEcfPD/",
                             "score": null,
                             "solution": null,
@@ -2758,7 +2790,7 @@ export default{
                         },
                         {
                             "title": "2397. 被列覆盖的最多行数",
-                            "sort": 5,
+                            "sort": 6,
                             "src": "/maximum-rows-covered-by-columns/",
                             "score": 1718.8256321624,
                             "solution": null,
@@ -2766,7 +2798,7 @@ export default{
                         },
                         {
                             "title": "1239. 串联字符串的最大长度",
-                            "sort": 6,
+                            "sort": 7,
                             "src": "/maximum-length-of-a-concatenated-string-with-unique-characters/",
                             "score": 1719.945199874,
                             "solution": null,
@@ -2774,7 +2806,7 @@ export default{
                         },
                         {
                             "title": "2212. 射箭比赛中的最大得分",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/maximum-points-in-an-archery-competition/",
                             "score": 1868.9864493463,
                             "solution": null,
@@ -2782,7 +2814,7 @@ export default{
                         },
                         {
                             "title": "1255. 得分最高的单词集合",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/maximum-score-words-formed-by-letters/",
                             "score": 1881.6810367589,
                             "solution": null,
@@ -2790,7 +2822,7 @@ export default{
                         },
                         {
                             "title": "2151. 基于陈述统计最多好人数",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/maximum-good-people-based-on-statements/",
                             "score": 1979.9454101467,
                             "solution": null,
@@ -2798,7 +2830,7 @@ export default{
                         },
                         {
                             "title": "2597. 美丽子集的数目",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/the-number-of-beautiful-subsets/",
                             "score": 2023.4303440211,
                             "solution": null,
@@ -2806,7 +2838,7 @@ export default{
                         },
                         {
                             "title": "2959. 关闭分部的可行集合数目",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/number-of-possible-sets-of-closing-branches/",
                             "score": 2077.4738459704,
                             "solution": null,
@@ -2814,7 +2846,7 @@ export default{
                         },
                         {
                             "title": "1601. 最多可达成的换楼请求数目",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/maximum-number-of-achievable-transfer-requests/",
                             "score": 2118.7923652824,
                             "solution": null,
@@ -2822,7 +2854,7 @@ export default{
                         },
                         {
                             "title": "1617. 统计子树中城市之间最大距离",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/count-subtrees-with-max-distance-between-cities/",
                             "score": 2308.6545905335,
                             "solution": null,
@@ -2830,7 +2862,7 @@ export default{
                         },
                         {
                             "title": "320. 列举单词的全部缩写",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/generalized-abbreviation/",
                             "score": null,
                             "solution": null,
@@ -2838,7 +2870,7 @@ export default{
                         },
                         {
                             "title": "254. 因子的组合",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/factor-combinations/",
                             "score": null,
                             "solution": null,
@@ -2846,7 +2878,7 @@ export default{
                         },
                         {
                             "title": "39. 组合总和",
-                            "sort": 16,
+                            "sort": 17,
                             "src": "/combination-sum/",
                             "score": null,
                             "solution": null,
@@ -3053,8 +3085,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "267. 回文排列 II",
+                            "title": "3437. 全排列 III",
                             "sort": 8,
+                            "src": "/permutations-iii/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": true
+                        },
+                        {
+                            "title": "267. 回文排列 II",
+                            "sort": 9,
                             "src": "/palindrome-permutation-ii/",
                             "score": null,
                             "solution": null,

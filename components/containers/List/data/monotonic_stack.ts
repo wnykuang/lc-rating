@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享｜【题单】单调栈（矩形面积/贡献法/最小字典序）",
     "original_src": "https://leetcode.cn/circle/discuss/9oZFK9",
-    "last_update": "2025-03-11 04:19:09",
+    "last_update": "2025-03-20 02:00:21",
     "sort": 0,
     "child": [
         {
@@ -326,18 +326,18 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "3430. 最多 K 个元素的子数组的最值之和",
+                            "title": "2281. 巫师的总力量和（最小值×和）",
                             "sort": 4,
-                            "src": "/maximum-and-minimum-sums-of-at-most-size-k-subarrays/",
-                            "score": 2644.9681021386,
+                            "src": "/sum-of-total-strength-of-wizards/",
+                            "score": 2621.1208072273,
                             "solution": null,
                             "isPremium": false
                         },
                         {
-                            "title": "2281. 巫师的总力量和（最小值×和）",
+                            "title": "3430. 最多 K 个元素的子数组的最值之和",
                             "sort": 5,
-                            "src": "/sum-of-total-strength-of-wizards/",
-                            "score": 2621.1208072273,
+                            "src": "/maximum-and-minimum-sums-of-at-most-size-k-subarrays/",
+                            "score": 2644.9681021386,
                             "solution": null,
                             "isPremium": false
                         },

@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】字符串（KMP/Z函数/Manacher/字符串哈希/AC自动机/后缀数组/子序列自动机）",
     "original_src": "https://leetcode.cn/circle/discuss/SJFwQI",
-    "last_update": "2025-01-29 06:29:56",
+    "last_update": "2025-03-20 02:43:49",
     "sort": 0,
     "child": [
         {
@@ -112,8 +112,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1397. 找到所有好字符串",
+                            "title": "3455. 最短匹配子字符串",
                             "sort": 10,
+                            "src": "/shortest-matching-substring/",
+                            "score": 2303.1891955206,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1397. 找到所有好字符串",
+                            "sort": 11,
                             "src": "/find-all-good-strings/",
                             "score": 2666.668150845,
                             "solution": null,
@@ -121,7 +129,7 @@ export default{
                         },
                         {
                             "title": "3037. 在无限流中寻找模式 II",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/find-pattern-in-infinite-stream-ii/",
                             "score": null,
                             "solution": null,
@@ -183,8 +191,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2430. 对字母串可执行的最大删除数",
+                            "title": "3474. 字典序最小的生成字符串",
                             "sort": 5,
+                            "src": "/lexicographically-smallest-generated-string/",
+                            "score": 2605.3698165497,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2430. 对字母串可执行的最大删除数",
+                            "sort": 6,
                             "src": "/maximum-deletions-on-a-string/",
                             "score": 2101.867342004,
                             "solution": null,
@@ -192,7 +208,7 @@ export default{
                         },
                         {
                             "title": "3388. 统计数组中的美丽分割",
-                            "sort": 6,
+                            "sort": 7,
                             "src": "/count-beautiful-splits-in-an-array/",
                             "score": 2364.6818184488,
                             "solution": null,
@@ -200,7 +216,7 @@ export default{
                         },
                         {
                             "title": "1977. 划分数字的方案数",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/number-of-ways-to-separate-numbers/",
                             "score": 2817.267212602,
                             "solution": null,
@@ -282,7 +298,7 @@ export default{
                     "title": "",
                     "sort": 0,
                     "isLeaf": true,
-                    "summary": "本题单的大多数题目都可以用字符串哈希解决。<br>推荐先把 <a href=\"https://leetcode.cn/problems/find-substring-with-given-hash-value/\">2156. 查找给定哈希值的子串</a> 做了，对理解**多项式哈希**的计算方法有帮助。<br>模板代码见 <a href=\"https://leetcode.cn/problems/construct-string-with-minimum-cost/solutions/2833949/hou-zhui-shu-zu-by-endlesscheng-32h9/\">我的题解</a>，包含单模哈希和双模哈希。<br>",
+                    "summary": "本题单的大多数题目都可以用字符串哈希解决。<br>推荐先把 <a href=\"https://leetcode.cn/problems/find-substring-with-given-hash-value/\">2156. 查找给定哈希值的子串</a> 做了，对理解**多项式哈希**的计算方法有帮助。<br>**模板代码**见 <a href=\"https://leetcode.cn/problems/construct-string-with-minimum-cost/solutions/2833949/hou-zhui-shu-zu-by-endlesscheng-32h9/\">我的题解</a>，包含单模哈希和双模哈希。<br>",
                     "child": [
                         {
                             "title": "28. 找出字符串中第一个匹配项的下标",
@@ -677,6 +693,29 @@ export default{
                             "score": null,
                             "solution": null,
                             "isPremium": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "十、其他",
+            "sort": 10,
+            "summary": "",
+            "child": [
+                {
+                    "title": "",
+                    "sort": 0,
+                    "isLeaf": true,
+                    "summary": "",
+                    "child": [
+                        {
+                            "title": "3485. 删除元素后 K 个字符串的最长公共前缀",
+                            "sort": 0,
+                            "src": "/longest-common-prefix-of-k-strings-after-removal/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
                         }
                     ]
                 }

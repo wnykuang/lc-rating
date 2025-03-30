@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】字符串（KMP/Z函数/Manacher/字符串哈希/AC自动机/后缀数组/子序列自动机）",
     "original_src": "https://leetcode.cn/circle/discuss/SJFwQI",
-    "last_update": "2025-03-20 02:43:49",
+    "last_update": "2025-03-27 01:10:28",
     "sort": 0,
     "child": [
         {
@@ -652,7 +652,7 @@ export default{
                     "title": "",
                     "sort": 0,
                     "isLeaf": true,
-                    "summary": "上面都是和**子串**相关的算法，本节是和**子序列**相关的算法：子序列自动机。<br>虽然名字有些高大上，但实际上只是预处理 $s[i]$ 右侧最近字母 $\\textit{c}$ 的下标而已。<br>",
+                    "summary": "上面都是和**子串**相关的算法，本节是和**子序列**相关的算法：子序列自动机。<br>虽然名字有些高大上，但实际上只是预处理 $\\ge i$ 的最近字母 $\\textit{c}$ 的下标而已。<br>见 <a href=\"https://leetcode.cn/problems/is-subsequence/solutions/2813031/jian-ji-xie-fa-pythonjavaccgojsrust-by-e-mz22/\">讲解</a> 中的「进阶问题」。<br>",
                     "child": [
                         {
                             "title": "792. 匹配子序列的单词数",

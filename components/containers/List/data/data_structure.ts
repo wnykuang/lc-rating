@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】常用数据结构（前缀和/差分/栈/队列/堆/字典树/并查集/树状数组/线段树）",
     "original_src": "https://leetcode.cn/circle/discuss/mOr1u6",
-    "last_update": "2025-03-20 02:37:28",
+    "last_update": "2025-03-29 12:05:46",
     "sort": 0,
     "child": [
         {
@@ -812,7 +812,7 @@ export default{
                     "title": "§1.5 其他一维前缀和",
                     "sort": 4,
                     "isLeaf": true,
-                    "summary": "",
+                    "summary": "**思维扩展**：<br>",
                     "child": [
                         {
                             "title": "1310. 子数组异或查询",
@@ -933,6 +933,14 @@ export default{
                             "score": null,
                             "solution": null,
                             "isPremium": true
+                        },
+                        {
+                            "title": "1534. 统计好三元组",
+                            "sort": 15,
+                            "src": "/count-good-triplets/",
+                            "score": 1279.3383966145,
+                            "solution": null,
+                            "isPremium": false
                         }
                     ]
                 },
@@ -1238,7 +1246,7 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2528. 最大化城市的最小供电站数目",
+                            "title": "2528. 最大化城市的最小电量",
                             "sort": 24,
                             "src": "/maximize-the-minimum-powered-city/",
                             "score": 2235.5784618885,
@@ -1757,24 +1765,32 @@ export default{
                     "summary": "",
                     "child": [
                         {
-                            "title": "150. 逆波兰表达式求值",
-                            "sort": 0,
-                            "src": "/evaluate-reverse-polish-notation/",
-                            "score": null,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "1006. 笨阶乘",
-                            "sort": 1,
+                            "sort": 0,
                             "src": "/clumsy-factorial/",
                             "score": 1407.9870845299,
                             "solution": null,
                             "isPremium": false
                         },
                         {
-                            "title": "224. 基本计算器",
+                            "title": "150. 逆波兰表达式求值",
+                            "sort": 1,
+                            "src": "/evaluate-reverse-polish-notation/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "394. 字符串解码",
                             "sort": 2,
+                            "src": "/decode-string/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "224. 基本计算器",
+                            "sort": 3,
                             "src": "/basic-calculator/",
                             "score": null,
                             "solution": null,
@@ -1782,7 +1798,7 @@ export default{
                         },
                         {
                             "title": "227. 基本计算器 II",
-                            "sort": 3,
+                            "sort": 4,
                             "src": "/basic-calculator-ii/",
                             "score": null,
                             "solution": null,
@@ -1790,7 +1806,7 @@ export default{
                         },
                         {
                             "title": "726. 原子的数量",
-                            "sort": 4,
+                            "sort": 5,
                             "src": "/number-of-atoms/",
                             "score": null,
                             "solution": null,
@@ -1798,7 +1814,7 @@ export default{
                         },
                         {
                             "title": "1106. 解析布尔表达式",
-                            "sort": 5,
+                            "sort": 6,
                             "src": "/parsing-a-boolean-expression/",
                             "score": 1880.4226853663,
                             "solution": null,
@@ -1806,7 +1822,7 @@ export default{
                         },
                         {
                             "title": "591. 标签验证器",
-                            "sort": 6,
+                            "sort": 7,
                             "src": "/tag-validator/",
                             "score": null,
                             "solution": null,
@@ -1814,7 +1830,7 @@ export default{
                         },
                         {
                             "title": "736. Lisp 语法解析",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/parse-lisp-expression/",
                             "score": null,
                             "solution": null,
@@ -1822,7 +1838,7 @@ export default{
                         },
                         {
                             "title": "1096. 花括号展开 II",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/brace-expansion-ii/",
                             "score": 2348.5159376523,
                             "solution": null,
@@ -1830,7 +1846,7 @@ export default{
                         },
                         {
                             "title": "1896. 反转表达式值的最少操作次数",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/minimum-cost-to-change-the-final-value-of-expression/",
                             "score": 2531.6452775023,
                             "solution": null,
@@ -1838,7 +1854,7 @@ export default{
                         },
                         {
                             "title": "770. 基本计算器 IV",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/basic-calculator-iv/",
                             "score": 2863.1378294349,
                             "solution": null,
@@ -1846,7 +1862,7 @@ export default{
                         },
                         {
                             "title": "439. 三元表达式解析器",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/ternary-expression-parser/",
                             "score": null,
                             "solution": null,
@@ -1854,7 +1870,7 @@ export default{
                         },
                         {
                             "title": "772. 基本计算器 III",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/basic-calculator-iii/",
                             "score": null,
                             "solution": null,
@@ -1862,7 +1878,7 @@ export default{
                         },
                         {
                             "title": "1087. 花括号展开",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/brace-expansion/",
                             "score": 1480.1116248664,
                             "solution": null,
@@ -1870,7 +1886,7 @@ export default{
                         },
                         {
                             "title": "1597. 根据中缀表达式构造二叉表达式树",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/build-binary-expression-tree-from-infix-expression/",
                             "score": null,
                             "solution": null,
@@ -1878,7 +1894,7 @@ export default{
                         },
                         {
                             "title": "1628. 设计带解析函数的表达式树",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/design-an-expression-tree-with-evaluate-function/",
                             "score": null,
                             "solution": null,
@@ -2362,16 +2378,8 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "3408. 设计任务管理器",
-                            "sort": 19,
-                            "src": "/design-task-manager/",
-                            "score": 1806.5135130091,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "1792. 最大平均通过率",
-                            "sort": 20,
+                            "sort": 19,
                             "src": "/maximum-average-pass-ratio/",
                             "score": 1817.9978644712,
                             "solution": null,
@@ -2379,7 +2387,7 @@ export default{
                         },
                         {
                             "title": "2931. 购买物品的最大开销",
-                            "sort": 21,
+                            "sort": 20,
                             "src": "/maximum-spending-after-buying-items/",
                             "score": 1822.3170524016,
                             "solution": null,
@@ -2387,7 +2395,7 @@ export default{
                         },
                         {
                             "title": "1882. 使用服务器处理任务",
-                            "sort": 22,
+                            "sort": 21,
                             "src": "/process-tasks-using-servers/",
                             "score": 1979.1112273597,
                             "solution": null,
@@ -2395,7 +2403,7 @@ export default{
                         },
                         {
                             "title": "2402. 会议室 III",
-                            "sort": 23,
+                            "sort": 22,
                             "src": "/meeting-rooms-iii/",
                             "score": 2092.8943149547,
                             "solution": null,
@@ -2403,7 +2411,7 @@ export default{
                         },
                         {
                             "title": "253. 会议室 II",
-                            "sort": 24,
+                            "sort": 23,
                             "src": "/meeting-rooms-ii/",
                             "score": null,
                             "solution": null,
@@ -2411,7 +2419,7 @@ export default{
                         },
                         {
                             "title": "1167. 连接木棍的最低费用",
-                            "sort": 25,
+                            "sort": 24,
                             "src": "/minimum-cost-to-connect-sticks/",
                             "score": 1481.5701319876,
                             "solution": null,
@@ -2882,8 +2890,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2034. 股票价格波动",
+                            "title": "3408. 设计任务管理器",
                             "sort": 3,
+                            "src": "/design-task-manager/",
+                            "score": 1806.5135130091,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2034. 股票价格波动",
+                            "sort": 4,
                             "src": "/stock-price-fluctuation/",
                             "score": 1831.9395911303,
                             "solution": null,
@@ -2891,7 +2907,7 @@ export default{
                         },
                         {
                             "title": "1172. 餐盘栈",
-                            "sort": 4,
+                            "sort": 5,
                             "src": "/dinner-plate-stacks/",
                             "score": 2109.9830154953,
                             "solution": null,
@@ -2899,7 +2915,7 @@ export default{
                         },
                         {
                             "title": "3391. 设计一个高效的层跟踪三维二进制矩阵",
-                            "sort": 5,
+                            "sort": 6,
                             "src": "/design-a-3d-binary-matrix-with-efficient-layer-tracking/",
                             "score": null,
                             "solution": null,
@@ -2911,7 +2927,7 @@ export default{
                     "title": "§5.7 对顶堆（滑动窗口第 K 小/大）",
                     "sort": 6,
                     "isLeaf": true,
-                    "summary": "也可以用有序集合做。<br>另见 <a href=\"/lc-rating/list/graph\">图论题单</a> 中的 Dijkstra 算法。<br>",
+                    "summary": "<a href=\"https://leetcode.cn/problems/find-median-from-data-stream/solutions/3015873/ru-he-zi-ran-yin-ru-da-xiao-dui-jian-ji-4v22k/\">讲解</a><br>部分题目需要结合懒删除堆。<br>另见 <a href=\"/lc-rating/list/graph\">图论题单</a> 中的 Dijkstra 算法。<br>",
                     "child": [
                         {
                             "title": "2102. 序列顺序查询",
@@ -3351,7 +3367,7 @@ export default{
         {
             "title": "七、并查集",
             "sort": 8,
-            "summary": "模板：<br>```py [sol-Python3]<br>class UnionFind:<br>def __init__(self, n: int):<br># 一开始有 n 个集合 {0}, {1}, ..., {n-1}<br># 集合 i 的代表元是自己，大小为 1<br>self._fa = list(range(n))  # 代表元<br>self._size = [1] * n  # 集合大小<br># 返回 x 所在集合的代表元<br># 同时做路径压缩，也就是把 x 所在集合中的所有元素的 fa 都改成代表元<br>def find(self, x: int) -> int:<br># 如果 fa[x] == x，则表示 x 是代表元<br>if self._fa[x] != x:<br>self._fa[x] = self.find(self._fa[x])  # fa 改成代表元<br>return self._fa[x]<br># 判断 x 和 y 是否在同一个集合<br>def is_same(self, x: int, y: int) -> bool:<br># 如果 x 的代表元和 y 的代表元相同，那么 x 和 y 就在同一个集合<br># 这就是代表元的作用：用来快速判断两个元素是否在同一个集合<br>return self.find(x) == self.find(y)<br># 把 from 所在集合合并到 to 所在集合中<br># 返回是否合并成功<br>def merge(self, from_: int, to: int) -> bool:<br>x, y = self.find(from_), self.find(to)<br>if x == y:  # from 和 to 在同一个集合，不做合并<br>return False<br>self._fa[x] = y  # 合并集合。修改后就可以认为 from 和 to 在同一个集合了<br>self._size[y] += self._size[x]  # 更新集合大小（注意集合大小保存在代表元上）<br># 无需更新 _size[x]，因为我们不用 _size[x] 而是用 _size[find(x)] 获取集合大小，但 find(x) == y，我们不会再访问 _size[x]<br>return True<br># 返回 x 所在集合的大小<br>def get_size(self, x: int) -> int:<br>return self._size[self.find(x)]  # 集合大小保存在代表元上<br>```<br>```java [sol-Java]<br>class UnionFind {<br>private final int[] fa; // 代表元<br>private final int[] size; // 集合大小<br>UnionFind(int n) {<br>// 一开始有 n 个集合 {0}, {1}, ..., {n-1}<br>// 集合 i 的代表元是自己，大小为 1<br>fa = new int[n];<br>for (int i = 0; i < n; i++) {<br>fa[i] = i;<br>}<br>size = new int[n];<br>Arrays.fill(size, 1);<br>}<br>// 返回 x 所在集合的代表元<br>// 同时做路径压缩，也就是把 x 所在集合中的所有元素的 fa 都改成代表元<br>public int find(int x) {<br>// 如果 fa[x] == x，则表示 x 是代表元<br>if (fa[x] != x) {<br>fa[x] = find(fa[x]); // fa 改成代表元<br>}<br>return fa[x];<br>}<br>// 判断 x 和 y 是否在同一个集合<br>public boolean isSame(int x, int y) {<br>// 如果 x 的代表元和 y 的代表元相同，那么 x 和 y 就在同一个集合<br>// 这就是代表元的作用：用来快速判断两个元素是否在同一个集合<br>return find(x) == find(y);<br>}<br>// 把 from 所在集合合并到 to 所在集合中<br>// 返回是否合并成功<br>public boolean merge(int from, int to) {<br>int x = find(from);<br>int y = find(to);<br>if (x == y) { // from 和 to 在同一个集合，不做合并<br>return false;<br>}<br>fa[x] = y; // 合并集合。修改后就可以认为 from 和 to 在同一个集合了<br>size[y] += size[x]; // 更新集合大小（注意集合大小保存在代表元上）<br>// 无需更新 size[x]，因为我们不用 size[x] 而是用 size[find(x)] 获取集合大小，但 find(x) == y，我们不会再访问 size[x]<br>return true;<br>}<br>// 返回 x 所在集合的大小<br>public int getSize(int x) {<br>return size[find(x)]; // 集合大小保存在代表元上<br>}<br>}<br>```<br>```cpp [sol-C++]<br>class UnionFind {<br>vector<int> fa; // 代表元<br>vector<int> sz; // 集合大小<br>public:<br>UnionFind(int n) : fa(n), sz(n, 1) {<br>// 一开始有 n 个集合 {0}, {1}, ..., {n-1}<br>// 集合 i 的代表元是自己，大小为 1<br>ranges::iota(fa, 0); // iota(fa.begin(), fa.end(), 0);<br>}<br>// 返回 x 所在集合的代表元<br>// 同时做路径压缩，也就是把 x 所在集合中的所有元素的 fa 都改成代表元<br>int find(int x) {<br>// 如果 fa[x] == x，则表示 x 是代表元<br>if (fa[x] != x) {<br>fa[x] = find(fa[x]); // fa 改成代表元<br>}<br>return fa[x];<br>}<br>// 判断 x 和 y 是否在同一个集合<br>bool is_same(int x, int y) {<br>// 如果 x 的代表元和 y 的代表元相同，那么 x 和 y 就在同一个集合<br>// 这就是代表元的作用：用来快速判断两个元素是否在同一个集合<br>return find(x) == find(y);<br>}<br>// 把 from 所在集合合并到 to 所在集合中<br>// 返回是否合并成功<br>bool merge(int from, int to) {<br>int x = find(from), y = find(to);<br>if (x == y) { // from 和 to 在同一个集合，不做合并<br>return false;<br>}<br>fa[x] = y; // 合并集合。修改后就可以认为 from 和 to 在同一个集合了<br>sz[y] += sz[x]; // 更新集合大小（注意集合大小保存在代表元上）<br>// 无需更新 sz[x]，因为我们不用 sz[x] 而是用 sz[find(x)] 获取集合大小，但 find(x) == y，我们不会再访问 sz[x]<br>return true;<br>}<br>// 返回 x 所在集合的大小<br>int get_size(int x) {<br>return sz[find(x)]; // 集合大小保存在代表元上<br>}<br>};<br>```<br>```go [sol-Go]<br>type unionFind struct {<br>fa []int // 代表元<br>sz []int // 集合大小<br>}<br>func newUnionFind(n int) unionFind {<br>fa := make([]int, n)<br>sz := make([]int, n)<br>// 一开始有 n 个集合 {0}, {1}, ..., {n-1}<br>// 集合 i 的代表元是自己，大小为 1<br>for i := range fa {<br>fa[i] = i<br>sz[i] = 1<br>}<br>return unionFind{fa, sz}<br>}<br>// 返回 x 所在集合的代表元<br>// 同时做路径压缩，也就是把 x 所在集合中的所有元素的 fa 都改成代表元<br>func (u unionFind) find(x int) int {<br>// 如果 fa[x] == x，则表示 x 是代表元<br>if u.fa[x] != x {<br>u.fa[x] = u.find(u.fa[x]) // fa 改成代表元<br>}<br>return u.fa[x]<br>}<br>// 判断 x 和 y 是否在同一个集合<br>func (u unionFind) same(x, y int) bool {<br>// 如果 x 的代表元和 y 的代表元相同，那么 x 和 y 就在同一个集合<br>// 这就是代表元的作用：用来快速判断两个元素是否在同一个集合<br>return u.find(x) == u.find(y)<br>}<br>// 把 from 所在集合合并到 to 所在集合中<br>// 返回是否合并成功<br>// 注：有些题目还要维护其他属性，考虑可扩展性，这里用 pointer receiver<br>func (u *unionFind) merge(from, to int) bool {<br>x, y := u.find(from), u.find(to)<br>if x == y { // from 和 to 在同一个集合，不做合并<br>return false<br>}<br>u.fa[x] = y // 合并集合。修改后就可以认为 from 和 to 在同一个集合了<br>u.sz[y] += u.sz[x] // 更新集合大小（注意集合大小保存在代表元上）<br>// 无需更新 sz[x]，因为我们不用 sz[x] 而是用 sz[find(x)] 获取集合大小，但 find(x) == y，我们不会再访问 sz[x]<br>return true<br>}<br>// 返回 x 所在集合的大小<br>func (u unionFind) size(x int) int {<br>return u.sz[u.find(x)] // 集合大小保存在代表元上<br>}<br>```<br>",
+            "summary": "模板：<br>```py [sol-Python3]<br>class UnionFind:<br>def __init__(self, n: int):<br># 一开始有 n 个集合 {0}, {1}, ..., {n-1}<br># 集合 i 的代表元是自己，大小为 1<br>self._fa = list(range(n))  # 代表元<br>self._size = [1] * n  # 集合大小<br>self.cc = n  # 连通块个数<br># 返回 x 所在集合的代表元<br># 同时做路径压缩，也就是把 x 所在集合中的所有元素的 fa 都改成代表元<br>def find(self, x: int) -> int:<br># 如果 fa[x] == x，则表示 x 是代表元<br>if self._fa[x] != x:<br>self._fa[x] = self.find(self._fa[x])  # fa 改成代表元<br>return self._fa[x]<br># 判断 x 和 y 是否在同一个集合<br>def is_same(self, x: int, y: int) -> bool:<br># 如果 x 的代表元和 y 的代表元相同，那么 x 和 y 就在同一个集合<br># 这就是代表元的作用：用来快速判断两个元素是否在同一个集合<br>return self.find(x) == self.find(y)<br># 把 from 所在集合合并到 to 所在集合中<br># 返回是否合并成功<br>def merge(self, from_: int, to: int) -> bool:<br>x, y = self.find(from_), self.find(to)<br>if x == y:  # from 和 to 在同一个集合，不做合并<br>return False<br>self._fa[x] = y  # 合并集合。修改后就可以认为 from 和 to 在同一个集合了<br>self._size[y] += self._size[x]  # 更新集合大小（注意集合大小保存在代表元上）<br># 无需更新 _size[x]，因为我们不用 _size[x] 而是用 _size[find(x)] 获取集合大小，但 find(x) == y，我们不会再访问 _size[x]<br>self.cc -= 1  # 成功合并，连通块个数减一<br>return True<br># 返回 x 所在集合的大小<br>def get_size(self, x: int) -> int:<br>return self._size[self.find(x)]  # 集合大小保存在代表元上<br>```<br>```java [sol-Java]<br>class UnionFind {<br>private final int[] fa; // 代表元<br>private final int[] size; // 集合大小<br>public int cc; // 连通块个数<br>UnionFind(int n) {<br>// 一开始有 n 个集合 {0}, {1}, ..., {n-1}<br>// 集合 i 的代表元是自己，大小为 1<br>fa = new int[n];<br>for (int i = 0; i < n; i++) {<br>fa[i] = i;<br>}<br>size = new int[n];<br>Arrays.fill(size, 1);<br>cc = n;<br>}<br>// 返回 x 所在集合的代表元<br>// 同时做路径压缩，也就是把 x 所在集合中的所有元素的 fa 都改成代表元<br>public int find(int x) {<br>// 如果 fa[x] == x，则表示 x 是代表元<br>if (fa[x] != x) {<br>fa[x] = find(fa[x]); // fa 改成代表元<br>}<br>return fa[x];<br>}<br>// 判断 x 和 y 是否在同一个集合<br>public boolean isSame(int x, int y) {<br>// 如果 x 的代表元和 y 的代表元相同，那么 x 和 y 就在同一个集合<br>// 这就是代表元的作用：用来快速判断两个元素是否在同一个集合<br>return find(x) == find(y);<br>}<br>// 把 from 所在集合合并到 to 所在集合中<br>// 返回是否合并成功<br>public boolean merge(int from, int to) {<br>int x = find(from);<br>int y = find(to);<br>if (x == y) { // from 和 to 在同一个集合，不做合并<br>return false;<br>}<br>fa[x] = y; // 合并集合。修改后就可以认为 from 和 to 在同一个集合了<br>size[y] += size[x]; // 更新集合大小（注意集合大小保存在代表元上）<br>// 无需更新 size[x]，因为我们不用 size[x] 而是用 size[find(x)] 获取集合大小，但 find(x) == y，我们不会再访问 size[x]<br>cc--; // 成功合并，连通块个数减一<br>return true;<br>}<br>// 返回 x 所在集合的大小<br>public int getSize(int x) {<br>return size[find(x)]; // 集合大小保存在代表元上<br>}<br>}<br>```<br>```cpp [sol-C++]<br>class UnionFind {<br>vector<int> fa; // 代表元<br>vector<int> sz; // 集合大小<br>public:<br>int cc; // 连通块个数<br>UnionFind(int n) : fa(n), sz(n, 1), cc(n) {<br>// 一开始有 n 个集合 {0}, {1}, ..., {n-1}<br>// 集合 i 的代表元是自己，大小为 1<br>ranges::iota(fa, 0); // iota(fa.begin(), fa.end(), 0);<br>}<br>// 返回 x 所在集合的代表元<br>// 同时做路径压缩，也就是把 x 所在集合中的所有元素的 fa 都改成代表元<br>int find(int x) {<br>// 如果 fa[x] == x，则表示 x 是代表元<br>if (fa[x] != x) {<br>fa[x] = find(fa[x]); // fa 改成代表元<br>}<br>return fa[x];<br>}<br>// 判断 x 和 y 是否在同一个集合<br>bool is_same(int x, int y) {<br>// 如果 x 的代表元和 y 的代表元相同，那么 x 和 y 就在同一个集合<br>// 这就是代表元的作用：用来快速判断两个元素是否在同一个集合<br>return find(x) == find(y);<br>}<br>// 把 from 所在集合合并到 to 所在集合中<br>// 返回是否合并成功<br>bool merge(int from, int to) {<br>int x = find(from), y = find(to);<br>if (x == y) { // from 和 to 在同一个集合，不做合并<br>return false;<br>}<br>fa[x] = y; // 合并集合。修改后就可以认为 from 和 to 在同一个集合了<br>sz[y] += sz[x]; // 更新集合大小（注意集合大小保存在代表元上）<br>// 无需更新 sz[x]，因为我们不用 sz[x] 而是用 sz[find(x)] 获取集合大小，但 find(x) == y，我们不会再访问 sz[x]<br>cc--; // 成功合并，连通块个数减一<br>return true;<br>}<br>// 返回 x 所在集合的大小<br>int get_size(int x) {<br>return sz[find(x)]; // 集合大小保存在代表元上<br>}<br>};<br>```<br>```go [sol-Go]<br>type unionFind struct {<br>fa []int // 代表元<br>sz []int // 集合大小<br>cc int   // 连通块个数<br>}<br>func newUnionFind(n int) unionFind {<br>fa := make([]int, n)<br>sz := make([]int, n)<br>// 一开始有 n 个集合 {0}, {1}, ..., {n-1}<br>// 集合 i 的代表元是自己，大小为 1<br>for i := range fa {<br>fa[i] = i<br>sz[i] = 1<br>}<br>return unionFind{fa, sz, n}<br>}<br>// 返回 x 所在集合的代表元<br>// 同时做路径压缩，也就是把 x 所在集合中的所有元素的 fa 都改成代表元<br>func (u unionFind) find(x int) int {<br>// 如果 fa[x] == x，则表示 x 是代表元<br>if u.fa[x] != x {<br>u.fa[x] = u.find(u.fa[x]) // fa 改成代表元<br>}<br>return u.fa[x]<br>}<br>// 判断 x 和 y 是否在同一个集合<br>func (u unionFind) same(x, y int) bool {<br>// 如果 x 的代表元和 y 的代表元相同，那么 x 和 y 就在同一个集合<br>// 这就是代表元的作用：用来快速判断两个元素是否在同一个集合<br>return u.find(x) == u.find(y)<br>}<br>// 把 from 所在集合合并到 to 所在集合中<br>// 返回是否合并成功<br>func (u *unionFind) merge(from, to int) bool {<br>x, y := u.find(from), u.find(to)<br>if x == y { // from 和 to 在同一个集合，不做合并<br>return false<br>}<br>u.fa[x] = y // 合并集合。修改后就可以认为 from 和 to 在同一个集合了<br>u.sz[y] += u.sz[x] // 更新集合大小（注意集合大小保存在代表元上）<br>// 无需更新 sz[x]，因为我们不用 sz[x] 而是用 sz[find(x)] 获取集合大小，但 find(x) == y，我们不会再访问 sz[x]<br>u.cc-- // 成功合并，连通块个数减一<br>return true<br>}<br>// 返回 x 所在集合的大小<br>func (u unionFind) size(x int) int {<br>return u.sz[u.find(x)] // 集合大小保存在代表元上<br>}<br>```<br>",
             "child": [
                 {
                     "title": "§7.1 基础",
@@ -3360,8 +3376,16 @@ export default{
                     "summary": "更多基础题，见 <a href=\"/lc-rating/list/grid\">网格图题单</a> 中的 DFS 和 <a href=\"/lc-rating/list/graph\">图论题单</a> 中的 DFS，其中大部分题目也可以用并查集实现。<br>",
                     "child": [
                         {
-                            "title": "990. 等式方程的可满足性",
+                            "title": "3493. 属性图",
                             "sort": 0,
+                            "src": "/properties-graph/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "990. 等式方程的可满足性",
+                            "sort": 1,
                             "src": "/satisfiability-of-equality-equations/",
                             "score": 1638.0148920643,
                             "solution": null,
@@ -3369,7 +3393,7 @@ export default{
                         },
                         {
                             "title": "721. 账户合并",
-                            "sort": 1,
+                            "sort": 2,
                             "src": "/accounts-merge/",
                             "score": null,
                             "solution": null,
@@ -3377,7 +3401,7 @@ export default{
                         },
                         {
                             "title": "737. 句子相似性 II",
-                            "sort": 2,
+                            "sort": 3,
                             "src": "/sentence-similarity-ii/",
                             "score": null,
                             "solution": null,
@@ -3385,7 +3409,7 @@ export default{
                         },
                         {
                             "title": "1101. 彼此熟识的最早时间",
-                            "sort": 3,
+                            "sort": 4,
                             "src": "/the-earliest-moment-when-everyone-become-friends/",
                             "score": 1558.4971807039,
                             "solution": null,
@@ -3393,7 +3417,7 @@ export default{
                         },
                         {
                             "title": "1258. 近义词句子",
-                            "sort": 4,
+                            "sort": 5,
                             "src": "/synonymous-sentences/",
                             "score": 1847.2077654978,
                             "solution": null,
@@ -4186,14 +4210,6 @@ export default{
                             "title": "LCP 05. 发 LeetCoin",
                             "sort": 8,
                             "src": "/coin-bonus/",
-                            "score": null,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
-                            "title": "LCP 27. 黑盒光线反射",
-                            "sort": 9,
-                            "src": "/IQvJ9i/",
                             "score": null,
                             "solution": null,
                             "isPremium": false

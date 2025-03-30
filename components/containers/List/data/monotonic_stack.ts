@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享｜【题单】单调栈（矩形面积/贡献法/最小字典序）",
     "original_src": "https://leetcode.cn/circle/discuss/9oZFK9",
-    "last_update": "2025-03-20 02:00:21",
+    "last_update": "2025-03-25 08:28:47",
     "sort": 0,
     "child": [
         {
@@ -15,7 +15,7 @@ export default{
                     "title": "",
                     "sort": 0,
                     "isLeaf": true,
-                    "summary": "!<a href=\"https://pic.leetcode.cn/1711714526-rMdiIh-t3-c.png\">单调栈题单单调栈入门单调栈题目单调栈教程单调栈视频leetcode单调栈 灵茶山艾府 灵神 灵神题单</a><br>> 他向远方望去，无法看到高山背后的矮山，只能看到一座座更高的山峰。<br>⚠**注意**：推荐先做做 <a href=\"/lc-rating/list/data_structure\">数据结构题单</a> 中的「枚举右，维护左」以及第三章「栈」的题目后，再来刷本题单。<br>",
+                    "summary": "!<a href=\"https://pic.leetcode.cn/1711714526-rMdiIh-t3-c.png\">单调栈题单单调栈入门单调栈题目单调栈教程单调栈视频leetcode单调栈 灵茶山艾府 灵神 灵神题单</a><br>> 他向远方望去，无法看到高山背后的矮山，只看到一座座更高的山峰。<br>推荐先做做 <a href=\"/lc-rating/list/data_structure\">数据结构题单</a> 中的「枚举右，维护左」以及第三章「栈」的题目后，再来刷本题单。<br>",
                     "child": []
                 }
             ]
@@ -23,13 +23,13 @@ export default{
         {
             "title": "单调栈",
             "sort": 1,
-            "summary": "请先学习：<a href=\"https://www.bilibili.com/video/BV1VN411J7S7/\">单调栈【基础算法精讲 26】</a><br>",
+            "summary": "",
             "child": [
                 {
                     "title": "基础",
                     "sort": 0,
                     "isLeaf": true,
-                    "summary": "",
+                    "summary": "<a href=\"https://www.bilibili.com/video/BV1VN411J7S7/\">单调栈【基础算法精讲 26】</a><br>",
                     "child": [
                         {
                             "title": "739. 每日温度",

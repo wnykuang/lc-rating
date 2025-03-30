@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】动态规划（入门/背包/状态机/划分/区间/状压/数位/树形/数据结构优化）",
     "original_src": "https://leetcode.cn/circle/discuss/tXLS3i",
-    "last_update": "2025-03-18 01:53:57",
+    "last_update": "2025-03-26 05:53:08",
     "sort": 0,
     "child": [
         {
@@ -91,7 +91,14 @@ export default{
                     "title": "§1.2 打家劫舍",
                     "sort": 1,
                     "isLeaf": true,
-                    "summary": "**思维扩展**：<br>",
+                    "summary": "",
+                    "child": []
+                },
+                {
+                    "title": "答疑",
+                    "sort": 2,
+                    "isLeaf": true,
+                    "summary": "**问**：在 1:1 翻译的过程中，如何根据记忆化搜索，确定递推数组（DP 数组）的大小？为什么有时候要开 $n+1$ 大小的数组，有时候要开 $n+2$ 大小的数组？<br>**答**：看记忆化搜索的参数的范围（最小值和最大值）。例如 $i$ 最小是 $-1$（递归边界也算），最大是 $n-1$（递归入口），那么一共有 $n+1$ 个不同的 $i$，就需要开 $n+1$ 大小的 DP 数组。如果 $i$ 最小是 $-2$，最大是 $n-1$，一共有 $n+2$ 个不同的 $i$，就需要开 $n+2$ 大小的 DP 数组。<br>**思维扩展**：<br>",
                     "child": [
                         {
                             "title": "198. 打家劫舍",
@@ -145,7 +152,7 @@ export default{
                 },
                 {
                     "title": "§1.3 最大子数组和（最大子段和）",
-                    "sort": 2,
+                    "sort": 3,
                     "isLeaf": true,
                     "summary": "有两种做法：<br>1. 定义状态 $f[i]$ 表示以 $a[i]$ 结尾的最大子数组和，不和 $i$ 左边拼起来就是 $f[i]=a[i]$，和 $i$ 左边拼起来就是 $f[i]=f[i-1]+a[i]$，取最大值就得到了状态转移方程 $f[i]=\\max(f[i−1],0)+a[i]$，答案为 $\\max(f)$。这个做法也叫做 Kadane 算法。<br>2. 用前缀和解决。<br>具体见 <a href=\"https://leetcode.cn/problems/maximum-subarray/solution/qian-zhui-he-zuo-fa-ben-zhi-shi-mai-mai-abu71/\">我的题解</a>。<br>**思维扩展**：<br>",
                     "child": [
@@ -2739,7 +2746,7 @@ export default{
                     "summary": "一般定义 $f[S][i]$ 表示未选（或者已选）的集合为 $S$，且上一个填的元素（下标）为 $i$ 时，和题目有关的最优值。通过枚举当前位置要填的元素（下标）来转移。<br>时间复杂度（通常来说）是 $\\mathcal{O}(n^2\\cdot 2^n)$。<br><a href=\"https://leetcode.cn/problems/find-the-minimum-cost-array-permutation/solution/zhuang-ya-dpcong-ji-yi-hua-sou-suo-dao-d-s9t5/\">讲解：从全排列到状压 DP</a><br>",
                     "child": [
                         {
-                            "title": "996. 正方形数组的数目",
+                            "title": "996. 平方数组的数目",
                             "sort": 0,
                             "src": "/number-of-squareful-arrays/",
                             "score": 1932.3730795204,

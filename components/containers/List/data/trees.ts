@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】链表、二叉树与回溯（前后指针/快慢指针/DFS/BFS/直径/LCA/一般树）",
     "original_src": "https://leetcode.cn/circle/discuss/K0n2gO",
-    "last_update": "2025-03-24 03:34:22",
+    "last_update": "2025-04-04 14:52:48",
     "sort": 0,
     "child": [
         {
@@ -2891,6 +2891,14 @@ export default{
                             "score": null,
                             "solution": null,
                             "isPremium": false
+                        },
+                        {
+                            "title": "2002. 两个回文子序列长度的最大乘积",
+                            "sort": 19,
+                            "src": "/maximum-product-of-the-length-of-two-palindromic-subsequences/",
+                            "score": 1869.402439128,
+                            "solution": null,
+                            "isPremium": false
                         }
                     ]
                 },
@@ -2957,16 +2965,8 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "816. 模糊坐标",
-                            "sort": 7,
-                            "src": "/ambiguous-coordinates/",
-                            "score": 1707.8992927609,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "140. 单词拆分 II",
-                            "sort": 8,
+                            "sort": 7,
                             "src": "/word-break-ii/",
                             "score": null,
                             "solution": null,
@@ -2974,7 +2974,7 @@ export default{
                         },
                         {
                             "title": "291. 单词规律 II",
-                            "sort": 9,
+                            "sort": 8,
                             "src": "/word-pattern-ii/",
                             "score": null,
                             "solution": null,
@@ -3111,7 +3111,7 @@ export default{
                     ]
                 },
                 {
-                    "title": "§4.6 爆搜+剪枝",
+                    "title": "§4.6 搜索",
                     "sort": 5,
                     "isLeaf": true,
                     "summary": "",
@@ -3165,8 +3165,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1255. 得分最高的单词集合",
+                            "title": "2002. 两个回文子序列长度的最大乘积",
                             "sort": 6,
+                            "src": "/maximum-product-of-the-length-of-two-palindromic-subsequences/",
+                            "score": 1869.402439128,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1255. 得分最高的单词集合",
+                            "sort": 7,
                             "src": "/maximum-score-words-formed-by-letters/",
                             "score": 1881.6810367589,
                             "solution": null,
@@ -3174,7 +3182,7 @@ export default{
                         },
                         {
                             "title": "473. 火柴拼正方形",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/matchsticks-to-square/",
                             "score": null,
                             "solution": null,
@@ -3182,7 +3190,7 @@ export default{
                         },
                         {
                             "title": "212. 单词搜索 II",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/word-search-ii/",
                             "score": null,
                             "solution": null,
@@ -3190,7 +3198,7 @@ export default{
                         },
                         {
                             "title": "37. 解数独",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/sudoku-solver/",
                             "score": null,
                             "solution": null,
@@ -3198,7 +3206,7 @@ export default{
                         },
                         {
                             "title": "638. 大礼包",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/shopping-offers/",
                             "score": null,
                             "solution": null,
@@ -3206,7 +3214,7 @@ export default{
                         },
                         {
                             "title": "1240. 铺瓷砖",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/tiling-a-rectangle-with-the-fewest-squares/",
                             "score": 2241.5199974312,
                             "solution": null,
@@ -3214,7 +3222,7 @@ export default{
                         },
                         {
                             "title": "679. 24 点游戏",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/24-game/",
                             "score": null,
                             "solution": null,
@@ -3222,7 +3230,7 @@ export default{
                         },
                         {
                             "title": "282. 给表达式添加运算符",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/expression-add-operators/",
                             "score": null,
                             "solution": null,
@@ -3230,7 +3238,7 @@ export default{
                         },
                         {
                             "title": "126. 单词接龙 II",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/word-ladder-ii/",
                             "score": null,
                             "solution": null,
@@ -3238,7 +3246,7 @@ export default{
                         },
                         {
                             "title": "691. 贴纸拼词",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/stickers-to-spell-word/",
                             "score": null,
                             "solution": null,
@@ -3246,7 +3254,7 @@ export default{
                         },
                         {
                             "title": "2056. 棋盘上有效移动组合的数目",
-                            "sort": 16,
+                            "sort": 17,
                             "src": "/number-of-valid-move-combinations-on-chessboard/",
                             "score": 2610.9906730644,
                             "solution": null,
@@ -3254,7 +3262,7 @@ export default{
                         },
                         {
                             "title": "2386. 找出数组的第 K 大和",
-                            "sort": 17,
+                            "sort": 18,
                             "src": "/find-the-k-sum-of-an-array/",
                             "score": 2647.8258771458,
                             "solution": null,
@@ -3262,7 +3270,7 @@ export default{
                         },
                         {
                             "title": "488. 祖玛游戏",
-                            "sort": 18,
+                            "sort": 19,
                             "src": "/zuma-game/",
                             "score": null,
                             "solution": null,
@@ -3270,7 +3278,7 @@ export default{
                         },
                         {
                             "title": "LCP 58. 积木拼接",
-                            "sort": 19,
+                            "sort": 20,
                             "src": "/De4qBB/",
                             "score": null,
                             "solution": null,
@@ -3278,7 +3286,7 @@ export default{
                         },
                         {
                             "title": "面试题 17.25. 单词矩阵",
-                            "sort": 20,
+                            "sort": 21,
                             "src": "/word-rectangle-lcci/",
                             "score": null,
                             "solution": null,
@@ -3286,7 +3294,7 @@ export default{
                         },
                         {
                             "title": "2664. 巡逻的骑士",
-                            "sort": 21,
+                            "sort": 22,
                             "src": "/the-knights-tour/",
                             "score": null,
                             "solution": null,
@@ -3294,7 +3302,7 @@ export default{
                         },
                         {
                             "title": "247. 中心对称数 II",
-                            "sort": 22,
+                            "sort": 23,
                             "src": "/strobogrammatic-number-ii/",
                             "score": null,
                             "solution": null,
@@ -3302,7 +3310,7 @@ export default{
                         },
                         {
                             "title": "248. 中心对称数 III",
-                            "sort": 23,
+                            "sort": 24,
                             "src": "/strobogrammatic-number-iii/",
                             "score": null,
                             "solution": null,
@@ -3310,7 +3318,7 @@ export default{
                         },
                         {
                             "title": "411. 最短独占单词缩写",
-                            "sort": 24,
+                            "sort": 25,
                             "src": "/minimum-unique-word-abbreviation/",
                             "score": null,
                             "solution": null,
@@ -3318,7 +3326,7 @@ export default{
                         },
                         {
                             "title": "1088. 易混淆数 II",
-                            "sort": 25,
+                            "sort": 26,
                             "src": "/confusing-number-ii/",
                             "score": 2076.8975497986,
                             "solution": null,

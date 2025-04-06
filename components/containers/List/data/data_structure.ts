@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】常用数据结构（前缀和/差分/栈/队列/堆/字典树/并查集/树状数组/线段树）",
     "original_src": "https://leetcode.cn/circle/discuss/mOr1u6",
-    "last_update": "2025-03-29 12:05:46",
+    "last_update": "2025-04-03 05:31:50",
     "sort": 0,
     "child": [
         {
@@ -80,18 +80,18 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1679. K 和数对的最大数目",
+                            "title": "219. 存在重复元素 II",
                             "sort": 6,
-                            "src": "/max-number-of-k-sum-pairs/",
-                            "score": 1345.737168609,
+                            "src": "/contains-duplicate-ii/",
+                            "score": null,
                             "solution": null,
                             "isPremium": false
                         },
                         {
-                            "title": "219. 存在重复元素 II",
+                            "title": "1679. K 和数对的最大数目",
                             "sort": 7,
-                            "src": "/contains-duplicate-ii/",
-                            "score": null,
+                            "src": "/max-number-of-k-sum-pairs/",
+                            "score": 1345.737168609,
                             "solution": null,
                             "isPremium": false
                         },
@@ -152,8 +152,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "3371. 识别数组中的最大异常值",
+                            "title": "2364. 统计坏数对的数目",
                             "sort": 15,
+                            "src": "/count-number-of-bad-pairs/",
+                            "score": 1622.2389577197,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3371. 识别数组中的最大异常值",
+                            "sort": 16,
                             "src": "/identify-the-largest-outlier-in-an-array/",
                             "score": 1643.7450467383,
                             "solution": null,
@@ -161,7 +169,7 @@ export default{
                         },
                         {
                             "title": "1014. 最佳观光组合",
-                            "sort": 16,
+                            "sort": 17,
                             "src": "/best-sightseeing-pair/",
                             "score": 1730.3052054913,
                             "solution": null,
@@ -169,7 +177,7 @@ export default{
                         },
                         {
                             "title": "1814. 统计一个数组中好对子的数目",
-                            "sort": 17,
+                            "sort": 18,
                             "src": "/count-nice-pairs-in-an-array/",
                             "score": 1737.8431142688,
                             "solution": null,
@@ -177,7 +185,7 @@ export default{
                         },
                         {
                             "title": "2905. 找出满足差值条件的下标 II",
-                            "sort": 18,
+                            "sort": 19,
                             "src": "/find-indices-with-index-and-value-difference-ii/",
                             "score": 1763.787679959,
                             "solution": null,
@@ -185,7 +193,7 @@ export default{
                         },
                         {
                             "title": "1031. 两个非重叠子数组的最大和",
-                            "sort": 19,
+                            "sort": 20,
                             "src": "/maximum-sum-of-two-non-overlapping-subarrays/",
                             "score": 1680.4852623991,
                             "solution": null,
@@ -193,7 +201,7 @@ export default{
                         },
                         {
                             "title": "2555. 两个线段获得的最多奖品",
-                            "sort": 20,
+                            "sort": 21,
                             "src": "/maximize-win-from-two-segments/",
                             "score": 2080.7845644831,
                             "solution": null,
@@ -201,7 +209,7 @@ export default{
                         },
                         {
                             "title": "1995. 统计特殊四元组",
-                            "sort": 21,
+                            "sort": 22,
                             "src": "/count-special-quadruplets/",
                             "score": 1352.1791099256,
                             "solution": null,
@@ -209,7 +217,7 @@ export default{
                         },
                         {
                             "title": "3404. 统计特殊子序列的数目",
-                            "sort": 22,
+                            "sort": 23,
                             "src": "/count-special-subsequences/",
                             "score": 2445.3859371333,
                             "solution": null,
@@ -217,7 +225,7 @@ export default{
                         },
                         {
                             "title": "3267. 统计近似相等数对 II",
-                            "sort": 23,
+                            "sort": 24,
                             "src": "/count-almost-equal-pairs-ii/",
                             "score": 2545.1080433595,
                             "solution": null,
@@ -225,7 +233,7 @@ export default{
                         },
                         {
                             "title": "1214. 查找两棵二叉搜索树之和",
-                            "sort": 24,
+                            "sort": 25,
                             "src": "/two-sum-bsts/",
                             "score": 1389.0328392117,
                             "solution": null,
@@ -233,7 +241,7 @@ export default{
                         },
                         {
                             "title": "2964. 可被整除的三元组数量",
-                            "sort": 25,
+                            "sort": 26,
                             "src": "/number-of-divisible-triplet-sums/",
                             "score": null,
                             "solution": null,
@@ -241,7 +249,7 @@ export default{
                         },
                         {
                             "title": "2441. 与对应负数同时存在的最大正整数",
-                            "sort": 26,
+                            "sort": 27,
                             "src": "/largest-positive-integer-that-exists-with-its-negative/",
                             "score": 1167.647122501,
                             "solution": null,
@@ -249,7 +257,7 @@ export default{
                         },
                         {
                             "title": "面试题 16.24. 数对和",
-                            "sort": 27,
+                            "sort": 28,
                             "src": "/pairs-with-sum-lcci/",
                             "score": null,
                             "solution": null,
@@ -257,7 +265,7 @@ export default{
                         },
                         {
                             "title": "454. 四数相加 II",
-                            "sort": 28,
+                            "sort": 29,
                             "src": "/4sum-ii/",
                             "score": null,
                             "solution": null,
@@ -2656,6 +2664,14 @@ export default{
                             "score": 2250.2578740769,
                             "solution": null,
                             "isPremium": true
+                        },
+                        {
+                            "title": "3506. 查找消除细菌菌株所需时间 II",
+                            "sort": 28,
+                            "src": "/find-time-required-to-eliminate-bacterial-strains-ii/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": true
                         }
                     ]
                 },
@@ -2962,8 +2978,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "3013. 将数组分成最小总代价的子数组 II",
+                            "title": "3505. 使 K 个子数组内元素相等的最少操作数",
                             "sort": 4,
+                            "src": "/minimum-operations-to-make-elements-within-k-subarrays-equal/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3013. 将数组分成最小总代价的子数组 II",
+                            "sort": 5,
                             "src": "/divide-an-array-into-subarrays-with-minimum-cost-ii/",
                             "score": 2540.438150736,
                             "solution": null,
@@ -2971,7 +2995,7 @@ export default{
                         },
                         {
                             "title": "3321. 计算子数组的 x-sum II",
-                            "sort": 5,
+                            "sort": 6,
                             "src": "/find-x-sum-of-all-k-long-subarrays-ii/",
                             "score": 2598.4563109814,
                             "solution": null,
@@ -2979,7 +3003,7 @@ export default{
                         },
                         {
                             "title": "LCP 24. 数字游戏",
-                            "sort": 6,
+                            "sort": 7,
                             "src": "/5TxKeK/",
                             "score": null,
                             "solution": null,
@@ -2987,7 +3011,7 @@ export default{
                         },
                         {
                             "title": "3369. 设计数组统计跟踪器",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/design-an-array-statistics-tracker/",
                             "score": null,
                             "solution": null,
@@ -2995,7 +3019,7 @@ export default{
                         },
                         {
                             "title": "3422. 将子数组元素变为相等所需的最小操作数",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/minimum-operations-to-make-subarray-elements-equal/",
                             "score": null,
                             "solution": null,
@@ -4111,8 +4135,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "LCP 81. 与非的谜题",
+                            "title": "3501. 操作后最大活跃区段数 II",
                             "sort": 7,
+                            "src": "/maximize-active-section-with-trade-ii/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "LCP 81. 与非的谜题",
+                            "sort": 8,
                             "src": "/ryfUiz/",
                             "score": null,
                             "solution": null,
@@ -4120,7 +4152,7 @@ export default{
                         },
                         {
                             "title": "2407. 最长递增子序列 II",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/longest-increasing-subsequence-ii/",
                             "score": 2280.3143643878,
                             "solution": null,
@@ -4128,7 +4160,7 @@ export default{
                         },
                         {
                             "title": "1157. 子数组中占绝大多数的元素",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/online-majority-element-in-subarray/",
                             "score": 2205.4304373587,
                             "solution": null,

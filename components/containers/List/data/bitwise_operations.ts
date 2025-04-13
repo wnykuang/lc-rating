@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】位运算（基础/性质/拆位/试填/恒等式/思维）",
     "original_src": "https://leetcode.cn/circle/discuss/dHn9Vk",
-    "last_update": "2025-01-10 12:03:56",
+    "last_update": "2025-04-08 00:31:24",
     "sort": 0,
     "child": [
         {
@@ -72,8 +72,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "476. 数字的补数",
+                            "title": "1342. 将数字变成 0 的操作次数",
                             "sort": 5,
+                            "src": "/number-of-steps-to-reduce-a-number-to-zero/",
+                            "score": 1163.6047095526,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "476. 数字的补数",
+                            "sort": 6,
                             "src": "/number-complement/",
                             "score": null,
                             "solution": null,
@@ -81,7 +89,7 @@ export default{
                         },
                         {
                             "title": "1009. 十进制整数的反码",
-                            "sort": 6,
+                            "sort": 7,
                             "src": "/complement-of-base-10-integer/",
                             "score": 1234.7084656358,
                             "solution": null,
@@ -89,7 +97,7 @@ export default{
                         },
                         {
                             "title": "868. 二进制间距",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/binary-gap/",
                             "score": 1307.2991245272,
                             "solution": null,
@@ -97,7 +105,7 @@ export default{
                         },
                         {
                             "title": "3211. 生成不含相邻零的二进制字符串",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/generate-binary-strings-without-adjacent-zeros/",
                             "score": 1352.5455214631,
                             "solution": null,
@@ -105,7 +113,7 @@ export default{
                         },
                         {
                             "title": "2917. 找出数组中的 K-or 值",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/find-the-k-or-of-an-array/",
                             "score": 1388.5363323598,
                             "solution": null,
@@ -113,7 +121,7 @@ export default{
                         },
                         {
                             "title": "693. 交替位二进制数",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/binary-number-with-alternating-bits/",
                             "score": null,
                             "solution": null,
@@ -121,7 +129,7 @@ export default{
                         },
                         {
                             "title": "2657. 找到两个数组的前缀公共数组",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/find-the-prefix-common-array-of-two-arrays/",
                             "score": 1304.1180812515,
                             "solution": null,
@@ -129,7 +137,7 @@ export default{
                         },
                         {
                             "title": "231. 2 的幂",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/power-of-two/",
                             "score": null,
                             "solution": null,
@@ -137,7 +145,7 @@ export default{
                         },
                         {
                             "title": "342. 4 的幂",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/power-of-four/",
                             "score": null,
                             "solution": null,
@@ -145,7 +153,7 @@ export default{
                         },
                         {
                             "title": "191. 位 1 的个数",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/number-of-1-bits/",
                             "score": null,
                             "solution": null,
@@ -153,7 +161,7 @@ export default{
                         },
                         {
                             "title": "2595. 奇偶位数",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/number-of-even-and-odd-bits/",
                             "score": 1206.5675296817,
                             "solution": null,
@@ -161,7 +169,7 @@ export default{
                         },
                         {
                             "title": "338. 比特位计数",
-                            "sort": 16,
+                            "sort": 17,
                             "src": "/counting-bits/",
                             "score": null,
                             "solution": null,
@@ -419,7 +427,7 @@ export default{
                     "title": "LogTrick",
                     "sort": 1,
                     "isLeaf": true,
-                    "summary": "原地写法：<a href=\"https://leetcode.cn/problems/find-subarray-with-bitwise-or-closest-to-k/solutions/2798206/li-yong-and-de-xing-zhi-pythonjavacgo-by-gg4d/\">讲解</a><br>额外维护一个数组：<a href=\"https://leetcode.cn/problems/smallest-subarrays-with-maximum-bitwise-or/solution/by-endlesscheng-zai1/\">讲解（方法二）</a><br>",
+                    "summary": "原地写法：<a href=\"https://leetcode.cn/problems/find-subarray-with-bitwise-or-closest-to-k/solutions/2798206/li-yong-and-de-xing-zhi-pythonjavacgo-by-gg4d/\">讲解</a><br>额外维护一个数组：<a href=\"https://leetcode.cn/problems/smallest-subarrays-with-maximum-bitwise-or/solution/by-endlesscheng-zai1/\">讲解（方法二）</a><br>**思维扩展**：<br>",
                     "child": [
                         {
                             "title": "3097. 或值至少为 K 的最短子数组 II",
@@ -466,6 +474,14 @@ export default{
                             "sort": 5,
                             "src": "/bitwise-ors-of-subarrays/",
                             "score": 2133.1003195919,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2654. 使数组所有元素变成 1 的最少操作次数",
+                            "sort": 6,
+                            "src": "/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/",
+                            "score": 1928.7961204946,
                             "solution": null,
                             "isPremium": false
                         }
@@ -568,7 +584,7 @@ export default{
                             "sort": 1,
                             "src": "/maximum-xor-of-two-numbers-in-an-array/",
                             "score": null,
-                            "solution": "/maximum-xor-of-two-numbers-in-an-array/solution/tu-jie-jian-ji-gao-xiao-yi-tu-miao-dong-1427d/",
+                            "solution": null,
                             "isPremium": false
                         },
                         {

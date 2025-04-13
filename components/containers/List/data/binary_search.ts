@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】二分算法（二分答案/最小化最大值/最大化最小值/第K小）",
     "original_src": "https://leetcode.cn/circle/discuss/SqopEo",
-    "last_update": "2025-03-24 07:30:07",
+    "last_update": "2025-04-09 01:26:10",
     "sort": 0,
     "child": [
         {
@@ -160,8 +160,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "658. 找到 K 个最接近的元素",
+                            "title": "3508. 设计路由器",
                             "sort": 10,
+                            "src": "/implement-router/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "658. 找到 K 个最接近的元素",
+                            "sort": 11,
                             "src": "/find-k-closest-elements/",
                             "score": null,
                             "solution": null,
@@ -169,7 +177,7 @@ export default{
                         },
                         {
                             "title": "1818. 绝对差值和",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/minimum-absolute-sum-difference/",
                             "score": 1934.3556201811,
                             "solution": null,
@@ -177,7 +185,7 @@ export default{
                         },
                         {
                             "title": "911. 在线选举",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/online-election/",
                             "score": 2000.8021428612,
                             "solution": null,
@@ -185,7 +193,7 @@ export default{
                         },
                         {
                             "title": "LCP 08. 剧情触发时间",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/ju-qing-hong-fa-shi-jian/",
                             "score": null,
                             "solution": null,
@@ -193,7 +201,7 @@ export default{
                         },
                         {
                             "title": "1182. 与目标颜色间的最短距离",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/shortest-distance-to-target-color/",
                             "score": 1626.6740430119,
                             "solution": null,
@@ -201,7 +209,7 @@ export default{
                         },
                         {
                             "title": "2819. 购买巧克力后的最小相对损失",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/minimum-relative-loss-after-buying-chocolates/",
                             "score": null,
                             "solution": null,
@@ -209,7 +217,7 @@ export default{
                         },
                         {
                             "title": "1287. 有序数组中出现次数超过 25% 的元素",
-                            "sort": 16,
+                            "sort": 17,
                             "src": "/element-appearing-more-than-25-in-sorted-array/",
                             "score": 1179.1495967491,
                             "solution": null,
@@ -217,7 +225,7 @@ export default{
                         },
                         {
                             "title": "1150. 检查一个数是否在数组中占绝大多数",
-                            "sort": 17,
+                            "sort": 18,
                             "src": "/check-if-a-number-is-majority-element-in-a-sorted-array/",
                             "score": 1249.9947800752,
                             "solution": null,
@@ -454,8 +462,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1618. 找出适应屏幕的最大字号",
+                            "title": "LCP 78. 城墙防线",
                             "sort": 12,
+                            "src": "/Nsibyl/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1618. 找出适应屏幕的最大字号",
+                            "sort": 13,
                             "src": "/maximum-font-to-fit-a-sentence-in-a-screen/",
                             "score": null,
                             "solution": null,
@@ -463,7 +479,7 @@ export default{
                         },
                         {
                             "title": "1891. 割绳子",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/cutting-ribbons/",
                             "score": null,
                             "solution": null,
@@ -471,7 +487,7 @@ export default{
                         },
                         {
                             "title": "2137. 通过倒水操作让所有的水桶所含水量相等",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/pour-water-between-buckets-to-make-water-levels-equal/",
                             "score": null,
                             "solution": null,
@@ -479,7 +495,7 @@ export default{
                         },
                         {
                             "title": "644. 子数组最大平均数 II",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/maximum-average-subarray-ii/",
                             "score": null,
                             "solution": null,

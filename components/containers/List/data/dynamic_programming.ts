@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】动态规划（入门/背包/状态机/划分/区间/状压/数位/树形/数据结构优化）",
     "original_src": "https://leetcode.cn/circle/discuss/tXLS3i",
-    "last_update": "2025-04-04 02:33:25",
+    "last_update": "2025-04-08 21:50:55",
     "sort": 0,
     "child": [
         {
@@ -450,16 +450,8 @@ export default{
                     "summary": "每个物品只能选一次。<br>**进阶**：<br>",
                     "child": [
                         {
-                            "title": "2915. 和为目标值的最长子序列的长度",
-                            "sort": 0,
-                            "src": "/length-of-the-longest-subsequence-that-sums-to-target/",
-                            "score": 1658.8190087768,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "416. 分割等和子集",
-                            "sort": 1,
+                            "sort": 0,
                             "src": "/partition-equal-subset-sum/",
                             "score": null,
                             "solution": null,
@@ -467,9 +459,17 @@ export default{
                         },
                         {
                             "title": "494. 目标和",
-                            "sort": 2,
+                            "sort": 1,
                             "src": "/target-sum/",
                             "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2915. 和为目标值的最长子序列的长度",
+                            "sort": 2,
+                            "src": "/length-of-the-longest-subsequence-that-sums-to-target/",
+                            "score": 1658.8190087768,
                             "solution": null,
                             "isPremium": false
                         },
@@ -3679,8 +3679,16 @@ export default{
                     "summary": "也叫凸包优化/凸壳优化（CHT，Convex Hull Trick）。<br>",
                     "child": [
                         {
-                            "title": "3500. 将数组分割为子数组的最小代价",
+                            "title": "3494. 酿造药水需要的最少总时间",
                             "sort": 0,
+                            "src": "/find-the-minimum-amount-of-time-to-brew-potions/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3500. 将数组分割为子数组的最小代价",
+                            "sort": 1,
                             "src": "/minimum-cost-to-divide-array-into-subarrays/",
                             "score": null,
                             "solution": null,
@@ -5206,8 +5214,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2060. 同源字符串检测",
+                            "title": "3509. 最大化交错和为 K 的子序列乘积",
                             "sort": 21,
+                            "src": "/maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2060. 同源字符串检测",
+                            "sort": 22,
                             "src": "/check-if-an-original-string-exists-given-two-encoded-strings/",
                             "score": 2803.7652028979,
                             "solution": null,
@@ -5215,7 +5231,7 @@ export default{
                         },
                         {
                             "title": "2809. 使数组和小于等于 x 的最少时间",
-                            "sort": 22,
+                            "sort": 23,
                             "src": "/minimum-time-to-make-array-sum-at-most-x/",
                             "score": 2978.7961959355,
                             "solution": null,
@@ -5223,7 +5239,7 @@ export default{
                         },
                         {
                             "title": "LCP 14. 切分数组",
-                            "sort": 23,
+                            "sort": 24,
                             "src": "/qie-fen-shu-zu/",
                             "score": null,
                             "solution": null,
@@ -5231,7 +5247,7 @@ export default{
                         },
                         {
                             "title": "LCP 36. 最多牌组数",
-                            "sort": 24,
+                            "sort": 25,
                             "src": "/Up5XYM/",
                             "score": null,
                             "solution": null,
@@ -5239,7 +5255,7 @@ export default{
                         },
                         {
                             "title": "LCP 38. 守卫城堡",
-                            "sort": 25,
+                            "sort": 26,
                             "src": "/7rLGCR/",
                             "score": null,
                             "solution": null,
@@ -5247,7 +5263,7 @@ export default{
                         },
                         {
                             "title": "LCP 43. 十字路口的交通",
-                            "sort": 26,
+                            "sort": 27,
                             "src": "/Y1VbOX/",
                             "score": null,
                             "solution": null,
@@ -5255,7 +5271,7 @@ export default{
                         },
                         {
                             "title": "LCP 65. 舒适的湿度",
-                            "sort": 27,
+                            "sort": 28,
                             "src": "/3aqs1c/",
                             "score": null,
                             "solution": null,
@@ -5263,7 +5279,7 @@ export default{
                         },
                         {
                             "title": "3299. 连续子序列的和",
-                            "sort": 28,
+                            "sort": 29,
                             "src": "/sum-of-consecutive-subsequences/",
                             "score": null,
                             "solution": null,
@@ -5271,7 +5287,7 @@ export default{
                         },
                         {
                             "title": "2189. 建造纸牌屋的方法数",
-                            "sort": 29,
+                            "sort": 30,
                             "src": "/number-of-ways-to-build-house-of-cards/",
                             "score": null,
                             "solution": null,
@@ -5279,7 +5295,7 @@ export default{
                         },
                         {
                             "title": "2597. 美丽子集的数目",
-                            "sort": 30,
+                            "sort": 31,
                             "src": "/the-number-of-beautiful-subsets/",
                             "score": 2023.4303440211,
                             "solution": null,
@@ -5287,7 +5303,7 @@ export default{
                         },
                         {
                             "title": "2638. 统计 K-Free 子集的总数",
-                            "sort": 31,
+                            "sort": 32,
                             "src": "/count-the-number-of-k-free-subsets/",
                             "score": null,
                             "solution": null,

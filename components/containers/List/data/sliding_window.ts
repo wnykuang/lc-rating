@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】滑动窗口与双指针（定长/不定长/单序列/双序列/三指针/分组循环）",
     "original_src": "https://leetcode.cn/circle/discuss/0viNMK",
-    "last_update": "2025-03-29 22:11:44",
+    "last_update": "2025-04-19 00:05:51",
     "sort": 0,
     "child": [
         {
@@ -659,7 +659,7 @@ export default{
                     "title": "§2.3.1 越长越合法",
                     "sort": 5,
                     "isLeaf": true,
-                    "summary": "一般要写 `ans += left`。<br>滑动窗口的内层循环结束时，右端点**固定**在 $\\textit{right}$，左端点在 $0,1,2,\\ldots,\\textit{left}-1$ 的所有子数组（子串）都是合法的，这一共有 $\\textit{left}$ 个。<br>",
+                    "summary": "一般要写 `ans += left`。<br>内层循环结束后，$[\\textit{left},\\textit{right}]$ 这个子数组是不满足题目要求的，但在退出循环之前的最后一轮循环，$[\\textit{left}-1,\\textit{right}]$ 是满足题目要求的。由于子数组越长，越能满足题目要求，所以除了 $[\\textit{left}-1,\\textit{right}]$，还有 $[\\textit{left}-2,\\textit{right}],[\\textit{left}-3,\\textit{right}],\\ldots,[0,\\textit{right}]$ 都是满足要求的。也就是说，当右端点**固定**在 $\\textit{right}$ 时，左端点在 $0,1,2,\\ldots,\\textit{left}-1$ 的所有子数组都是满足要求的，这一共有 $\\textit{left}$ 个。<br>",
                     "child": [
                         {
                             "title": "1358. 包含所有三种字符的子字符串数目",
@@ -723,7 +723,7 @@ export default{
                     "title": "§2.3.2 越短越合法",
                     "sort": 6,
                     "isLeaf": true,
-                    "summary": "一般要写 `ans += right - left + 1`。<br>滑动窗口的内层循环结束时，右端点**固定**在 $\\textit{right}$，左端点在 $\\textit{left},\\textit{left}+1,\\ldots,\\textit{right}$ 的所有子数组（子串）都是合法的，这一共有 $\\textit{right}-\\textit{left}+1$ 个。<br>**思维扩展（选做）**<br>",
+                    "summary": "一般要写 `ans += right - left + 1`。<br>内层循环结束后，$[\\textit{left},\\textit{right}]$ 这个子数组是满足题目要求的。由于子数组越短，越能满足题目要求，所以除了 $[\\textit{left},\\textit{right}]$，还有 $[\\textit{left}+1,\\textit{right}],[\\textit{left}+2,\\textit{right}],\\ldots,[\\textit{right},\\textit{right}]$ 都是满足要求的。也就是说，当右端点**固定**在 $\\textit{right}$ 时，左端点在 $\\textit{left},\\textit{left}+1,\\textit{left}+2,\\ldots,\\textit{right}$ 的所有子数组都是满足要求的，这一共有 $\\textit{right}-\\textit{left}+1$ 个。<br>**思维扩展（选做）**<br>",
                     "child": [
                         {
                             "title": "713. 乘积小于 K 的子数组",
@@ -904,10 +904,10 @@ export default{
                     ]
                 },
                 {
-                    "title": "滑窗的内容到这里就结束了，可以去刷下一个题单（二分算法）。",
+                    "title": "⚠ 滑窗的内容到这里就结束了，可以去刷下一个题单。",
                     "sort": 9,
                     "isLeaf": true,
-                    "summary": "---<br>---<br>",
+                    "summary": "刷题路线请看 <a href=\"https://leetcode.cn/circle/discuss/RvFUtj/\">如何科学刷题</a>。<br>---<br>---<br>",
                     "child": []
                 }
             ]
@@ -1004,8 +1004,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "LCP 28. 采购方案",
+                            "title": "2563. 统计公平数对的数目",
                             "sort": 10,
+                            "src": "/count-the-number-of-fair-pairs/",
+                            "score": 1720.7470612766,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "LCP 28. 采购方案",
+                            "sort": 11,
                             "src": "/4xy4Wx/",
                             "score": null,
                             "solution": null,
@@ -1013,7 +1021,7 @@ export default{
                         },
                         {
                             "title": "15. 三数之和",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/3sum/",
                             "score": null,
                             "solution": null,
@@ -1021,7 +1029,7 @@ export default{
                         },
                         {
                             "title": "16. 最接近的三数之和",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/3sum-closest/",
                             "score": null,
                             "solution": null,
@@ -1029,7 +1037,7 @@ export default{
                         },
                         {
                             "title": "18. 四数之和",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/4sum/",
                             "score": null,
                             "solution": null,
@@ -1037,7 +1045,7 @@ export default{
                         },
                         {
                             "title": "611. 有效三角形的个数",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/valid-triangle-number/",
                             "score": null,
                             "solution": null,
@@ -1045,7 +1053,7 @@ export default{
                         },
                         {
                             "title": "1577. 数的平方等于两数乘积的方法数",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/",
                             "score": 1593.8926580448,
                             "solution": null,
@@ -1053,7 +1061,7 @@ export default{
                         },
                         {
                             "title": "923. 三数之和的多种可能",
-                            "sort": 16,
+                            "sort": 17,
                             "src": "/3sum-with-multiplicity/",
                             "score": 1710.9105378431,
                             "solution": null,
@@ -1061,7 +1069,7 @@ export default{
                         },
                         {
                             "title": "948. 令牌放置",
-                            "sort": 17,
+                            "sort": 18,
                             "src": "/bag-of-tokens/",
                             "score": 1762.3115124143,
                             "solution": null,
@@ -1069,7 +1077,7 @@ export default{
                         },
                         {
                             "title": "11. 盛最多水的容器",
-                            "sort": 18,
+                            "sort": 19,
                             "src": "/container-with-most-water/",
                             "score": null,
                             "solution": null,
@@ -1077,7 +1085,7 @@ export default{
                         },
                         {
                             "title": "42. 接雨水",
-                            "sort": 19,
+                            "sort": 20,
                             "src": "/trapping-rain-water/",
                             "score": null,
                             "solution": null,
@@ -1085,7 +1093,7 @@ export default{
                         },
                         {
                             "title": "1616. 分割两个字符串得到回文串",
-                            "sort": 20,
+                            "sort": 21,
                             "src": "/split-two-strings-to-make-palindrome/",
                             "score": 1868.1914861381,
                             "solution": null,
@@ -1093,7 +1101,7 @@ export default{
                         },
                         {
                             "title": "1498. 满足条件的子序列数目",
-                            "sort": 21,
+                            "sort": 22,
                             "src": "/number-of-subsequences-that-satisfy-the-given-sum-condition/",
                             "score": 2276.4233585631,
                             "solution": null,
@@ -1101,7 +1109,7 @@ export default{
                         },
                         {
                             "title": "1782. 统计点对的数目",
-                            "sort": 22,
+                            "sort": 23,
                             "src": "/count-pairs-of-nodes/",
                             "score": 2457.115574186,
                             "solution": null,
@@ -1109,7 +1117,7 @@ export default{
                         },
                         {
                             "title": "1099. 小于 K 的两数之和",
-                            "sort": 23,
+                            "sort": 24,
                             "src": "/two-sum-less-than-k/",
                             "score": 1245.2741257148,
                             "solution": null,
@@ -1117,7 +1125,7 @@ export default{
                         },
                         {
                             "title": "360. 有序转化数组",
-                            "sort": 24,
+                            "sort": 25,
                             "src": "/sort-transformed-array/",
                             "score": null,
                             "solution": null,
@@ -1125,7 +1133,7 @@ export default{
                         },
                         {
                             "title": "2422. 使用合并操作将数组转换为回文序列",
-                            "sort": 25,
+                            "sort": 26,
                             "src": "/merge-operations-to-turn-array-into-a-palindrome/",
                             "score": null,
                             "solution": null,
@@ -1133,7 +1141,7 @@ export default{
                         },
                         {
                             "title": "259. 较小的三数之和",
-                            "sort": 26,
+                            "sort": 27,
                             "src": "/3sum-smaller/",
                             "score": null,
                             "solution": null,
@@ -1825,8 +1833,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2948. 交换得到字典序最小的数组",
+                            "title": "3499. 操作后最大活跃区段数 I",
                             "sort": 22,
+                            "src": "/maximize-active-section-with-trade-i/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2948. 交换得到字典序最小的数组",
+                            "sort": 23,
                             "src": "/make-lexicographically-smallest-array-by-swapping-elements/",
                             "score": 2047.3919190727,
                             "solution": null,
@@ -1834,7 +1850,7 @@ export default{
                         },
                         {
                             "title": "2593. 标记所有元素后数组的分数",
-                            "sort": 23,
+                            "sort": 24,
                             "src": "/find-score-of-an-array-after-marking-all-elements/",
                             "score": 1665.1885910815,
                             "solution": null,
@@ -1842,7 +1858,7 @@ export default{
                         },
                         {
                             "title": "2393. 严格递增的子数组个数",
-                            "sort": 24,
+                            "sort": 25,
                             "src": "/count-strictly-increasing-subarrays/",
                             "score": null,
                             "solution": null,
@@ -1850,7 +1866,7 @@ export default{
                         },
                         {
                             "title": "2436. 使子数组最大公约数大于一的最小分割数",
-                            "sort": 25,
+                            "sort": 26,
                             "src": "/minimum-split-into-subarrays-with-gcd-greater-than-one/",
                             "score": null,
                             "solution": null,
@@ -1858,7 +1874,7 @@ export default{
                         },
                         {
                             "title": "2495. 乘积为偶数的子数组数",
-                            "sort": 26,
+                            "sort": 27,
                             "src": "/number-of-subarrays-having-even-product/",
                             "score": null,
                             "solution": null,
@@ -1866,7 +1882,7 @@ export default{
                         },
                         {
                             "title": "3063. 链表频率",
-                            "sort": 27,
+                            "sort": 28,
                             "src": "/linked-list-frequency/",
                             "score": null,
                             "solution": null,

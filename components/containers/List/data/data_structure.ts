@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】常用数据结构（前缀和/差分/栈/队列/堆/字典树/并查集/树状数组/线段树）",
     "original_src": "https://leetcode.cn/circle/discuss/mOr1u6",
-    "last_update": "2025-04-03 05:31:50",
+    "last_update": "2025-04-19 02:15:55",
     "sort": 0,
     "child": [
         {
@@ -336,8 +336,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "3455. 最短匹配子字符串",
+                            "title": "1534. 统计好三元组",
                             "sort": 7,
+                            "src": "/count-good-triplets/",
+                            "score": 1279.3383966145,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3455. 最短匹配子字符串",
+                            "sort": 8,
                             "src": "/shortest-matching-substring/",
                             "score": 2303.1891955206,
                             "solution": null,
@@ -345,7 +353,7 @@ export default{
                         },
                         {
                             "title": "2242. 节点序列的最大得分",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/maximum-score-of-a-node-sequence/",
                             "score": 2304.3094138939,
                             "solution": null,
@@ -353,7 +361,7 @@ export default{
                         },
                         {
                             "title": "2867. 统计树中的合法路径数目",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/count-valid-paths-in-a-tree/",
                             "score": 2428.3242593838,
                             "solution": null,
@@ -361,7 +369,7 @@ export default{
                         },
                         {
                             "title": "2552. 统计上升四元组",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/count-increasing-quadruplets/",
                             "score": 2432.713399111,
                             "solution": null,
@@ -369,7 +377,7 @@ export default{
                         },
                         {
                             "title": "3257. 放三个车的价值之和最大 II",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/maximum-value-sum-by-placing-three-rooks-ii/",
                             "score": 2553.2367142614,
                             "solution": null,
@@ -377,7 +385,7 @@ export default{
                         },
                         {
                             "title": "3073. 最大递增三元组",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/maximum-increasing-triplet-value/",
                             "score": null,
                             "solution": null,
@@ -2019,8 +2027,16 @@ export default{
                     "summary": "",
                     "child": [
                         {
-                            "title": "225. 用队列实现栈",
+                            "title": "3508. 设计路由器",
                             "sort": 0,
+                            "src": "/implement-router/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "225. 用队列实现栈",
+                            "sort": 1,
                             "src": "/implement-stack-using-queues/",
                             "score": null,
                             "solution": null,
@@ -2028,7 +2044,7 @@ export default{
                         },
                         {
                             "title": "232. 用栈实现队列",
-                            "sort": 1,
+                            "sort": 2,
                             "src": "/implement-queue-using-stacks/",
                             "score": null,
                             "solution": null,
@@ -2036,7 +2052,7 @@ export default{
                         },
                         {
                             "title": "622. 设计循环队列",
-                            "sort": 2,
+                            "sort": 3,
                             "src": "/design-circular-queue/",
                             "score": null,
                             "solution": null,
@@ -2044,7 +2060,7 @@ export default{
                         },
                         {
                             "title": "641. 设计循环双端队列",
-                            "sort": 3,
+                            "sort": 4,
                             "src": "/design-circular-deque/",
                             "score": null,
                             "solution": null,
@@ -2052,7 +2068,7 @@ export default{
                         },
                         {
                             "title": "1670. 设计前中后队列",
-                            "sort": 4,
+                            "sort": 5,
                             "src": "/design-front-middle-back-queue/",
                             "score": 1610.1866391145,
                             "solution": null,
@@ -2071,6 +2087,14 @@ export default{
                             "sort": 0,
                             "src": "/faulty-keyboard/",
                             "score": 1192.9770230345,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2071. 你可以安排的最多任务数目",
+                            "sort": 1,
+                            "src": "/maximum-number-of-tasks-you-can-assign/",
+                            "score": 2648.1748409542,
                             "solution": null,
                             "isPremium": false
                         }
@@ -2135,14 +2159,6 @@ export default{
                             "sort": 6,
                             "src": "/max-value-of-equation/",
                             "score": 2456.3900212097,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
-                            "title": "2071. 你可以安排的最多任务数目",
-                            "sort": 7,
-                            "src": "/maximum-number-of-tasks-you-can-assign/",
-                            "score": 2648.1748409542,
                             "solution": null,
                             "isPremium": false
                         }
@@ -2930,8 +2946,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "3391. 设计一个高效的层跟踪三维二进制矩阵",
+                            "title": "3510. 移除最小数对使数组有序 II",
                             "sort": 6,
+                            "src": "/minimum-pair-removal-to-sort-array-ii/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3391. 设计一个高效的层跟踪三维二进制矩阵",
+                            "sort": 7,
                             "src": "/design-a-3d-binary-matrix-with-efficient-layer-tracking/",
                             "score": null,
                             "solution": null,
@@ -3049,26 +3073,26 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "211. 添加与搜索单词 - 数据结构设计",
-                            "sort": 1,
-                            "src": "/design-add-and-search-words-data-structure/",
-                            "score": null,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
-                            "title": "14. 最长公共前缀",
-                            "sort": 2,
-                            "src": "/longest-common-prefix/",
-                            "score": null,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "648. 单词替换",
-                            "sort": 3,
+                            "sort": 1,
                             "src": "/replace-words/",
                             "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "720. 词典中最长的单词",
+                            "sort": 2,
+                            "src": "/longest-word-in-dictionary/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2416. 字符串的前缀分数和",
+                            "sort": 3,
+                            "src": "/sum-of-prefix-scores-of-strings/",
+                            "score": 1725.1995150882,
                             "solution": null,
                             "isPremium": false
                         },
@@ -3081,16 +3105,8 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "720. 词典中最长的单词",
-                            "sort": 5,
-                            "src": "/longest-word-in-dictionary/",
-                            "score": null,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "1268. 搜索推荐系统",
-                            "sort": 6,
+                            "sort": 5,
                             "src": "/search-suggestions-system/",
                             "score": 1573.4042963622,
                             "solution": null,
@@ -3098,7 +3114,7 @@ export default{
                         },
                         {
                             "title": "1233. 删除子文件夹",
-                            "sort": 7,
+                            "sort": 6,
                             "src": "/remove-sub-folders-from-the-filesystem/",
                             "score": 1544.8261365027,
                             "solution": null,
@@ -3106,23 +3122,15 @@ export default{
                         },
                         {
                             "title": "820. 单词的压缩编码",
-                            "sort": 8,
+                            "sort": 7,
                             "src": "/short-encoding-of-words/",
                             "score": 1632.0191837349,
                             "solution": null,
                             "isPremium": false
                         },
                         {
-                            "title": "2416. 字符串的前缀分数和",
-                            "sort": 9,
-                            "src": "/sum-of-prefix-scores-of-strings/",
-                            "score": 1725.1995150882,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "2261. 含最多 K 个可整除元素的子数组",
-                            "sort": 10,
+                            "sort": 8,
                             "src": "/k-divisible-elements-subarrays/",
                             "score": 1724.394164934,
                             "solution": null,
@@ -3130,7 +3138,7 @@ export default{
                         },
                         {
                             "title": "1804. 实现 Trie （前缀树） II",
-                            "sort": 11,
+                            "sort": 9,
                             "src": "/implement-trie-ii-prefix-tree/",
                             "score": null,
                             "solution": null,
@@ -3138,7 +3146,7 @@ export default{
                         },
                         {
                             "title": "2168. 每个数字的频率都相同的独特子字符串的数量",
-                            "sort": 12,
+                            "sort": 10,
                             "src": "/unique-substrings-with-equal-digit-frequency/",
                             "score": null,
                             "solution": null,
@@ -3153,8 +3161,16 @@ export default{
                     "summary": "",
                     "child": [
                         {
-                            "title": "676. 实现一个魔法字典",
+                            "title": "211. 添加与搜索单词 - 数据结构设计",
                             "sort": 0,
+                            "src": "/design-add-and-search-words-data-structure/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "676. 实现一个魔法字典",
+                            "sort": 1,
                             "src": "/implement-magic-dictionary/",
                             "score": null,
                             "solution": null,
@@ -3162,7 +3178,7 @@ export default{
                         },
                         {
                             "title": "212. 单词搜索 II",
-                            "sort": 1,
+                            "sort": 2,
                             "src": "/word-search-ii/",
                             "score": null,
                             "solution": null,
@@ -3170,7 +3186,7 @@ export default{
                         },
                         {
                             "title": "3093. 最长公共后缀查询",
-                            "sort": 2,
+                            "sort": 3,
                             "src": "/longest-common-suffix-queries/",
                             "score": 2118.3732356694,
                             "solution": null,
@@ -3178,7 +3194,7 @@ export default{
                         },
                         {
                             "title": "745. 前缀和后缀搜索",
-                            "sort": 3,
+                            "sort": 4,
                             "src": "/prefix-and-suffix-search/",
                             "score": null,
                             "solution": null,
@@ -3186,7 +3202,7 @@ export default{
                         },
                         {
                             "title": "3045. 统计前后缀下标对 II",
-                            "sort": 4,
+                            "sort": 5,
                             "src": "/count-prefix-and-suffix-pairs-ii/",
                             "score": 2327.5726642605,
                             "solution": null,
@@ -3194,7 +3210,7 @@ export default{
                         },
                         {
                             "title": "336. 回文对",
-                            "sort": 5,
+                            "sort": 6,
                             "src": "/palindrome-pairs/",
                             "score": null,
                             "solution": null,
@@ -3202,7 +3218,7 @@ export default{
                         },
                         {
                             "title": "1948. 删除系统中的重复文件夹",
-                            "sort": 6,
+                            "sort": 7,
                             "src": "/delete-duplicate-folders-in-system/",
                             "score": 2533.7796160302,
                             "solution": null,
@@ -3210,7 +3226,7 @@ export default{
                         },
                         {
                             "title": "425. 单词方块",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/word-squares/",
                             "score": null,
                             "solution": null,
@@ -3218,7 +3234,7 @@ export default{
                         },
                         {
                             "title": "527. 单词缩写",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/word-abbreviation/",
                             "score": null,
                             "solution": null,
@@ -3226,7 +3242,7 @@ export default{
                         },
                         {
                             "title": "588. 设计内存文件系统",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/design-in-memory-file-system/",
                             "score": null,
                             "solution": null,
@@ -3234,7 +3250,7 @@ export default{
                         },
                         {
                             "title": "616. 给字符串添加加粗标签",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/add-bold-tag-in-string/",
                             "score": null,
                             "solution": null,
@@ -3242,7 +3258,7 @@ export default{
                         },
                         {
                             "title": "758. 字符串中的加粗单词",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/bold-words-in-string/",
                             "score": 1547.0385279086,
                             "solution": null,
@@ -3250,7 +3266,7 @@ export default{
                         },
                         {
                             "title": "642. 设计搜索自动补全系统",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/design-search-autocomplete-system/",
                             "score": null,
                             "solution": null,
@@ -3258,7 +3274,7 @@ export default{
                         },
                         {
                             "title": "1065. 字符串的索引对",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/index-pairs-of-a-string/",
                             "score": 1389.331169471,
                             "solution": null,
@@ -3266,7 +3282,7 @@ export default{
                         },
                         {
                             "title": "1166. 设计文件系统",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/design-file-system/",
                             "score": 1479.0110934646,
                             "solution": null,
@@ -3274,7 +3290,7 @@ export default{
                         },
                         {
                             "title": "1858. 包含所有前缀的最长单词",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/longest-word-with-all-prefixes/",
                             "score": null,
                             "solution": null,
@@ -3903,8 +3919,24 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1505. 最多 K 次交换相邻数位后得到的最小整数",
+                            "title": "3515. 带权树中的最短路径",
                             "sort": 11,
+                            "src": "/shortest-path-in-a-weighted-tree/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "LCP 05. 发 LeetCoin",
+                            "sort": 12,
+                            "src": "/coin-bonus/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1505. 最多 K 次交换相邻数位后得到的最小整数",
+                            "sort": 13,
                             "src": "/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/",
                             "score": 2336.5210003185,
                             "solution": null,
@@ -3912,7 +3944,7 @@ export default{
                         },
                         {
                             "title": "2926. 平衡子序列的最大和",
-                            "sort": 12,
+                            "sort": 14,
                             "src": "/maximum-balanced-subsequence-sum/",
                             "score": 2448.4455464535,
                             "solution": null,
@@ -3920,7 +3952,7 @@ export default{
                         },
                         {
                             "title": "2736. 最大和查询",
-                            "sort": 13,
+                            "sort": 15,
                             "src": "/maximum-sum-queries/",
                             "score": 2533.2830157959,
                             "solution": null,
@@ -3928,7 +3960,7 @@ export default{
                         },
                         {
                             "title": "3382. 用点构造面积最大的矩形 II",
-                            "sort": 14,
+                            "sort": 16,
                             "src": "/maximum-area-rectangle-with-point-constraints-ii/",
                             "score": 2722.8634460016,
                             "solution": null,
@@ -3936,7 +3968,7 @@ export default{
                         },
                         {
                             "title": "3245. 交替组 III",
-                            "sort": 15,
+                            "sort": 17,
                             "src": "/alternating-groups-iii/",
                             "score": 3112.0402038423,
                             "solution": null,
@@ -3944,7 +3976,7 @@ export default{
                         },
                         {
                             "title": "1756. 设计最近使用（MRU）队列",
-                            "sort": 16,
+                            "sort": 18,
                             "src": "/design-most-recently-used-queue/",
                             "score": null,
                             "solution": null,
@@ -3952,7 +3984,7 @@ export default{
                         },
                         {
                             "title": "60. 排列序列",
-                            "sort": 17,
+                            "sort": 19,
                             "src": "/permutation-sequence/",
                             "score": null,
                             "solution": null,
@@ -3960,7 +3992,7 @@ export default{
                         },
                         {
                             "title": "3109. 查找排列的下标",
-                            "sort": 18,
+                            "sort": 20,
                             "src": "/find-the-index-of-permutation/",
                             "score": null,
                             "solution": null,
@@ -3968,7 +4000,7 @@ export default{
                         },
                         {
                             "title": "2519. 统计 K-Big 索引的数量",
-                            "sort": 19,
+                            "sort": 21,
                             "src": "/count-the-number-of-k-big-indices/",
                             "score": null,
                             "solution": null,
@@ -3976,7 +4008,7 @@ export default{
                         },
                         {
                             "title": "2613. 美数对",
-                            "sort": 20,
+                            "sort": 22,
                             "src": "/beautiful-pairs/",
                             "score": null,
                             "solution": null,
@@ -3984,7 +4016,7 @@ export default{
                         },
                         {
                             "title": "2921. 价格递增的最大利润三元组 II",
-                            "sort": 21,
+                            "sort": 23,
                             "src": "/maximum-profitable-triplets-with-increasing-prices-ii/",
                             "score": null,
                             "solution": null,
@@ -3992,7 +4024,7 @@ export default{
                         },
                         {
                             "title": "308. 二维区域和检索 - 可变",
-                            "sort": 22,
+                            "sort": 24,
                             "src": "/range-sum-query-2d-mutable/",
                             "score": null,
                             "solution": null,
@@ -4235,14 +4267,6 @@ export default{
                             "sort": 7,
                             "src": "/subarrays-distinct-element-sum-of-squares-ii/",
                             "score": 2816.0706257586,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
-                            "title": "LCP 05. 发 LeetCoin",
-                            "sort": 8,
-                            "src": "/coin-bonus/",
-                            "score": null,
                             "solution": null,
                             "isPremium": false
                         }

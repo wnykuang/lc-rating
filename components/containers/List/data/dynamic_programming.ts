@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【题单】动态规划（入门/背包/状态机/划分/区间/状压/数位/树形/数据结构优化）",
     "original_src": "https://leetcode.cn/circle/discuss/tXLS3i",
-    "last_update": "2025-04-08 21:50:55",
+    "last_update": "2025-04-18 01:49:35",
     "sort": 0,
     "child": [
         {
@@ -2235,16 +2235,8 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "629. K 个逆序对数组",
-                            "sort": 25,
-                            "src": "/k-inverse-pairs-array/",
-                            "score": null,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "1079. 活字印刷",
-                            "sort": 26,
+                            "sort": 25,
                             "src": "/letter-tile-possibilities/",
                             "score": 1740.5014205942,
                             "solution": null,
@@ -2252,7 +2244,7 @@ export default{
                         },
                         {
                             "title": "1866. 恰有 K 根木棍可以看到的排列数目",
-                            "sort": 27,
+                            "sort": 26,
                             "src": "/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/",
                             "score": 2333.0621537307,
                             "solution": null,
@@ -2260,7 +2252,7 @@ export default{
                         },
                         {
                             "title": "2312. 卖木头块",
-                            "sort": 28,
+                            "sort": 27,
                             "src": "/selling-pieces-of-wood/",
                             "score": 2363.0240184484,
                             "solution": null,
@@ -2268,7 +2260,7 @@ export default{
                         },
                         {
                             "title": "3177. 求出最长好子序列 II",
-                            "sort": 29,
+                            "sort": 28,
                             "src": "/find-the-maximum-length-of-a-good-subsequence-ii/",
                             "score": 2364.8208393306,
                             "solution": null,
@@ -2276,7 +2268,7 @@ export default{
                         },
                         {
                             "title": "1884. 鸡蛋掉落-两枚鸡蛋",
-                            "sort": 30,
+                            "sort": 29,
                             "src": "/egg-drop-with-2-eggs-and-n-floors/",
                             "score": null,
                             "solution": null,
@@ -2284,7 +2276,7 @@ export default{
                         },
                         {
                             "title": "887. 鸡蛋掉落",
-                            "sort": 31,
+                            "sort": 30,
                             "src": "/super-egg-drop/",
                             "score": 2376.8658923518,
                             "solution": null,
@@ -2292,7 +2284,7 @@ export default{
                         },
                         {
                             "title": "3448. 统计可以被最后一个数位整除的子字符串数目",
-                            "sort": 32,
+                            "sort": 31,
                             "src": "/count-substrings-divisible-by-last-digit/",
                             "score": 2386.8250706801,
                             "solution": null,
@@ -2300,7 +2292,7 @@ export default{
                         },
                         {
                             "title": "514. 自由之路",
-                            "sort": 33,
+                            "sort": 32,
                             "src": "/freedom-trail/",
                             "score": null,
                             "solution": null,
@@ -2308,7 +2300,7 @@ export default{
                         },
                         {
                             "title": "3336. 最大公约数相等的子序列数量",
-                            "sort": 34,
+                            "sort": 33,
                             "src": "/find-the-number-of-subsequences-with-equal-gcd/",
                             "score": 2402.5406421988,
                             "solution": null,
@@ -2316,7 +2308,7 @@ export default{
                         },
                         {
                             "title": "1388. 3n 块披萨",
-                            "sort": 35,
+                            "sort": 34,
                             "src": "/pizza-with-3n-slices/",
                             "score": 2409.7580728676,
                             "solution": null,
@@ -2324,7 +2316,7 @@ export default{
                         },
                         {
                             "title": "1900. 最佳运动员的比拼回合",
-                            "sort": 36,
+                            "sort": 35,
                             "src": "/the-earliest-and-latest-rounds-where-players-compete/",
                             "score": 2454.7653333657,
                             "solution": null,
@@ -2332,7 +2324,7 @@ export default{
                         },
                         {
                             "title": "1883. 准时抵达会议现场的最小跳过休息次数",
-                            "sort": 37,
+                            "sort": 36,
                             "src": "/minimum-skips-to-arrive-at-meeting-on-time/",
                             "score": 2587.8725248485,
                             "solution": null,
@@ -2340,7 +2332,7 @@ export default{
                         },
                         {
                             "title": "3343. 统计平衡排列的数目",
-                            "sort": 38,
+                            "sort": 37,
                             "src": "/count-number-of-balanced-permutations/",
                             "score": 2614.911779573,
                             "solution": null,
@@ -2348,7 +2340,7 @@ export default{
                         },
                         {
                             "title": "3441. 变成好标题的最少代价",
-                            "sort": 39,
+                            "sort": 38,
                             "src": "/minimum-cost-good-caption/",
                             "score": 2764.5966131386,
                             "solution": null,
@@ -2356,7 +2348,7 @@ export default{
                         },
                         {
                             "title": "3225. 网格图操作后的最大分数",
-                            "sort": 40,
+                            "sort": 39,
                             "src": "/maximum-score-from-grid-operations/",
                             "score": 3027.8558407399,
                             "solution": null,
@@ -2364,7 +2356,7 @@ export default{
                         },
                         {
                             "title": "LCP 57. 打地鼠",
-                            "sort": 41,
+                            "sort": 40,
                             "src": "/ZbAuEH/",
                             "score": null,
                             "solution": null,
@@ -2372,7 +2364,7 @@ export default{
                         },
                         {
                             "title": "256. 粉刷房子",
-                            "sort": 42,
+                            "sort": 41,
                             "src": "/paint-house/",
                             "score": null,
                             "solution": null,
@@ -2380,7 +2372,7 @@ export default{
                         },
                         {
                             "title": "265. 粉刷房子 II",
-                            "sort": 43,
+                            "sort": 42,
                             "src": "/paint-house-ii/",
                             "score": null,
                             "solution": null,
@@ -2388,7 +2380,7 @@ export default{
                         },
                         {
                             "title": "3339. 查找 K 偶数数组的数量",
-                            "sort": 44,
+                            "sort": 43,
                             "src": "/find-the-number-of-k-even-arrays/",
                             "score": null,
                             "solution": null,
@@ -2396,7 +2388,7 @@ export default{
                         },
                         {
                             "title": "568. 最大休假天数",
-                            "sort": 45,
+                            "sort": 44,
                             "src": "/maximum-vacation-days/",
                             "score": null,
                             "solution": null,
@@ -2404,7 +2396,7 @@ export default{
                         },
                         {
                             "title": "1692. 计算分配糖果的不同方式",
-                            "sort": 46,
+                            "sort": 45,
                             "src": "/count-ways-to-distribute-candies/",
                             "score": null,
                             "solution": null,
@@ -2412,7 +2404,7 @@ export default{
                         },
                         {
                             "title": "2143. 在两个数组的区间中选取数字",
-                            "sort": 47,
+                            "sort": 46,
                             "src": "/choose-numbers-from-two-arrays-in-range/",
                             "score": null,
                             "solution": null,
@@ -2420,7 +2412,7 @@ export default{
                         },
                         {
                             "title": "3269. 构建两个递增数组",
-                            "sort": 48,
+                            "sort": 47,
                             "src": "/constructing-two-increasing-arrays/",
                             "score": null,
                             "solution": null,
@@ -3135,7 +3127,7 @@ export default{
         {
             "title": "十、数位 DP",
             "sort": 11,
-            "summary": "<a href=\"https://www.bilibili.com/video/BV1rS4y1s721/?t=19m36s\">数位 DP v1.0 模板讲解</a><br><a href=\"https://www.bilibili.com/video/BV1Fg4y1Q7wv/?t=31m28s\">数位 DP v2.0 模板讲解</a> 上下界数位 DP<br>",
+            "summary": "<a href=\"https://www.bilibili.com/video/BV1rS4y1s721/?t=19m36s\">数位 DP v1.0 模板讲解</a><br><a href=\"https://www.bilibili.com/video/BV1Fg4y1Q7wv/?t=31m28s\">数位 DP v2.0 模板讲解</a> 上下界数位 DP<br>下面是数位 DP v2.1 模板。相比 v2.0，不需要写 $\\textit{isNum}$ 参数。<br>> 注：只有上界约束的题目，相当于 $\\textit{low}=0$ 或者 $\\textit{low}=1$。<br>```py [sol-Python3]<br># 代码示例：返回 [low, high] 中的恰好包含 target 个 0 的数字个数<br># 比如 digitDP(0, 10, 1) == 2<br># 要点：我们统计的是 0 的个数，需要区分【前导零】和【数字中的零】，前导零不能计入，而数字中的零需要计入<br>def digitDP(low: int, high: int, target: int) -> int:<br>low_s = list(map(int, str(low)))  # 避免在 dfs 中频繁调用 int()<br>high_s = list(map(int, str(high)))<br>n = len(high_s)<br>diff_lh = n - len(low_s)<br>@cache<br>def dfs(i: int, cnt0: int, limit_low: bool, limit_high: bool) -> int:<br>if cnt0 > target:<br>return 0  # 不合法<br>if i == n:<br>return 1 if cnt0 == target else 0<br>lo = low_s[i - diff_lh] if limit_low and i >= diff_lh else 0<br>hi = high_s[i] if limit_high else 9<br>res = 0<br>d = lo<br># 通过 limit_low 和 i 可以判断能否不填数字，无需 is_num 参数<br># 如果前导零不影响答案，去掉这个 if block<br>if limit_low and i < diff_lh:<br># 不填数字，上界不受约束<br>res = dfs(i + 1, cnt0, True, False)<br>d = 1<br>for d in range(d, hi + 1):<br>res += dfs(i + 1,<br>cnt0 + (1 if d == 0 else 0),  # 统计 0 的个数<br>limit_low and d == lo,<br>limit_high and d == hi)<br># res %= MOD<br>return res<br>return dfs(0, 0, True, True)<br>```<br>```java [sol-Java]<br>// 代码示例：返回 [low, high] 中的恰好包含 target 个 0 的数字个数<br>// 比如 digitDP(0, 10, 1) == 2<br>// 要点：我们统计的是 0 的个数，需要区分【前导零】和【数字中的零】，前导零不能计入，而数字中的零需要计入<br>class Solution {<br>public int digitDP(int low, int high, int target) {<br>char[] lowS = String.valueOf(low).toCharArray();<br>char[] highS = String.valueOf(high).toCharArray();<br>int n = highS.length;<br>int[][] memo = new int[n][target + 1];<br>for (int[] row : memo) {<br>Arrays.fill(row, -1);<br>}<br>return dfs(0, 0, true, true, lowS, highS, target, memo);<br>}<br>private int dfs(int i, int cnt0, boolean limitLow, boolean limitHigh, char[] lowS, char[] highS, int target, int[][] memo) {<br>if (cnt0 > target) {<br>return 0; // 不合法<br>}<br>if (i == highS.length) {<br>return cnt0 == target ? 1 : 0;<br>}<br>if (!limitLow && !limitHigh && memo[i][cnt0] >= 0) {<br>return memo[i][cnt0];<br>}<br>int diff = highS.length - lowS.length;<br>int lo = limitLow && i >= diff ? lowS[i - diff] - '0' : 0;<br>int hi = limitHigh ? highS[i] - '0' : 9;<br>int res = 0;<br>int d = lo;<br>// 通过 limitLow 和 i 可以判断能否不填数字，无需 isNum 参数<br>// 如果前导零不影响答案，去掉这个 if block<br>if (limitLow && i < diff) {<br>// 不填数字，上界不受约束<br>res = dfs(i + 1, cnt0, true, false, lowS, highS, target, memo);<br>d = 1;<br>}<br>for (; d <= hi; d++) {<br>res += dfs(i + 1,<br>cnt0 + (d == 0 ? 1 : 0), // 统计 0 的个数<br>limitLow && d == lo,<br>limitHigh && d == hi,<br>lowS, highS, target, memo);<br>// res %= MOD;<br>}<br>if (!limitLow && !limitHigh) {<br>memo[i][cnt0] = res;<br>}<br>return res;<br>}<br>}<br>```<br>```cpp [sol-C++]<br>// 代码示例：返回 [low, high] 中的恰好包含 target 个 0 的数字个数<br>// 比如 digitDP(0, 10, 1) == 2<br>// 要点：我们统计的是 0 的个数，需要区分【前导零】和【数字中的零】，前导零不能计入，而数字中的零需要计入<br>int digitDP(int low, int high, int target) {<br>string low_s = to_string(low);<br>string high_s = to_string(high);<br>int n = high_s.size();<br>int diff_lh = n - low_s.size();<br>vector memo(n, vector<int>(target + 1, -1));<br>auto dfs = [&](this auto&& dfs, int i, int cnt0, bool limit_low, bool limit_high) -> int {<br>if (cnt0 > target) {<br>return 0; // 不合法<br>}<br>if (i == n) {<br>return cnt0 == target;<br>}<br>if (!limit_low && !limit_high && memo[i][cnt0] >= 0) {<br>return memo[i][cnt0];<br>}<br>int lo = limit_low && i >= diff_lh ? low_s[i - diff_lh] - '0' : 0;<br>int hi = limit_high ? high_s[i] - '0' : 9;<br>int res = 0;<br>int d = lo;<br>// 通过 limit_low 和 i 可以判断能否不填数字，无需 is_num 参数<br>// 如果前导零不影响答案，去掉这个 if block<br>if (limit_low && i < diff_lh) {<br>// 不填数字，上界不受约束<br>res = dfs(i + 1, cnt0, true, false);<br>d = 1;<br>}<br>for (; d <= hi; d++) {<br>// 统计 0 的个数<br>res += dfs(i + 1, cnt0 + (d == 0), limit_low && d == lo, limit_high && d == hi);<br>// res %= MOD;<br>}<br>if (!limit_low && !limit_high) {<br>memo[i][cnt0] = res;<br>}<br>return res;<br>};<br>int ans = dfs(0, 0, true, true);<br>return ans;<br>}<br>```<br>```go [sol-Go]<br>// 代码示例：返回 [low, high] 中的恰好包含 target 个 0 的数字个数<br>// 比如 digitDP(0, 10, 1) == 2<br>// 要点：我们统计的是 0 的个数，需要区分【前导零】和【数字中的零】，前导零不能计入，而数字中的零需要计入<br>func digitDP(low, high, target int) int {<br>lowS := strconv.Itoa(low)<br>highS := strconv.Itoa(high)<br>n := len(highS)<br>diffLH := n - len(lowS)<br>memo := make([][]int, n)<br>for i := range memo {<br>memo[i] = make([]int, target+1)<br>for j := range memo[i] {<br>memo[i][j] = -1<br>}<br>}<br>var dfs func(int, int, bool, bool) int<br>dfs = func(i, cnt0 int, limitLow, limitHigh bool) (res int) {<br>// 不合法<br>if cnt0 > target {<br>return 0<br>}<br>if i == n {<br>// 不合法<br>if cnt0 < target {<br>return 0<br>}<br>// 合法<br>return 1<br>}<br>if !limitLow && !limitHigh {<br>p := &memo[i][cnt0]<br>if *p >= 0 {<br>return *p<br>}<br>defer func() { *p = res }()<br>}<br>lo := 0<br>if limitLow && i >= diffLH {<br>lo = int(lowS[i-diffLH] - '0')<br>}<br>hi := 9<br>if limitHigh {<br>hi = int(highS[i] - '0')<br>}<br>d := lo<br>// 通过 limitLow 和 i 可以判断能否不填数字，无需 isNum 参数<br>// 如果前导零不影响答案，去掉这个 if block<br>if limitLow && i < diffLH {<br>// 不填数字，上界不受约束<br>res = dfs(i+1, cnt0, true, false)<br>d = 1<br>}<br>for ; d <= hi; d++ {<br>c0 := cnt0<br>if d == 0 {<br>c0++ // 统计 0 的个数<br>}<br>res += dfs(i+1, c0, limitLow && d == lo, limitHigh && d == hi)<br>// res %= mod<br>}<br>return<br>}<br>ans := dfs(0, 0, true, true)<br>return ans<br>}<br>```<br>",
             "child": [
                 {
                     "title": "",
@@ -3152,8 +3144,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1742. 盒子中小球的最大数量",
+                            "title": "1399. 统计最大组的数目",
                             "sort": 1,
+                            "src": "/count-largest-group/",
+                            "score": 1341.0476642293,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1742. 盒子中小球的最大数量",
+                            "sort": 2,
                             "src": "/maximum-number-of-balls-in-a-box/",
                             "score": 1277.9987709491,
                             "solution": null,
@@ -3161,7 +3161,7 @@ export default{
                         },
                         {
                             "title": "788. 旋转数字",
-                            "sort": 2,
+                            "sort": 3,
                             "src": "/rotated-digits/",
                             "score": 1396.8422030812,
                             "solution": null,
@@ -3169,7 +3169,7 @@ export default{
                         },
                         {
                             "title": "902. 最大为 N 的数字组合",
-                            "sort": 3,
+                            "sort": 4,
                             "src": "/numbers-at-most-n-given-digit-set/",
                             "score": 1989.5369509422,
                             "solution": null,
@@ -3177,7 +3177,7 @@ export default{
                         },
                         {
                             "title": "600. 不含连续 1 的非负整数",
-                            "sort": 4,
+                            "sort": 5,
                             "src": "/non-negative-integers-without-consecutive-ones/",
                             "score": null,
                             "solution": null,
@@ -3185,17 +3185,9 @@ export default{
                         },
                         {
                             "title": "2376. 统计特殊整数",
-                            "sort": 5,
+                            "sort": 6,
                             "src": "/count-special-integers/",
                             "score": 2120.4466386371,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
-                            "title": "1012. 至少有 1 位重复的数字",
-                            "sort": 6,
-                            "src": "/numbers-with-repeated-digits/",
-                            "score": 2230.1673059455,
                             "solution": null,
                             "isPremium": false
                         },
@@ -3208,8 +3200,24 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2827. 范围中美丽整数的数目",
+                            "title": "1012. 至少有 1 位重复的数字",
                             "sort": 8,
+                            "src": "/numbers-with-repeated-digits/",
+                            "score": 2230.1673059455,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3519. 统计逐位非递减的整数",
+                            "sort": 9,
+                            "src": "/count-numbers-with-non-decreasing-digits/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2827. 范围中美丽整数的数目",
+                            "sort": 10,
                             "src": "/number-of-beautiful-integers-in-the-range/",
                             "score": 2324.1192580053,
                             "solution": null,
@@ -3217,7 +3225,7 @@ export default{
                         },
                         {
                             "title": "2999. 统计强大整数的数目",
-                            "sort": 9,
+                            "sort": 11,
                             "src": "/count-the-number-of-powerful-integers/",
                             "score": 2351.2293628792,
                             "solution": null,
@@ -3225,7 +3233,7 @@ export default{
                         },
                         {
                             "title": "2801. 统计范围内的步进数字数目",
-                            "sort": 10,
+                            "sort": 12,
                             "src": "/count-stepping-numbers-in-range/",
                             "score": 2367.4705934718,
                             "solution": null,
@@ -3233,7 +3241,7 @@ export default{
                         },
                         {
                             "title": "2843. 统计对称整数的数目",
-                            "sort": 11,
+                            "sort": 13,
                             "src": "/count-symmetric-integers/",
                             "score": 1269.8118442786,
                             "solution": null,
@@ -3241,7 +3249,7 @@ export default{
                         },
                         {
                             "title": "3490. 统计美丽整数的数目",
-                            "sort": 12,
+                            "sort": 14,
                             "src": "/count-beautiful-numbers/",
                             "score": null,
                             "solution": null,
@@ -3249,7 +3257,7 @@ export default{
                         },
                         {
                             "title": "3352. 统计小于 N 的 K 可约简整数",
-                            "sort": 13,
+                            "sort": 15,
                             "src": "/count-k-reducible-numbers-less-than-n/",
                             "score": 2450.5982290839,
                             "solution": null,
@@ -3257,7 +3265,7 @@ export default{
                         },
                         {
                             "title": "1397. 找到所有好字符串",
-                            "sort": 14,
+                            "sort": 16,
                             "src": "/find-all-good-strings/",
                             "score": 2666.668150845,
                             "solution": null,
@@ -3265,7 +3273,7 @@ export default{
                         },
                         {
                             "title": "3348. 最小可整除数位乘积 II",
-                            "sort": 15,
+                            "sort": 17,
                             "src": "/smallest-divisible-digit-product-ii/",
                             "score": 3101.4829146106,
                             "solution": null,
@@ -3273,7 +3281,7 @@ export default{
                         },
                         {
                             "title": "1215. 步进数",
-                            "sort": 16,
+                            "sort": 18,
                             "src": "/stepping-numbers/",
                             "score": 1674.5365205597,
                             "solution": null,
@@ -3281,7 +3289,7 @@ export default{
                         },
                         {
                             "title": "1067. 范围内的数字计数",
-                            "sort": 17,
+                            "sort": 19,
                             "src": "/digit-count-in-range/",
                             "score": 2025.1529365814,
                             "solution": null,
@@ -3289,7 +3297,7 @@ export default{
                         },
                         {
                             "title": "3032. 统计各位数字都不同的数字个数 II",
-                            "sort": 18,
+                            "sort": 20,
                             "src": "/count-numbers-with-unique-digits-ii/",
                             "score": null,
                             "solution": null,
@@ -3297,7 +3305,7 @@ export default{
                         },
                         {
                             "title": "233. 数字 1 的个数",
-                            "sort": 19,
+                            "sort": 21,
                             "src": "/number-of-digit-one/",
                             "score": null,
                             "solution": null,
@@ -3305,7 +3313,7 @@ export default{
                         },
                         {
                             "title": "面试题 17.06. 2 出现的次数",
-                            "sort": 20,
+                            "sort": 22,
                             "src": "/number-of-2s-in-range-lcci/",
                             "score": null,
                             "solution": null,
@@ -3313,7 +3321,7 @@ export default{
                         },
                         {
                             "title": "3007. 价值和小于等于 K 的最大数字",
-                            "sort": 21,
+                            "sort": 23,
                             "src": "/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/",
                             "score": 2258.0069047781,
                             "solution": null,
@@ -3367,8 +3375,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "3251. 单调数组对的数目 II",
+                            "title": "629. K 个逆序对数组",
                             "sort": 4,
+                            "src": "/k-inverse-pairs-array/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3251. 单调数组对的数目 II",
+                            "sort": 5,
                             "src": "/find-the-count-of-monotonic-pairs-ii/",
                             "score": 2323.1267940801,
                             "solution": null,
@@ -3376,7 +3392,7 @@ export default{
                         },
                         {
                             "title": "2478. 完美分割的方案数",
-                            "sort": 5,
+                            "sort": 6,
                             "src": "/number-of-beautiful-partitions/",
                             "score": 2344.3664724791,
                             "solution": null,
@@ -3384,7 +3400,7 @@ export default{
                         },
                         {
                             "title": "837. 新 21 点",
-                            "sort": 6,
+                            "sort": 7,
                             "src": "/new-21-game/",
                             "score": 2350.0380300939,
                             "solution": null,
@@ -3392,7 +3408,7 @@ export default{
                         },
                         {
                             "title": "2463. 最小移动总距离",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/minimum-total-distance-traveled/",
                             "score": 2453.9054896968,
                             "solution": null,
@@ -3400,7 +3416,7 @@ export default{
                         },
                         {
                             "title": "3077. K 个不相交子数组的最大能量值",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/maximum-strength-of-k-disjoint-subarrays/",
                             "score": 2556.5072256577,
                             "solution": null,
@@ -3408,7 +3424,7 @@ export default{
                         },
                         {
                             "title": "3333. 找到初始输入字符串 II",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/find-the-original-typed-string-ii/",
                             "score": 2628.6330409039,
                             "solution": null,
@@ -3416,17 +3432,9 @@ export default{
                         },
                         {
                             "title": "2902. 和带限制的子多重集合的数目",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/count-of-sub-multisets-with-bounded-sum/",
                             "score": 2758.9704056427,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
-                            "title": "629. K 个逆序对数组",
-                            "sort": 11,
-                            "src": "/k-inverse-pairs-array/",
-                            "score": null,
                             "solution": null,
                             "isPremium": false
                         },

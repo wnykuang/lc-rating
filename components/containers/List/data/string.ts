@@ -1,9 +1,9 @@
 import ProblemCategory from "@components/ProblemCatetory";
 
 export default{
-    "title": "分享丨【题单】字符串（KMP/Z函数/Manacher/字符串哈希/AC自动机/后缀数组/子序列自动机）",
+    "title": "分享丨【算法题单】字符串（KMP/Z函数/Manacher/字符串哈希/AC自动机/后缀数组）",
     "original_src": "https://leetcode.cn/circle/discuss/SJFwQI",
-    "last_update": "2025-03-27 01:10:28",
+    "last_update": "2025-04-25 03:33:31",
     "sort": 0,
     "child": [
         {
@@ -282,6 +282,14 @@ export default{
                             "sort": 5,
                             "src": "/maximum-product-of-the-length-of-two-palindromic-substrings/",
                             "score": 2690.5859406179,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3504. 子字符串连接后的最长回文串 II",
+                            "sort": 6,
+                            "src": "/longest-palindrome-after-substring-concatenation-ii/",
+                            "score": 2397.700544564,
                             "solution": null,
                             "isPremium": false
                         }
@@ -592,8 +600,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1316. 不同的循环子字符串",
+                            "title": "3504. 子字符串连接后的最长回文串 II",
                             "sort": 9,
+                            "src": "/longest-palindrome-after-substring-concatenation-ii/",
+                            "score": 2397.700544564,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1316. 不同的循环子字符串",
+                            "sort": 10,
                             "src": "/distinct-echo-substrings/",
                             "score": 1836.536348078,
                             "solution": null,
@@ -601,7 +617,7 @@ export default{
                         },
                         {
                             "title": "3388. 统计数组中的美丽分割",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/count-beautiful-splits-in-an-array/",
                             "score": 2364.6818184488,
                             "solution": null,
@@ -609,7 +625,7 @@ export default{
                         },
                         {
                             "title": "2564. 子字符串异或查询",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/substring-xor-queries/",
                             "score": 1959.2696201953,
                             "solution": null,
@@ -617,7 +633,7 @@ export default{
                         },
                         {
                             "title": "1698. 字符串的不同子字符串个数",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/number-of-distinct-substrings-in-a-string/",
                             "score": null,
                             "solution": null,
@@ -625,7 +641,7 @@ export default{
                         },
                         {
                             "title": "1062. 最长重复子串",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/longest-repeating-substring/",
                             "score": null,
                             "solution": null,
@@ -633,7 +649,7 @@ export default{
                         },
                         {
                             "title": "3135. 通过添加或删除结尾字符来同化字符串",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/equalize-strings-by-adding-or-removing-characters-at-ends/",
                             "score": null,
                             "solution": null,
@@ -713,7 +729,7 @@ export default{
                             "title": "3485. 删除元素后 K 个字符串的最长公共前缀",
                             "sort": 0,
                             "src": "/longest-common-prefix-of-k-strings-after-removal/",
-                            "score": null,
+                            "score": 2289.6436758228,
                             "solution": null,
                             "isPremium": false
                         }

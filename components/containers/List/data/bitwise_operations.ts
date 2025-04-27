@@ -1,9 +1,9 @@
 import ProblemCategory from "@components/ProblemCatetory";
 
 export default{
-    "title": "分享丨【题单】位运算（基础/性质/拆位/试填/恒等式/思维）",
+    "title": "分享丨【算法题单】位运算（基础/性质/拆位/试填/恒等式/思维）",
     "original_src": "https://leetcode.cn/circle/discuss/dHn9Vk",
-    "last_update": "2025-04-08 00:31:24",
+    "last_update": "2025-04-25 03:20:32",
     "sort": 0,
     "child": [
         {
@@ -104,16 +104,8 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "3211. 生成不含相邻零的二进制字符串",
-                            "sort": 9,
-                            "src": "/generate-binary-strings-without-adjacent-zeros/",
-                            "score": 1352.5455214631,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "2917. 找出数组中的 K-or 值",
-                            "sort": 10,
+                            "sort": 9,
                             "src": "/find-the-k-or-of-an-array/",
                             "score": 1388.5363323598,
                             "solution": null,
@@ -121,7 +113,7 @@ export default{
                         },
                         {
                             "title": "693. 交替位二进制数",
-                            "sort": 11,
+                            "sort": 10,
                             "src": "/binary-number-with-alternating-bits/",
                             "score": null,
                             "solution": null,
@@ -129,7 +121,7 @@ export default{
                         },
                         {
                             "title": "2657. 找到两个数组的前缀公共数组",
-                            "sort": 12,
+                            "sort": 11,
                             "src": "/find-the-prefix-common-array-of-two-arrays/",
                             "score": 1304.1180812515,
                             "solution": null,
@@ -137,7 +129,7 @@ export default{
                         },
                         {
                             "title": "231. 2 的幂",
-                            "sort": 13,
+                            "sort": 12,
                             "src": "/power-of-two/",
                             "score": null,
                             "solution": null,
@@ -145,7 +137,7 @@ export default{
                         },
                         {
                             "title": "342. 4 的幂",
-                            "sort": 14,
+                            "sort": 13,
                             "src": "/power-of-four/",
                             "score": null,
                             "solution": null,
@@ -153,8 +145,16 @@ export default{
                         },
                         {
                             "title": "191. 位 1 的个数",
-                            "sort": 15,
+                            "sort": 14,
                             "src": "/number-of-1-bits/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "338. 比特位计数",
+                            "sort": 15,
+                            "src": "/counting-bits/",
                             "score": null,
                             "solution": null,
                             "isPremium": false
@@ -168,10 +168,10 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "338. 比特位计数",
+                            "title": "3211. 生成不含相邻零的二进制字符串",
                             "sort": 17,
-                            "src": "/counting-bits/",
-                            "score": null,
+                            "src": "/generate-binary-strings-without-adjacent-zeros/",
+                            "score": 1352.5455214631,
                             "solution": null,
                             "isPremium": false
                         }
@@ -793,16 +793,8 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "287. 寻找重复数",
-                            "sort": 1,
-                            "src": "/find-the-duplicate-number/",
-                            "score": null,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "260. 只出现一次的数字 III",
-                            "sort": 2,
+                            "sort": 1,
                             "src": "/single-number-iii/",
                             "score": null,
                             "solution": null,
@@ -810,7 +802,7 @@ export default{
                         },
                         {
                             "title": "2965. 找出缺失和重复的数字",
-                            "sort": 3,
+                            "sort": 2,
                             "src": "/find-missing-and-repeated-values/",
                             "score": 1244.8064626533,
                             "solution": null,
@@ -818,7 +810,7 @@ export default{
                         },
                         {
                             "title": "137. 只出现一次的数字 II",
-                            "sort": 4,
+                            "sort": 3,
                             "src": "/single-number-ii/",
                             "score": null,
                             "solution": null,
@@ -826,7 +818,7 @@ export default{
                         },
                         {
                             "title": "645. 错误的集合",
-                            "sort": 5,
+                            "sort": 4,
                             "src": "/set-mismatch/",
                             "score": null,
                             "solution": null,
@@ -834,7 +826,7 @@ export default{
                         },
                         {
                             "title": "190. 颠倒二进制位",
-                            "sort": 6,
+                            "sort": 5,
                             "src": "/reverse-bits/",
                             "score": null,
                             "solution": null,
@@ -842,7 +834,7 @@ export default{
                         },
                         {
                             "title": "371. 两整数之和",
-                            "sort": 7,
+                            "sort": 6,
                             "src": "/sum-of-two-integers/",
                             "score": null,
                             "solution": null,
@@ -850,7 +842,7 @@ export default{
                         },
                         {
                             "title": "201. 数字范围按位与",
-                            "sort": 8,
+                            "sort": 7,
                             "src": "/bitwise-and-of-numbers-range/",
                             "score": null,
                             "solution": null,
@@ -858,7 +850,7 @@ export default{
                         },
                         {
                             "title": "2154. 将找到的值乘以 2",
-                            "sort": 9,
+                            "sort": 8,
                             "src": "/keep-multiplying-found-values-by-two/",
                             "score": 1235.8413685224,
                             "solution": null,
@@ -866,7 +858,7 @@ export default{
                         },
                         {
                             "title": "2044. 统计按位或能得到最大值的子集数目",
-                            "sort": 10,
+                            "sort": 9,
                             "src": "/count-number-of-maximum-bitwise-or-subsets/",
                             "score": 1567.6884942977,
                             "solution": null,
@@ -874,7 +866,7 @@ export default{
                         },
                         {
                             "title": "2438. 二的幂数组中查询范围内的乘积",
-                            "sort": 11,
+                            "sort": 10,
                             "src": "/range-product-queries-of-powers/",
                             "score": 1609.7858209851,
                             "solution": null,
@@ -882,7 +874,7 @@ export default{
                         },
                         {
                             "title": "1680. 连接连续二进制数字",
-                            "sort": 12,
+                            "sort": 11,
                             "src": "/concatenation-of-consecutive-binary-numbers/",
                             "score": 1629.5416832545,
                             "solution": null,
@@ -890,7 +882,7 @@ export default{
                         },
                         {
                             "title": "1261. 在受污染的二叉树中查找元素",
-                            "sort": 13,
+                            "sort": 12,
                             "src": "/find-elements-in-a-contaminated-binary-tree/",
                             "score": 1439.5656079032,
                             "solution": null,
@@ -898,7 +890,7 @@ export default{
                         },
                         {
                             "title": "89. 格雷编码",
-                            "sort": 14,
+                            "sort": 13,
                             "src": "/gray-code/",
                             "score": null,
                             "solution": null,
@@ -906,7 +898,7 @@ export default{
                         },
                         {
                             "title": "1238. 循环码排列",
-                            "sort": 15,
+                            "sort": 14,
                             "src": "/circular-permutation-in-binary-representation/",
                             "score": 1774.8764591297,
                             "solution": null,
@@ -914,7 +906,7 @@ export default{
                         },
                         {
                             "title": "982. 按位与为零的三元组",
-                            "sort": 16,
+                            "sort": 15,
                             "src": "/triples-with-bitwise-and-equal-to-zero/",
                             "score": 2084.9697035674,
                             "solution": null,
@@ -922,7 +914,7 @@ export default{
                         },
                         {
                             "title": "3307. 找出第 K 个字符 II",
-                            "sort": 17,
+                            "sort": 16,
                             "src": "/find-the-k-th-character-in-string-game-ii/",
                             "score": 2232.067965725,
                             "solution": null,
@@ -930,7 +922,7 @@ export default{
                         },
                         {
                             "title": "1611. 使整数变为 0 的最少操作次数",
-                            "sort": 18,
+                            "sort": 17,
                             "src": "/minimum-one-bit-operations-to-make-integers-zero/",
                             "score": 2345.3418191684,
                             "solution": null,
@@ -938,7 +930,7 @@ export default{
                         },
                         {
                             "title": "LCP 81. 与非的谜题",
-                            "sort": 19,
+                            "sort": 18,
                             "src": "/ryfUiz/",
                             "score": null,
                             "solution": null,
@@ -946,7 +938,7 @@ export default{
                         },
                         {
                             "title": "751. IP 到 CIDR",
-                            "sort": 20,
+                            "sort": 19,
                             "src": "/ip-to-cidr/",
                             "score": 2025.0377429311,
                             "solution": null,
@@ -954,7 +946,7 @@ export default{
                         },
                         {
                             "title": "3141. 最大汉明距离",
-                            "sort": 21,
+                            "sort": 20,
                             "src": "/maximum-hamming-distances/",
                             "score": null,
                             "solution": null,

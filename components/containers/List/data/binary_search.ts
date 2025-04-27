@@ -1,9 +1,9 @@
 import ProblemCategory from "@components/ProblemCatetory";
 
 export default{
-    "title": "分享丨【题单】二分算法（二分答案/最小化最大值/最大化最小值/第K小）",
+    "title": "分享丨【算法题单】二分算法（二分答案/最小化最大值/最大化最小值/第K小）",
     "original_src": "https://leetcode.cn/circle/discuss/SqopEo",
-    "last_update": "2025-04-09 01:26:10",
+    "last_update": "2025-04-25 02:50:11",
     "sort": 0,
     "child": [
         {
@@ -123,7 +123,7 @@ export default{
                             "title": "3488. 距离最小相等元素查询",
                             "sort": 5,
                             "src": "/closest-equal-element-queries/",
-                            "score": null,
+                            "score": 1699.1071481616,
                             "solution": null,
                             "isPremium": false
                         },
@@ -163,7 +163,7 @@ export default{
                             "title": "3508. 设计路由器",
                             "sort": 10,
                             "src": "/implement-router/",
-                            "score": null,
+                            "score": 1851.1720518145,
                             "solution": null,
                             "isPremium": false
                         },

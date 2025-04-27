@@ -1,9 +1,9 @@
 import ProblemCategory from "@components/ProblemCatetory";
 
 export default{
-    "title": "分享丨【题单】贪心算法（基本贪心策略/反悔/区间/字典序/数学/思维/构造）",
+    "title": "分享丨【算法题单】贪心算法（基本贪心策略/反悔/区间/字典序/数学/思维/构造）",
     "original_src": "https://leetcode.cn/circle/discuss/g6KTKL",
-    "last_update": "2025-04-03 01:39:09",
+    "last_update": "2025-04-25 03:32:16",
     "sort": 0,
     "child": [
         {
@@ -526,8 +526,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2323. 完成所有工作的最短时间 II",
+                            "title": "2071. 你可以安排的最多任务数目",
                             "sort": 9,
+                            "src": "/maximum-number-of-tasks-you-can-assign/",
+                            "score": 2648.1748409542,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2323. 完成所有工作的最短时间 II",
+                            "sort": 10,
                             "src": "/find-minimum-time-to-finish-all-jobs-ii/",
                             "score": null,
                             "solution": null,
@@ -859,7 +867,7 @@ export default{
                     "title": "§1.7 交换论证法",
                     "sort": 6,
                     "isLeaf": true,
-                    "summary": "交换论证法（exchange argument）用于证明一类贪心算法的正确性，也可以用来启发思考。做法如下：<br>1. 对于题目，猜想按照「某种顺序」处理数据，可以得到最优解。<br>2. 交换顺序中的两个元素 $a_i$ 和 $a_j$，计算交换后的答案。<br>3. 对比交换前后的答案。如果交换后，答案没有变得更优，则说明猜想成立。<br>也可以不用猜想，而是计算「先 $a_i$ 后 $a_j$」和「先 $a_j$ 后 $a_i$」对应的答案，通过比较两个答案谁更优，来确定按照何种顺序处理数据。<br><a href=\"https://leetcode.cn/problems/minimum-processing-time/solution/tan-xin-pythonjavacgo-by-endlesscheng-8fzf/\">讲解（以 2895 题为例）</a><br>补充：<br>",
+                    "summary": "交换论证法（exchange argument）用于证明一类贪心算法的正确性，也可以用来启发思考。做法如下：<br>1. 对于题目，猜想按照「某种顺序」处理数据，可以得到最优解。<br>2. 交换顺序中的两个元素 $a_i$ 和 $a_j$，计算交换后的答案。<br>3. 对比交换前后的答案。如果交换后，答案没有变得更优，则说明猜想成立。<br>也可以不用猜想，而是计算「先 $a_i$ 后 $a_j$」和「先 $a_j$ 后 $a_i$」对应的答案，通过比较两个答案谁更优，来确定按照何种顺序处理数据。<br><a href=\"https://leetcode.cn/problems/minimum-processing-time/solution/tan-xin-pythonjavacgo-by-endlesscheng-8fzf/\">讲解（以 2895 题为例）</a><br>**思维扩展**：<br>**相似题目**：<br>",
                     "child": [
                         {
                             "title": "2895. 最小处理时间",
@@ -914,6 +922,14 @@ export default{
                             "sort": 6,
                             "src": "/maximum-possible-number-by-binary-concatenation/",
                             "score": 1363.7443380057,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2412. 完成所有交易的初始最少钱数",
+                            "sort": 7,
+                            "src": "/minimum-money-required-before-transactions/",
+                            "score": 2092.0222850837,
                             "solution": null,
                             "isPremium": false
                         }
@@ -977,7 +993,7 @@ export default{
                             "title": "3495. 使数组元素都变为零的最少操作次数",
                             "sort": 6,
                             "src": "/minimum-operations-to-make-array-elements-zero/",
-                            "score": null,
+                            "score": 2205.6094494046,
                             "solution": null,
                             "isPremium": false
                         },
@@ -1452,8 +1468,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1663. 具有给定数值的最小字符串",
+                            "title": "3517. 最小回文排列 I",
                             "sort": 6,
+                            "src": "/smallest-palindromic-rearrangement-i/",
+                            "score": 1357.002392715,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1663. 具有给定数值的最小字符串",
+                            "sort": 7,
                             "src": "/smallest-string-with-a-given-numeric-value/",
                             "score": 1460.5903088359,
                             "solution": null,
@@ -1461,7 +1485,7 @@ export default{
                         },
                         {
                             "title": "1328. 破坏回文串",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/break-a-palindrome/",
                             "score": 1473.864993045,
                             "solution": null,
@@ -1469,7 +1493,7 @@ export default{
                         },
                         {
                             "title": "2259. 移除指定数字得到的最大结果",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/remove-digit-from-number-to-maximize-result/",
                             "score": 1331.5287857686,
                             "solution": null,
@@ -1477,7 +1501,7 @@ export default{
                         },
                         {
                             "title": "2566. 替换一个数字后的最大差值",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/maximum-difference-by-remapping-a-digit/",
                             "score": 1396.1044458638,
                             "solution": null,
@@ -1485,7 +1509,7 @@ export default{
                         },
                         {
                             "title": "670. 最大交换",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/maximum-swap/",
                             "score": null,
                             "solution": null,
@@ -1493,7 +1517,7 @@ export default{
                         },
                         {
                             "title": "3106. 满足距离约束且字典序最小的字符串",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/lexicographically-smallest-string-after-operations-with-constraint/",
                             "score": 1515.4316202561,
                             "solution": null,
@@ -1501,7 +1525,7 @@ export default{
                         },
                         {
                             "title": "1053. 交换一次的先前排列",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/previous-permutation-with-one-swap/",
                             "score": 1633.1789521619,
                             "solution": null,
@@ -1509,7 +1533,7 @@ export default{
                         },
                         {
                             "title": "2375. 根据模式串构造最小数字",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/construct-smallest-number-from-di-string/",
                             "score": 1641.9424376927,
                             "solution": null,
@@ -1517,7 +1541,7 @@ export default{
                         },
                         {
                             "title": "2182. 构造限制重复的字符串",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/construct-string-with-repeat-limit/",
                             "score": 1680.1353258588,
                             "solution": null,
@@ -1525,7 +1549,7 @@ export default{
                         },
                         {
                             "title": "738. 单调递增的数字",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/monotone-increasing-digits/",
                             "score": null,
                             "solution": null,
@@ -1533,7 +1557,7 @@ export default{
                         },
                         {
                             "title": "3403. 从盒子中找出字典序最大的字符串 I",
-                            "sort": 16,
+                            "sort": 17,
                             "src": "/find-the-lexicographically-largest-string-from-the-box-i/",
                             "score": 1761.8759092138,
                             "solution": null,
@@ -1541,7 +1565,7 @@ export default{
                         },
                         {
                             "title": "3170. 删除星号以后字典序最小的字符串",
-                            "sort": 17,
+                            "sort": 18,
                             "src": "/lexicographically-minimum-string-after-removing-stars/",
                             "score": 1772.4702293335,
                             "solution": null,
@@ -1549,7 +1573,7 @@ export default{
                         },
                         {
                             "title": "1363. 形成三的最大倍数",
-                            "sort": 18,
+                            "sort": 19,
                             "src": "/largest-multiple-of-three/",
                             "score": 1822.9768689716,
                             "solution": null,
@@ -1557,7 +1581,7 @@ export default{
                         },
                         {
                             "title": "1754. 构造字典序最大的合并字符串",
-                            "sort": 19,
+                            "sort": 20,
                             "src": "/largest-merge-of-two-strings/",
                             "score": 1828.6438563573,
                             "solution": null,
@@ -1565,7 +1589,7 @@ export default{
                         },
                         {
                             "title": "1202. 交换字符串中的元素",
-                            "sort": 20,
+                            "sort": 21,
                             "src": "/smallest-string-with-swaps/",
                             "score": 1855.4479039876,
                             "solution": null,
@@ -1573,7 +1597,7 @@ export default{
                         },
                         {
                             "title": "2434. 使用机器人打印字典序最小的字符串",
-                            "sort": 21,
+                            "sort": 22,
                             "src": "/using-a-robot-to-print-the-lexicographically-smallest-string/",
                             "score": 1953.137726744,
                             "solution": null,
@@ -1581,7 +1605,7 @@ export default{
                         },
                         {
                             "title": "1625. 执行操作后字典序最小的字符串",
-                            "sort": 22,
+                            "sort": 23,
                             "src": "/lexicographically-smallest-string-after-applying-operations/",
                             "score": 1992.0032292739,
                             "solution": null,
@@ -1589,7 +1613,7 @@ export default{
                         },
                         {
                             "title": "2948. 交换得到字典序最小的数组",
-                            "sort": 23,
+                            "sort": 24,
                             "src": "/make-lexicographically-smallest-array-by-swapping-elements/",
                             "score": 2047.3919190727,
                             "solution": null,
@@ -1597,7 +1621,7 @@ export default{
                         },
                         {
                             "title": "564. 寻找最近的回文数",
-                            "sort": 24,
+                            "sort": 25,
                             "src": "/find-the-closest-palindrome/",
                             "score": null,
                             "solution": null,
@@ -1605,7 +1629,7 @@ export default{
                         },
                         {
                             "title": "1505. 最多 K 次交换相邻数位后得到的最小整数",
-                            "sort": 25,
+                            "sort": 26,
                             "src": "/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/",
                             "score": 2336.5210003185,
                             "solution": null,
@@ -1613,7 +1637,7 @@ export default{
                         },
                         {
                             "title": "2663. 字典序最小的美丽字符串",
-                            "sort": 26,
+                            "sort": 27,
                             "src": "/lexicographically-smallest-beautiful-string/",
                             "score": 2415.7434855724,
                             "solution": null,
@@ -1621,7 +1645,7 @@ export default{
                         },
                         {
                             "title": "3302. 字典序最小的合法序列",
-                            "sort": 27,
+                            "sort": 28,
                             "src": "/find-the-lexicographically-smallest-valid-sequence/",
                             "score": 2473.6778280303,
                             "solution": null,
@@ -1629,7 +1653,7 @@ export default{
                         },
                         {
                             "title": "3474. 字典序最小的生成字符串",
-                            "sort": 28,
+                            "sort": 29,
                             "src": "/lexicographically-smallest-generated-string/",
                             "score": 2605.3698165497,
                             "solution": null,
@@ -1637,7 +1661,7 @@ export default{
                         },
                         {
                             "title": "555. 分割连接字符串",
-                            "sort": 29,
+                            "sort": 30,
                             "src": "/split-concatenated-strings/",
                             "score": null,
                             "solution": null,
@@ -1645,7 +1669,7 @@ export default{
                         },
                         {
                             "title": "3088. 使字符串反回文",
-                            "sort": 30,
+                            "sort": 31,
                             "src": "/make-string-anti-palindrome/",
                             "score": null,
                             "solution": null,
@@ -1684,8 +1708,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1328. 破坏回文串",
+                            "title": "3517. 最小回文排列 I",
                             "sort": 3,
+                            "src": "/smallest-palindromic-rearrangement-i/",
+                            "score": 1357.002392715,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1328. 破坏回文串",
+                            "sort": 4,
                             "src": "/break-a-palindrome/",
                             "score": 1473.864993045,
                             "solution": null,
@@ -1693,7 +1725,7 @@ export default{
                         },
                         {
                             "title": "1400. 构造 K 个回文字符串",
-                            "sort": 4,
+                            "sort": 5,
                             "src": "/construct-k-palindrome-strings/",
                             "score": 1530.495439788,
                             "solution": null,
@@ -1701,7 +1733,7 @@ export default{
                         },
                         {
                             "title": "2131. 连接两字母单词得到的最长回文串",
-                            "sort": 5,
+                            "sort": 6,
                             "src": "/longest-palindrome-by-concatenating-two-letter-words/",
                             "score": 1556.8824239708,
                             "solution": null,
@@ -1709,7 +1741,7 @@ export default{
                         },
                         {
                             "title": "2384. 最大回文数字",
-                            "sort": 6,
+                            "sort": 7,
                             "src": "/largest-palindromic-number/",
                             "score": 1636.47322627,
                             "solution": null,
@@ -1717,7 +1749,7 @@ export default{
                         },
                         {
                             "title": "3035. 回文字符串的最大数量",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/maximum-palindromes-after-operations/",
                             "score": 1856.6336926997,
                             "solution": null,
@@ -1725,7 +1757,7 @@ export default{
                         },
                         {
                             "title": "1616. 分割两个字符串得到回文串",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/split-two-strings-to-make-palindrome/",
                             "score": 1868.1914861381,
                             "solution": null,
@@ -1733,7 +1765,7 @@ export default{
                         },
                         {
                             "title": "1147. 段式回文",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/longest-chunked-palindrome-decomposition/",
                             "score": 1912.0829958001,
                             "solution": null,
@@ -1741,7 +1773,7 @@ export default{
                         },
                         {
                             "title": "2193. 得到回文串的最少操作次数",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/minimum-number-of-moves-to-make-palindrome/",
                             "score": 2090.6800569319,
                             "solution": null,
@@ -1749,7 +1781,7 @@ export default{
                         },
                         {
                             "title": "564. 寻找最近的回文数",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/find-the-closest-palindrome/",
                             "score": null,
                             "solution": null,
@@ -1757,7 +1789,7 @@ export default{
                         },
                         {
                             "title": "266. 回文排列",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/palindrome-permutation/",
                             "score": null,
                             "solution": null,
@@ -1765,7 +1797,7 @@ export default{
                         },
                         {
                             "title": "2422. 使用合并操作将数组转换为回文序列",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/merge-operations-to-turn-array-into-a-palindrome/",
                             "score": null,
                             "solution": null,
@@ -1773,7 +1805,7 @@ export default{
                         },
                         {
                             "title": "1842. 下个由相同数字构成的回文串",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/next-palindrome-using-same-digits/",
                             "score": null,
                             "solution": null,
@@ -1781,7 +1813,7 @@ export default{
                         },
                         {
                             "title": "3088. 使字符串反回文",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/make-string-anti-palindrome/",
                             "score": null,
                             "solution": null,
@@ -2521,8 +2553,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2332. 坐上公交的最晚时间",
+                            "title": "3148. 矩阵中的最大得分",
                             "sort": 26,
+                            "src": "/maximum-difference-score-in-a-grid/",
+                            "score": 1819.6800324413,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2332. 坐上公交的最晚时间",
+                            "sort": 27,
                             "src": "/the-latest-time-to-catch-a-bus/",
                             "score": 1840.9122452886,
                             "solution": null,
@@ -2530,7 +2570,7 @@ export default{
                         },
                         {
                             "title": "2680. 最大或值",
-                            "sort": 27,
+                            "sort": 28,
                             "src": "/maximum-or/",
                             "score": 1912.1926699881,
                             "solution": null,
@@ -2538,7 +2578,7 @@ export default{
                         },
                         {
                             "title": "2731. 移动机器人",
-                            "sort": 28,
+                            "sort": 29,
                             "src": "/movement-of-robots/",
                             "score": 1922.9521758079,
                             "solution": null,
@@ -2546,7 +2586,7 @@ export default{
                         },
                         {
                             "title": "2556. 二进制矩阵中翻转最多一次使路径不连通",
-                            "sort": 29,
+                            "sort": 30,
                             "src": "/disconnect-path-in-a-binary-matrix-by-at-most-one-flip/",
                             "score": 2368.6674771307,
                             "solution": null,
@@ -2554,7 +2594,7 @@ export default{
                         },
                         {
                             "title": "3125. 使得按位与结果为 0 的最大数字",
-                            "sort": 30,
+                            "sort": 31,
                             "src": "/maximum-number-that-makes-result-of-bitwise-and-zero/",
                             "score": null,
                             "solution": null,
@@ -2562,7 +2602,7 @@ export default{
                         },
                         {
                             "title": "1794. 统计距离最小的子串对个数",
-                            "sort": 31,
+                            "sort": 32,
                             "src": "/count-pairs-of-equal-substrings-with-minimum-difference/",
                             "score": null,
                             "solution": null,
@@ -2784,8 +2824,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "969. 煎饼排序",
+                            "title": "3513. 不同 XOR 三元组的数目 I",
                             "sort": 4,
+                            "src": "/number-of-unique-xor-triplets-i/",
+                            "score": 1663.403653034,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "969. 煎饼排序",
+                            "sort": 5,
                             "src": "/pancake-sorting/",
                             "score": 1590.5791055102,
                             "solution": null,
@@ -2793,7 +2841,7 @@ export default{
                         },
                         {
                             "title": "1605. 给定行和列的和求可行矩阵",
-                            "sort": 5,
+                            "sort": 6,
                             "src": "/find-valid-matrix-given-row-and-column-sums/",
                             "score": 1867.8619694847,
                             "solution": null,
@@ -2801,7 +2849,7 @@ export default{
                         },
                         {
                             "title": "2375. 根据模式串构造最小数字",
-                            "sort": 6,
+                            "sort": 7,
                             "src": "/construct-smallest-number-from-di-string/",
                             "score": 1641.9424376927,
                             "solution": null,
@@ -2809,7 +2857,7 @@ export default{
                         },
                         {
                             "title": "324. 摆动排序 II",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/wiggle-sort-ii/",
                             "score": null,
                             "solution": null,
@@ -2817,7 +2865,7 @@ export default{
                         },
                         {
                             "title": "667. 优美的排列 II",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/beautiful-arrangement-ii/",
                             "score": null,
                             "solution": null,
@@ -2825,7 +2873,7 @@ export default{
                         },
                         {
                             "title": "2122. 还原原数组",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/recover-the-original-array/",
                             "score": 2158.8988728254,
                             "solution": null,
@@ -2833,7 +2881,7 @@ export default{
                         },
                         {
                             "title": "932. 漂亮数组",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/beautiful-array/",
                             "score": 2294.0981174197,
                             "solution": null,
@@ -2841,7 +2889,7 @@ export default{
                         },
                         {
                             "title": "3311. 构造符合图结构的二维矩阵",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/construct-2d-grid-matching-graph-layout/",
                             "score": 2664.2117701776,
                             "solution": null,
@@ -2849,7 +2897,7 @@ export default{
                         },
                         {
                             "title": "2573. 找出对应 LCP 矩阵的字符串",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/find-the-string-with-lcp/",
                             "score": 2681.7054310332,
                             "solution": null,
@@ -2857,7 +2905,7 @@ export default{
                         },
                         {
                             "title": "1982. 从子集的和还原数组",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/find-array-given-subset-sums/",
                             "score": 2872.0290327119,
                             "solution": null,
@@ -2865,7 +2913,7 @@ export default{
                         },
                         {
                             "title": "280. 摆动排序",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/wiggle-sort/",
                             "score": null,
                             "solution": null,
@@ -2873,7 +2921,7 @@ export default{
                         },
                         {
                             "title": "484. 寻找排列",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/find-permutation/",
                             "score": null,
                             "solution": null,
@@ -2881,7 +2929,7 @@ export default{
                         },
                         {
                             "title": "1980. 找出不同的二进制字符串",
-                            "sort": 16,
+                            "sort": 17,
                             "src": "/find-unique-binary-string/",
                             "score": 1361.6459603518,
                             "solution": null,
@@ -2919,8 +2967,24 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1864. 构成交替字符串需要的最小交换次数",
+                            "title": "781. 森林中的兔子",
                             "sort": 2,
+                            "src": "/rabbits-in-forest/",
+                            "score": 1453.1833769825,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3523. 非递减数组的最大长度",
+                            "sort": 3,
+                            "src": "/make-array-non-decreasing/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1864. 构成交替字符串需要的最小交换次数",
+                            "sort": 4,
                             "src": "/minimum-number-of-swaps-to-make-the-binary-string-alternating/",
                             "score": 1600.5573262373,
                             "solution": null,
@@ -2928,7 +2992,7 @@ export default{
                         },
                         {
                             "title": "1899. 合并若干三元组以形成目标三元组",
-                            "sort": 3,
+                            "sort": 5,
                             "src": "/merge-triplets-to-form-target-triplet/",
                             "score": 1635.6879273926,
                             "solution": null,
@@ -2936,7 +3000,7 @@ export default{
                         },
                         {
                             "title": "2498. 青蛙过河 II",
-                            "sort": 4,
+                            "sort": 6,
                             "src": "/frog-jump-ii/",
                             "score": 1759.0470795449,
                             "solution": null,
@@ -2944,7 +3008,7 @@ export default{
                         },
                         {
                             "title": "134. 加油站",
-                            "sort": 5,
+                            "sort": 7,
                             "src": "/gas-station/",
                             "score": null,
                             "solution": null,
@@ -2952,7 +3016,7 @@ export default{
                         },
                         {
                             "title": "2311. 小于等于 K 的最长二进制子序列",
-                            "sort": 6,
+                            "sort": 8,
                             "src": "/longest-binary-subsequence-less-than-or-equal-to-k/",
                             "score": 1839.9203623221,
                             "solution": null,
@@ -2960,7 +3024,7 @@ export default{
                         },
                         {
                             "title": "3443. K 次修改后的最大曼哈顿距离",
-                            "sort": 7,
+                            "sort": 9,
                             "src": "/maximum-manhattan-distance-after-k-changes/",
                             "score": 1855.9197348195,
                             "solution": null,
@@ -2968,23 +3032,15 @@ export default{
                         },
                         {
                             "title": "3002. 移除后集合的最多元素数",
-                            "sort": 8,
+                            "sort": 10,
                             "src": "/maximum-size-of-a-set-after-removals/",
                             "score": 1917.4314822412,
                             "solution": null,
                             "isPremium": false
                         },
                         {
-                            "title": "2412. 完成所有交易的初始最少钱数",
-                            "sort": 9,
-                            "src": "/minimum-money-required-before-transactions/",
-                            "score": 2092.0222850837,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "659. 分割数组为连续子序列",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/split-array-into-consecutive-subsequences/",
                             "score": null,
                             "solution": null,
@@ -2992,7 +3048,7 @@ export default{
                         },
                         {
                             "title": "2732. 找到矩阵中的好子集",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/find-a-good-subset-of-the-matrix/",
                             "score": 2239.7101856677,
                             "solution": null,
@@ -3000,7 +3056,7 @@ export default{
                         },
                         {
                             "title": "2790. 长度递增组的最大数目",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/maximum-number-of-groups-with-increasing-length/",
                             "score": 2619.7016189999,
                             "solution": null,
@@ -3008,15 +3064,15 @@ export default{
                         },
                         {
                             "title": "3480. 删除一个冲突对后最大子数组数目",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/maximize-subarrays-after-removing-one-conflicting-pair/",
-                            "score": null,
+                            "score": 2763.6510278508,
                             "solution": null,
                             "isPremium": false
                         },
                         {
                             "title": "782. 变为棋盘",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/transform-to-chessboard/",
                             "score": 2429.6705422448,
                             "solution": null,
@@ -3024,7 +3080,7 @@ export default{
                         },
                         {
                             "title": "420. 强密码检验器",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/strong-password-checker/",
                             "score": null,
                             "solution": null,
@@ -3032,7 +3088,7 @@ export default{
                         },
                         {
                             "title": "LCP 26. 导航装置",
-                            "sort": 16,
+                            "sort": 17,
                             "src": "/hSRGyL/",
                             "score": null,
                             "solution": null,
@@ -3040,7 +3096,7 @@ export default{
                         },
                         {
                             "title": "LCP 70. 沙地治理",
-                            "sort": 17,
+                            "sort": 18,
                             "src": "/XxZZjK/",
                             "score": null,
                             "solution": null,
@@ -3048,7 +3104,7 @@ export default{
                         },
                         {
                             "title": "3460. 最多删除一次后的最长公共前缀",
-                            "sort": 18,
+                            "sort": 19,
                             "src": "/longest-common-prefix-after-at-most-one-removal/",
                             "score": null,
                             "solution": null,
@@ -3056,7 +3112,7 @@ export default{
                         },
                         {
                             "title": "2753. 计算一个环形街道上的房屋数量 II",
-                            "sort": 19,
+                            "sort": 20,
                             "src": "/count-houses-in-a-circular-street-ii/",
                             "score": null,
                             "solution": null,
@@ -3064,7 +3120,7 @@ export default{
                         },
                         {
                             "title": "LCS 02. 完成一半题目",
-                            "sort": 20,
+                            "sort": 21,
                             "src": "/WqXACV/",
                             "score": null,
                             "solution": null,

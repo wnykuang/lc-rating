@@ -1,9 +1,9 @@
 import ProblemCategory from "@components/ProblemCatetory";
 
 export default{
-    "title": "分享丨【题单】链表、二叉树与回溯（前后指针/快慢指针/DFS/BFS/直径/LCA/一般树）",
+    "title": "分享丨【算法题单】链表、二叉树与回溯（前后指针/快慢指针/DFS/BFS/直径/LCA/一般树）",
     "original_src": "https://leetcode.cn/circle/discuss/K0n2gO",
-    "last_update": "2025-04-04 14:52:48",
+    "last_update": "2025-04-25 03:32:45",
     "sort": 0,
     "child": [
         {
@@ -301,7 +301,7 @@ export default{
                     "title": "§1.6 快慢指针",
                     "sort": 5,
                     "isLeaf": true,
-                    "summary": "<a href=\"https://www.bilibili.com/video/BV1KG4y1G7cu/\">视频讲解【基础算法精讲 07】</a><br>",
+                    "summary": "<a href=\"https://www.bilibili.com/video/BV1KG4y1G7cu/\">视频讲解【基础算法精讲 07】</a><br>**思维扩展**：<br>",
                     "child": [
                         {
                             "title": "876. 链表的中间结点",
@@ -374,6 +374,14 @@ export default{
                             "score": null,
                             "solution": null,
                             "isPremium": true
+                        },
+                        {
+                            "title": "287. 寻找重复数",
+                            "sort": 9,
+                            "src": "/find-the-duplicate-number/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
                         }
                     ]
                 },
@@ -1721,7 +1729,7 @@ export default{
                     ]
                 },
                 {
-                    "title": "§2.13 BFS",
+                    "title": "§2.13 二叉树 BFS",
                     "sort": 12,
                     "isLeaf": true,
                     "summary": "<a href=\"https://www.bilibili.com/video/BV1hG4y1277i/\">视频讲解【基础算法精讲 13】</a><br>",
@@ -2558,8 +2566,24 @@ export default{
                     "summary": "",
                     "child": [
                         {
-                            "title": "2322. 从树中删除边的最小分数",
+                            "title": "3515. 带权树中的最短路径",
                             "sort": 0,
+                            "src": "/shortest-path-in-a-weighted-tree/",
+                            "score": 2312.2207190263,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "LCP 05. 发 LeetCoin",
+                            "sort": 1,
+                            "src": "/coin-bonus/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2322. 从树中删除边的最小分数",
+                            "sort": 2,
                             "src": "/minimum-score-after-removals-on-a-tree/",
                             "score": 2391.657270733,
                             "solution": null,
@@ -2567,7 +2591,7 @@ export default{
                         },
                         {
                             "title": "3327. 判断 DFS 字符串是否是回文串",
-                            "sort": 1,
+                            "sort": 3,
                             "src": "/check-if-dfs-strings-are-palindromes/",
                             "score": 2454.1900261902,
                             "solution": null,
@@ -2657,7 +2681,7 @@ export default{
                             "title": "3486. 最长特殊路径 II",
                             "sort": 1,
                             "src": "/longest-special-path-ii/",
-                            "score": null,
+                            "score": 2924.5453871317,
                             "solution": null,
                             "isPremium": false
                         }
@@ -3269,8 +3293,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "488. 祖玛游戏",
+                            "title": "3509. 最大化交错和为 K 的子序列乘积",
                             "sort": 19,
+                            "src": "/maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k/",
+                            "score": 2702.6772838353,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "488. 祖玛游戏",
+                            "sort": 20,
                             "src": "/zuma-game/",
                             "score": null,
                             "solution": null,
@@ -3278,7 +3310,7 @@ export default{
                         },
                         {
                             "title": "LCP 58. 积木拼接",
-                            "sort": 20,
+                            "sort": 21,
                             "src": "/De4qBB/",
                             "score": null,
                             "solution": null,
@@ -3286,7 +3318,7 @@ export default{
                         },
                         {
                             "title": "面试题 17.25. 单词矩阵",
-                            "sort": 21,
+                            "sort": 22,
                             "src": "/word-rectangle-lcci/",
                             "score": null,
                             "solution": null,
@@ -3294,7 +3326,7 @@ export default{
                         },
                         {
                             "title": "2664. 巡逻的骑士",
-                            "sort": 22,
+                            "sort": 23,
                             "src": "/the-knights-tour/",
                             "score": null,
                             "solution": null,
@@ -3302,7 +3334,7 @@ export default{
                         },
                         {
                             "title": "247. 中心对称数 II",
-                            "sort": 23,
+                            "sort": 24,
                             "src": "/strobogrammatic-number-ii/",
                             "score": null,
                             "solution": null,
@@ -3310,7 +3342,7 @@ export default{
                         },
                         {
                             "title": "248. 中心对称数 III",
-                            "sort": 24,
+                            "sort": 25,
                             "src": "/strobogrammatic-number-iii/",
                             "score": null,
                             "solution": null,
@@ -3318,7 +3350,7 @@ export default{
                         },
                         {
                             "title": "411. 最短独占单词缩写",
-                            "sort": 25,
+                            "sort": 26,
                             "src": "/minimum-unique-word-abbreviation/",
                             "score": null,
                             "solution": null,
@@ -3326,7 +3358,7 @@ export default{
                         },
                         {
                             "title": "1088. 易混淆数 II",
-                            "sort": 26,
+                            "sort": 27,
                             "src": "/confusing-number-ii/",
                             "score": 2076.8975497986,
                             "solution": null,

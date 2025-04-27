@@ -1,9 +1,9 @@
 import ProblemCategory from "@components/ProblemCatetory";
 
 export default{
-    "title": "分享丨【题单】滑动窗口与双指针（定长/不定长/单序列/双序列/三指针/分组循环）",
+    "title": "分享丨【算法题单】滑动窗口与双指针（定长/不定长/单序列/双序列/三指针/分组循环）",
     "original_src": "https://leetcode.cn/circle/discuss/0viNMK",
-    "last_update": "2025-04-19 00:05:51",
+    "last_update": "2025-04-25 02:49:41",
     "sort": 0,
     "child": [
         {
@@ -1233,7 +1233,7 @@ export default{
                     "title": "§3.4 原地修改",
                     "sort": 3,
                     "isLeaf": true,
-                    "summary": "",
+                    "summary": "**思维扩展（选做）**：<br>",
                     "child": [
                         {
                             "title": "27. 移除元素",
@@ -1304,6 +1304,46 @@ export default{
                             "sort": 8,
                             "src": "/duplicate-zeros/",
                             "score": 1262.5890311992,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1920. 基于排列构建数组",
+                            "sort": 9,
+                            "src": "/build-array-from-permutation/",
+                            "score": 1160.4439395369,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "448. 找到所有数组中消失的数字",
+                            "sort": 10,
+                            "src": "/find-all-numbers-disappeared-in-an-array/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "442. 数组中重复的数据",
+                            "sort": 11,
+                            "src": "/find-all-duplicates-in-an-array/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "41. 缺失的第一个正数",
+                            "sort": 12,
+                            "src": "/first-missing-positive/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "287. 寻找重复数",
+                            "sort": 13,
+                            "src": "/find-the-duplicate-number/",
+                            "score": null,
                             "solution": null,
                             "isPremium": false
                         }
@@ -1836,7 +1876,7 @@ export default{
                             "title": "3499. 操作后最大活跃区段数 I",
                             "sort": 22,
                             "src": "/maximize-active-section-with-trade-i/",
-                            "score": null,
+                            "score": 1729.1782719522,
                             "solution": null,
                             "isPremium": false
                         },

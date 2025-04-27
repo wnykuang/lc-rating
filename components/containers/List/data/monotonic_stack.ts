@@ -1,9 +1,9 @@
 import ProblemCategory from "@components/ProblemCatetory";
 
 export default{
-    "title": "分享｜【题单】单调栈（矩形面积/贡献法/最小字典序）",
+    "title": "分享｜【算法题单】单调栈（矩形面积/贡献法/最小字典序）",
     "original_src": "https://leetcode.cn/circle/discuss/9oZFK9",
-    "last_update": "2025-04-16 12:50:01",
+    "last_update": "2025-04-25 03:19:24",
     "sort": 0,
     "child": [
         {

@@ -1,9 +1,9 @@
 import ProblemCategory from "@components/ProblemCatetory";
 
 export default{
-    "title": "分享丨【题单】网格图（DFS/BFS/综合应用）",
+    "title": "分享丨【算法题单】网格图（DFS/BFS/综合应用）",
     "original_src": "https://leetcode.cn/circle/discuss/YiXPXW",
-    "last_update": "2025-02-24 01:46:47",
+    "last_update": "2025-04-25 03:19:47",
     "sort": 0,
     "child": [
         {

@@ -1,9 +1,9 @@
 import ProblemCategory from "@components/ProblemCatetory";
 
 export default{
-    "title": "分享丨【题单】数学算法（数论/组合/概率期望/博弈/计算几何/随机算法）",
+    "title": "分享丨【算法题单】数学算法（数论/组合/概率期望/博弈/计算几何/随机算法）",
     "original_src": "https://leetcode.cn/circle/discuss/IYT3ss",
-    "last_update": "2025-03-20 04:18:50",
+    "last_update": "2025-04-25 03:31:37",
     "sort": 0,
     "child": [
         {
@@ -318,8 +318,24 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "952. 按公因数计算最大组件大小",
+                            "title": "2176. 统计数组中相等且可以被整除的数对",
                             "sort": 9,
+                            "src": "/count-equal-and-divisible-pairs-in-an-array/",
+                            "score": 1215.7827321325,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2183. 统计可以被 K 整除的下标对数目",
+                            "sort": 10,
+                            "src": "/count-array-pairs-divisible-by-k/",
+                            "score": 2246.0452639352,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "952. 按公因数计算最大组件大小",
+                            "sort": 11,
                             "src": "/largest-component-size-by-common-factor/",
                             "score": 2272.1122260637,
                             "solution": null,
@@ -327,7 +343,7 @@ export default{
                         },
                         {
                             "title": "1627. 带阈值的图连通性",
-                            "sort": 10,
+                            "sort": 12,
                             "src": "/graph-connectivity-with-threshold/",
                             "score": 2221.3538766773,
                             "solution": null,
@@ -335,7 +351,7 @@ export default{
                         },
                         {
                             "title": "2198. 单因数三元组",
-                            "sort": 11,
+                            "sort": 13,
                             "src": "/number-of-single-divisor-triplets/",
                             "score": null,
                             "solution": null,
@@ -343,7 +359,7 @@ export default{
                         },
                         {
                             "title": "625. 最小因式分解",
-                            "sort": 12,
+                            "sort": 14,
                             "src": "/minimum-factorization/",
                             "score": null,
                             "solution": null,
@@ -351,7 +367,7 @@ export default{
                         },
                         {
                             "title": "2847. 给定数字乘积的最小数字",
-                            "sort": 13,
+                            "sort": 15,
                             "src": "/smallest-number-with-given-digit-product/",
                             "score": null,
                             "solution": null,
@@ -470,16 +486,8 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2183. 统计可以被 K 整除的下标对数目",
-                            "sort": 13,
-                            "src": "/count-array-pairs-divisible-by-k/",
-                            "score": 2246.0452639352,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "3312. 查询排序后的最大公约数",
-                            "sort": 14,
+                            "sort": 13,
                             "src": "/sorted-gcd-pair-queries/",
                             "score": 2532.6258688719,
                             "solution": null,
@@ -487,7 +495,7 @@ export default{
                         },
                         {
                             "title": "1819. 序列中不同最大公约数的数目",
-                            "sort": 15,
+                            "sort": 14,
                             "src": "/number-of-different-subsequences-gcds/",
                             "score": 2539.863726397,
                             "solution": null,
@@ -495,7 +503,7 @@ export default{
                         },
                         {
                             "title": "LCP 14. 切分数组",
-                            "sort": 16,
+                            "sort": 15,
                             "src": "/qie-fen-shu-zu/",
                             "score": null,
                             "solution": null,
@@ -503,7 +511,7 @@ export default{
                         },
                         {
                             "title": "2436. 使子数组最大公约数大于一的最小分割数",
-                            "sort": 17,
+                            "sort": 16,
                             "src": "/minimum-split-into-subarrays-with-gcd-greater-than-one/",
                             "score": null,
                             "solution": null,
@@ -511,7 +519,7 @@ export default{
                         },
                         {
                             "title": "2464. 有效分割中的最少子数组数目",
-                            "sort": 18,
+                            "sort": 17,
                             "src": "/minimum-subarrays-in-a-valid-split/",
                             "score": null,
                             "solution": null,
@@ -519,7 +527,7 @@ export default{
                         },
                         {
                             "title": "2941. 子数组的最大 GCD-Sum",
-                            "sort": 19,
+                            "sort": 18,
                             "src": "/maximum-gcd-sum-of-a-subarray/",
                             "score": null,
                             "solution": null,
@@ -749,8 +757,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2550. 猴子碰撞的方法数",
+                            "title": "2316. 统计无向图中无法互相到达点对数",
                             "sort": 4,
+                            "src": "/count-unreachable-pairs-of-nodes-in-an-undirected-graph/",
+                            "score": 1604.0695445163,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2550. 猴子碰撞的方法数",
+                            "sort": 5,
                             "src": "/count-collisions-of-monkeys-on-a-polygon/",
                             "score": 1662.7075394144,
                             "solution": null,
@@ -758,7 +774,7 @@ export default{
                         },
                         {
                             "title": "1922. 统计好数字的数目",
-                            "sort": 5,
+                            "sort": 6,
                             "src": "/count-good-numbers/",
                             "score": 1674.7986939472,
                             "solution": null,
@@ -766,7 +782,7 @@ export default{
                         },
                         {
                             "title": "3067. 在带权树网络中统计可连接服务器对数目",
-                            "sort": 6,
+                            "sort": 7,
                             "src": "/count-pairs-of-connectable-servers-in-a-weighted-tree-network/",
                             "score": 1908.9411092109,
                             "solution": null,
@@ -774,7 +790,7 @@ export default{
                         },
                         {
                             "title": "2147. 分隔长廊的方案数",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/number-of-ways-to-divide-a-long-corridor/",
                             "score": 1914.6717285348,
                             "solution": null,
@@ -782,7 +798,7 @@ export default{
                         },
                         {
                             "title": "2963. 统计好分割方案的数目",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/count-the-number-of-good-partitions/",
                             "score": 1984.9685663849,
                             "solution": null,
@@ -790,7 +806,7 @@ export default{
                         },
                         {
                             "title": "2306. 公司命名",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/naming-a-company/",
                             "score": 2305.4498281454,
                             "solution": null,
@@ -798,7 +814,7 @@ export default{
                         },
                         {
                             "title": "2867. 统计树中的合法路径数目",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/count-valid-paths-in-a-tree/",
                             "score": 2428.3242593838,
                             "solution": null,
@@ -806,7 +822,7 @@ export default{
                         },
                         {
                             "title": "1617. 统计子树中城市之间最大距离",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/count-subtrees-with-max-distance-between-cities/",
                             "score": 2308.6545905335,
                             "solution": null,
@@ -814,7 +830,7 @@ export default{
                         },
                         {
                             "title": "2450. 应用操作后不同二进制字符串的数量",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/number-of-distinct-binary-strings-after-applying-operations/",
                             "score": null,
                             "solution": null,
@@ -917,8 +933,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "3405. 统计恰好有 K 个相等相邻元素的数组数目",
+                            "title": "3519. 统计逐位非递减的整数",
                             "sort": 11,
+                            "src": "/count-numbers-with-non-decreasing-digits/",
+                            "score": 2246.0622321942,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3405. 统计恰好有 K 个相等相邻元素的数组数目",
+                            "sort": 12,
                             "src": "/count-the-number-of-arrays-with-k-matching-adjacent-elements/",
                             "score": 2309.7881448766,
                             "solution": null,
@@ -926,7 +950,7 @@ export default{
                         },
                         {
                             "title": "1866. 恰有 K 根木棍可以看到的排列数目",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/",
                             "score": 2333.0621537307,
                             "solution": null,
@@ -934,7 +958,7 @@ export default{
                         },
                         {
                             "title": "1467. 两个盒子中球的颜色数相同的概率",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/",
                             "score": 2356.5811122453,
                             "solution": null,
@@ -942,15 +966,23 @@ export default{
                         },
                         {
                             "title": "3272. 统计好整数的数目",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/find-the-count-of-good-integers/",
                             "score": 2382.24900347,
                             "solution": null,
                             "isPremium": false
                         },
                         {
+                            "title": "3518. 最小回文排列 II",
+                            "sort": 16,
+                            "src": "/smallest-palindromic-rearrangement-ii/",
+                            "score": 2375.0917527641,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
                             "title": "3317. 安排活动的方案数",
-                            "sort": 15,
+                            "sort": 17,
                             "src": "/find-the-number-of-possible-ways-for-an-event/",
                             "score": 2413.5302827563,
                             "solution": null,
@@ -958,7 +990,7 @@ export default{
                         },
                         {
                             "title": "1916. 统计为蚁群构筑房间的不同顺序",
-                            "sort": 16,
+                            "sort": 18,
                             "src": "/count-ways-to-build-rooms-in-an-ant-colony/",
                             "score": 2486.2339675701,
                             "solution": null,
@@ -966,7 +998,7 @@ export default{
                         },
                         {
                             "title": "3343. 统计平衡排列的数目",
-                            "sort": 17,
+                            "sort": 19,
                             "src": "/count-number-of-balanced-permutations/",
                             "score": 2614.911779573,
                             "solution": null,
@@ -974,7 +1006,7 @@ export default{
                         },
                         {
                             "title": "1830. 使字符串有序的最少操作次数",
-                            "sort": 18,
+                            "sort": 20,
                             "src": "/minimum-number-of-operations-to-make-string-sorted/",
                             "score": 2620.4181842249,
                             "solution": null,
@@ -982,7 +1014,7 @@ export default{
                         },
                         {
                             "title": "2954. 统计感冒序列的数目",
-                            "sort": 19,
+                            "sort": 21,
                             "src": "/count-the-number-of-infection-sequences/",
                             "score": 2644.8498152558,
                             "solution": null,
@@ -990,7 +1022,7 @@ export default{
                         },
                         {
                             "title": "3395. 唯一中间众数子序列 I",
-                            "sort": 20,
+                            "sort": 22,
                             "src": "/subsequences-with-a-unique-middle-mode-i/",
                             "score": 2799.5363565342,
                             "solution": null,
@@ -998,7 +1030,7 @@ export default{
                         },
                         {
                             "title": "1575. 统计所有可行路径",
-                            "sort": 21,
+                            "sort": 23,
                             "src": "/count-all-possible-routes/",
                             "score": 2055.0970201875,
                             "solution": null,
@@ -1006,7 +1038,7 @@ export default{
                         },
                         {
                             "title": "3251. 单调数组对的数目 II",
-                            "sort": 22,
+                            "sort": 24,
                             "src": "/find-the-count-of-monotonic-pairs-ii/",
                             "score": 2323.1267940801,
                             "solution": null,
@@ -1014,7 +1046,7 @@ export default{
                         },
                         {
                             "title": "LCP 25. 古董键盘",
-                            "sort": 23,
+                            "sort": 25,
                             "src": "/Uh984O/",
                             "score": null,
                             "solution": null,
@@ -1022,7 +1054,7 @@ export default{
                         },
                         {
                             "title": "2539. 好子序列的个数",
-                            "sort": 24,
+                            "sort": 26,
                             "src": "/count-the-number-of-good-subsequences/",
                             "score": null,
                             "solution": null,
@@ -1030,7 +1062,7 @@ export default{
                         },
                         {
                             "title": "634. 寻找数组的错位排列",
-                            "sort": 25,
+                            "sort": 27,
                             "src": "/find-the-derangement-of-an-array/",
                             "score": null,
                             "solution": null,
@@ -1038,7 +1070,7 @@ export default{
                         },
                         {
                             "title": "1692. 计算分配糖果的不同方式",
-                            "sort": 26,
+                            "sort": 28,
                             "src": "/count-ways-to-distribute-candies/",
                             "score": null,
                             "solution": null,
@@ -1046,7 +1078,7 @@ export default{
                         },
                         {
                             "title": "3470. 全排列 IV",
-                            "sort": 27,
+                            "sort": 29,
                             "src": "/permutations-iv/",
                             "score": 2473.7239890264,
                             "solution": null,
@@ -1281,7 +1313,7 @@ export default{
                     "title": "",
                     "sort": 0,
                     "isLeaf": true,
-                    "summary": "",
+                    "summary": "**随机情况下显著更快的算法**：<br>",
                     "child": [
                         {
                             "title": "1227. 飞机座位分配概率",
@@ -1354,6 +1386,14 @@ export default{
                             "score": 1808.5754920785,
                             "solution": null,
                             "isPremium": true
+                        },
+                        {
+                            "title": "3494. 酿造药水需要的最少总时间",
+                            "sort": 9,
+                            "src": "/find-the-minimum-amount-of-time-to-brew-potions/",
+                            "score": 2042.1113250604,
+                            "solution": null,
+                            "isPremium": false
                         }
                     ]
                 }
@@ -1762,8 +1802,24 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "LCP 15. 游乐园的迷宫",
+                            "title": "3494. 酿造药水需要的最少总时间",
                             "sort": 1,
+                            "src": "/find-the-minimum-amount-of-time-to-brew-potions/",
+                            "score": 2042.1113250604,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3500. 将数组分割为子数组的最小代价",
+                            "sort": 2,
+                            "src": "/minimum-cost-to-divide-array-into-subarrays/",
+                            "score": 2569.4068901457,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "LCP 15. 游乐园的迷宫",
+                            "sort": 3,
                             "src": "/you-le-yuan-de-mi-gong/",
                             "score": null,
                             "solution": null,
@@ -2098,8 +2154,24 @@ export default{
                     ]
                 },
                 {
-                    "title": "§7.5 其他",
+                    "title": "§7.5 快速沃尔什变换（FWT）",
                     "sort": 4,
+                    "isLeaf": true,
+                    "summary": "",
+                    "child": [
+                        {
+                            "title": "3514. 不同 XOR 三元组的数目 II",
+                            "sort": 0,
+                            "src": "/number-of-unique-xor-triplets-ii/",
+                            "score": 1883.9947280403,
+                            "solution": null,
+                            "isPremium": false
+                        }
+                    ]
+                },
+                {
+                    "title": "§7.6 其他",
+                    "sort": 5,
                     "isLeaf": true,
                     "summary": "",
                     "child": [
@@ -2192,8 +2264,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2541. 使数组中所有元素相等的最小操作数 II",
+                            "title": "2145. 统计隐藏数组数目",
                             "sort": 11,
+                            "src": "/count-the-hidden-sequences/",
+                            "score": 1614.4877804672,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2541. 使数组中所有元素相等的最小操作数 II",
+                            "sort": 12,
                             "src": "/minimum-operations-to-make-array-equal-ii/",
                             "score": 1619.505461912,
                             "solution": null,
@@ -2201,7 +2281,7 @@ export default{
                         },
                         {
                             "title": "2195. 向数组中追加 K 个整数",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/append-k-integers-with-minimal-sum/",
                             "score": 1658.921022733,
                             "solution": null,
@@ -2209,7 +2289,7 @@ export default{
                         },
                         {
                             "title": "2457. 美丽整数的最小增量",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/minimum-addition-to-make-integer-beautiful/",
                             "score": 1680.0815931601,
                             "solution": null,
@@ -2217,7 +2297,7 @@ export default{
                         },
                         {
                             "title": "1017. 负二进制转换",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/convert-to-base-2/",
                             "score": 1697.8500495479,
                             "solution": null,
@@ -2225,7 +2305,7 @@ export default{
                         },
                         {
                             "title": "1954. 收集足够苹果的最小花园周长",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/minimum-garden-perimeter-to-collect-enough-apples/",
                             "score": 1758.5135073787,
                             "solution": null,
@@ -2233,7 +2313,7 @@ export default{
                         },
                         {
                             "title": "1073. 负二进制数相加",
-                            "sort": 16,
+                            "sort": 17,
                             "src": "/adding-two-negabinary-numbers/",
                             "score": 1806.5891699944,
                             "solution": null,
@@ -2241,7 +2321,7 @@ export default{
                         },
                         {
                             "title": "1823. 找出游戏的获胜者",
-                            "sort": 17,
+                            "sort": 18,
                             "src": "/find-the-winner-of-the-circular-game/",
                             "score": 1412.3053230205,
                             "solution": null,
@@ -2249,7 +2329,7 @@ export default{
                         },
                         {
                             "title": "166. 分数到小数",
-                            "sort": 18,
+                            "sort": 19,
                             "src": "/fraction-to-recurring-decimal/",
                             "score": null,
                             "solution": null,
@@ -2257,7 +2337,7 @@ export default{
                         },
                         {
                             "title": "3012. 通过操作使数组长度最小",
-                            "sort": 19,
+                            "sort": 20,
                             "src": "/minimize-length-of-array-using-operations/",
                             "score": 1832.7167755024,
                             "solution": null,
@@ -2265,7 +2345,7 @@ export default{
                         },
                         {
                             "title": "483. 最小好进制",
-                            "sort": 20,
+                            "sort": 21,
                             "src": "/smallest-good-base/",
                             "score": null,
                             "solution": null,
@@ -2273,7 +2353,7 @@ export default{
                         },
                         {
                             "title": "972. 相等的有理数",
-                            "sort": 21,
+                            "sort": 22,
                             "src": "/equal-rational-numbers/",
                             "score": 2121.3147151648,
                             "solution": null,
@@ -2281,7 +2361,7 @@ export default{
                         },
                         {
                             "title": "1862. 向下取整数对和",
-                            "sort": 22,
+                            "sort": 23,
                             "src": "/sum-of-floored-pairs/",
                             "score": 2170.1079846744,
                             "solution": null,
@@ -2289,7 +2369,7 @@ export default{
                         },
                         {
                             "title": "1739. 放置盒子",
-                            "sort": 23,
+                            "sort": 24,
                             "src": "/building-boxes/",
                             "score": 2198.4642973466,
                             "solution": null,
@@ -2297,7 +2377,7 @@ export default{
                         },
                         {
                             "title": "2443. 反转之后的数字和",
-                            "sort": 24,
+                            "sort": 25,
                             "src": "/sum-of-number-and-its-reverse/",
                             "score": 1376.0047008182,
                             "solution": null,
@@ -2305,7 +2385,7 @@ export default{
                         },
                         {
                             "title": "1806. 还原排列的最少操作步数",
-                            "sort": 25,
+                            "sort": 26,
                             "src": "/minimum-number-of-operations-to-reinitialize-a-permutation/",
                             "score": 1491.4638194905,
                             "solution": null,
@@ -2313,7 +2393,7 @@ export default{
                         },
                         {
                             "title": "458. 可怜的小猪",
-                            "sort": 26,
+                            "sort": 27,
                             "src": "/poor-pigs/",
                             "score": null,
                             "solution": null,
@@ -2321,7 +2401,7 @@ export default{
                         },
                         {
                             "title": "60. 排列序列",
-                            "sort": 27,
+                            "sort": 28,
                             "src": "/permutation-sequence/",
                             "score": null,
                             "solution": null,
@@ -2329,7 +2409,7 @@ export default{
                         },
                         {
                             "title": "2117. 一个区间内所有数乘积的缩写",
-                            "sort": 28,
+                            "sort": 29,
                             "src": "/abbreviating-the-product-of-a-range/",
                             "score": 2476.7727985927,
                             "solution": null,
@@ -2337,7 +2417,7 @@ export default{
                         },
                         {
                             "title": "LCP 02. 分式化简",
-                            "sort": 29,
+                            "sort": 30,
                             "src": "/deep-dark-fraction/",
                             "score": null,
                             "solution": null,
@@ -2345,7 +2425,7 @@ export default{
                         },
                         {
                             "title": "LCP 29. 乐团站位",
-                            "sort": 30,
+                            "sort": 31,
                             "src": "/SNJvJP/",
                             "score": null,
                             "solution": null,
@@ -2353,7 +2433,7 @@ export default{
                         },
                         {
                             "title": "660. 移除 9",
-                            "sort": 31,
+                            "sort": 32,
                             "src": "/remove-9/",
                             "score": null,
                             "solution": null,
@@ -2361,7 +2441,7 @@ export default{
                         },
                         {
                             "title": "2979. 最贵的无法购买的商品",
-                            "sort": 32,
+                            "sort": 33,
                             "src": "/most-expensive-item-that-can-not-be-bought/",
                             "score": null,
                             "solution": null,
@@ -2369,7 +2449,7 @@ export default{
                         },
                         {
                             "title": "2647. 把三角形染成红色",
-                            "sort": 33,
+                            "sort": 34,
                             "src": "/color-the-triangle-red/",
                             "score": null,
                             "solution": null,

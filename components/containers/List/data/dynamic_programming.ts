@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【算法题单】动态规划（入门/背包/划分/状态机/区间/状压/数位/树形/优化）",
     "original_src": "https://leetcode.cn/circle/discuss/tXLS3i",
-    "last_update": "2025-04-25 03:27:57",
+    "last_update": "2025-04-27 12:17:42",
     "sort": 0,
     "child": [
         {
@@ -2606,7 +2606,7 @@ export default{
                     "title": "§9.1 排列型 ① 相邻无关",
                     "sort": 0,
                     "isLeaf": true,
-                    "summary": "学习指南：<br>暴力做法是枚举所有排列，对每个排列计算和题目有关的值，时间复杂度（通常来说）是 $\\mathcal{O}(n!)$。可以解决 $n\\le 10$ 的问题。<br>状压 DP 可以把时间复杂度（通常来说）优化至 $\\mathcal{O}(n\\cdot 2^n)$。可以解决 $n\\le 20$ 的问题。<br>一般有两种定义方式：<br>1. 定义 $f[S]$ 表示已经排列好的元素（下标）集合为 $S$ 时，和题目有关的最优值。通过枚举当前位置要填的元素（下标）来转移。<br>2. 定义 $f[S]$ 表示可以选的元素（下标）集合为 $S$ 时，和题目有关的最优值。通过枚举当前位置要填的元素（下标）来转移。<br>> 注：部分题目由于爆搜+剪枝也能过，难度分仅供参考。<br>",
+                    "summary": "学习指南：<br>暴力做法是枚举所有排列，对每个排列计算和题目有关的值，时间复杂度（通常来说）是 $\\mathcal{O}(n!)$。可以解决 $n\\le 10$ 的问题。<br>状压 DP 可以把时间复杂度（通常来说）优化至 $\\mathcal{O}(n\\cdot 2^n)$。可以解决 $n\\le 20$ 的问题。<br>一般有两种定义方式：<br>1. 定义 $f[S]$ 表示已经排列好的元素（下标）集合为 $S$ 时，和题目有关的最优值。通过枚举当前位置要填的元素（下标）来转移。<br>2. 定义 $f[S]$ 表示可以选的元素（下标）集合为 $S$ 时，和题目有关的最优值。通过枚举当前位置要填的元素（下标）来转移。<br>> 注：部分题目由于暴搜+剪枝也能过，难度分仅供参考。<br>",
                     "child": [
                         {
                             "title": "教你一步步思考状压 DP：从记忆化搜索到递推",
@@ -2641,8 +2641,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1879. 两个数组最小的异或值之和",
+                            "title": "3533. 判断连接可整除性",
                             "sort": 4,
+                            "src": "/concatenated-divisibility/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1879. 两个数组最小的异或值之和",
+                            "sort": 5,
                             "src": "/minimum-xor-sum-of-two-arrays/",
                             "score": 2145.183995267,
                             "solution": null,
@@ -2650,7 +2658,7 @@ export default{
                         },
                         {
                             "title": "2850. 将石头分散到网格图的最少移动次数",
-                            "sort": 5,
+                            "sort": 6,
                             "src": "/minimum-moves-to-spread-stones-over-grid/",
                             "score": 2001.4515854273,
                             "solution": null,
@@ -2658,7 +2666,7 @@ export default{
                         },
                         {
                             "title": "1947. 最大兼容性评分和",
-                            "sort": 6,
+                            "sort": 7,
                             "src": "/maximum-compatibility-score-sum/",
                             "score": 1704.360891641,
                             "solution": null,
@@ -2666,15 +2674,23 @@ export default{
                         },
                         {
                             "title": "1799. N 次操作后的最大分数和",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/maximize-score-after-n-operations/",
                             "score": 2072.7264178313,
                             "solution": null,
                             "isPremium": false
                         },
                         {
+                            "title": "3530. 有向无环图中合法拓扑排序的最大利润",
+                            "sort": 9,
+                            "src": "/maximum-profit-from-valid-topological-order-in-dag/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
                             "title": "2172. 数组的最大与和",
-                            "sort": 8,
+                            "sort": 10,
                             "src": "/maximum-and-sum-of-array/",
                             "score": 2392.0799451298,
                             "solution": null,
@@ -2682,7 +2698,7 @@ export default{
                         },
                         {
                             "title": "2992. 自整除排列的数量",
-                            "sort": 9,
+                            "sort": 11,
                             "src": "/number-of-self-divisible-permutations/",
                             "score": null,
                             "solution": null,
@@ -2690,7 +2706,7 @@ export default{
                         },
                         {
                             "title": "2403. 杀死所有怪物的最短时间",
-                            "sort": 10,
+                            "sort": 12,
                             "src": "/minimum-time-to-kill-all-monsters/",
                             "score": null,
                             "solution": null,
@@ -2698,7 +2714,7 @@ export default{
                         },
                         {
                             "title": "1066. 校园自行车分配 II",
-                            "sort": 11,
+                            "sort": 13,
                             "src": "/campus-bikes-ii/",
                             "score": 1885.1051527272,
                             "solution": null,
@@ -4450,8 +4466,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "943. 最短超级串",
+                            "title": "3533. 判断连接可整除性",
                             "sort": 4,
+                            "src": "/concatenated-divisibility/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "943. 最短超级串",
+                            "sort": 5,
                             "src": "/find-the-shortest-superstring/",
                             "score": 2185.5444704515,
                             "solution": null,
@@ -4459,7 +4483,7 @@ export default{
                         },
                         {
                             "title": "1125. 最小的必要团队",
-                            "sort": 5,
+                            "sort": 6,
                             "src": "/smallest-sufficient-team/",
                             "score": 2250.9318291559,
                             "solution": null,
@@ -4467,7 +4491,7 @@ export default{
                         },
                         {
                             "title": "3260. 找出最大的 N 位 K 回文数",
-                            "sort": 6,
+                            "sort": 7,
                             "src": "/find-the-largest-palindrome-divisible-by-k/",
                             "score": 2370.3848537389,
                             "solution": null,
@@ -4475,7 +4499,7 @@ export default{
                         },
                         {
                             "title": "3149. 找出分数最低的排列",
-                            "sort": 7,
+                            "sort": 8,
                             "src": "/find-the-minimum-cost-array-permutation/",
                             "score": 2641.6067035188,
                             "solution": null,
@@ -4483,7 +4507,7 @@ export default{
                         },
                         {
                             "title": "3441. 变成好标题的最少代价",
-                            "sort": 8,
+                            "sort": 9,
                             "src": "/minimum-cost-good-caption/",
                             "score": 2764.5966131386,
                             "solution": null,
@@ -4491,7 +4515,7 @@ export default{
                         },
                         {
                             "title": "3348. 最小可整除数位乘积 II",
-                            "sort": 9,
+                            "sort": 10,
                             "src": "/smallest-divisible-digit-product-ii/",
                             "score": 3101.4829146106,
                             "solution": null,
@@ -4499,7 +4523,7 @@ export default{
                         },
                         {
                             "title": "656. 金币路径",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/coin-path/",
                             "score": null,
                             "solution": null,
@@ -4507,7 +4531,7 @@ export default{
                         },
                         {
                             "title": "471. 编码最短长度的字符串",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/encode-string-with-shortest-length/",
                             "score": null,
                             "solution": null,

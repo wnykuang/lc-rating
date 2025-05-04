@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【算法题单】滑动窗口与双指针（定长/不定长/单序列/双序列/三指针/分组循环）",
     "original_src": "https://leetcode.cn/circle/discuss/0viNMK",
-    "last_update": "2025-04-25 02:49:41",
+    "last_update": "2025-04-28 01:52:33",
     "sort": 0,
     "child": [
         {
@@ -327,7 +327,7 @@ export default{
         {
             "title": "二、不定长滑动窗口",
             "sort": 2,
-            "summary": "不定长滑动窗口主要分为三类：求最长子数组，求最短子数组，以及求子数组个数。<br>",
+            "summary": "不定长滑动窗口主要分为三类：求最长子数组，求最短子数组，以及求子数组个数。<br>> **注**：滑动窗口相当于在维护一个**队列**。右指针的移动可以视作**入队**，左指针的移动可以视作**出队**。<br>",
             "child": [
                 {
                     "title": "§2.1 求最长/最大",
@@ -795,7 +795,7 @@ export default{
                     "title": "§2.3.3 恰好型滑动窗口",
                     "sort": 7,
                     "isLeaf": true,
-                    "summary": "例如，要计算有多少个元素和**恰好等于** $k$ 的子数组，可以把问题变成：<br>- 计算有多少个元素和 $\\ge k$ 的子数组。<br>- 计算有多少个元素和 $> k$，也就是 $\\ge k + 1$ 的子数组。<br>答案就是元素和 $\\ge k$ 的子数组个数，减去元素和 $\\ge k + 1$ 的子数组个数。这里把 $>$ 转换成 $\\ge$，从而可以把滑窗逻辑封装成一个函数 `f`，然后用 `f(k) - f(k + 1)` 计算，无需编写两份滑窗代码。<br>**总结**：「恰好」可以拆分成两个「至少」，也就是两个「越长越合法」的滑窗问题。<br>注：也可以把问题变成 $\\le k$ 减去 $\\le k-1$（两个至多）。可根据题目选择合适的变形方式。<br>注：也可以把两个滑动窗口合并起来，维护同一个右端点 $\\textit{right}$ 和两个左端点 $\\textit{left}_1$ 和 $\\textit{left}_2$，我把这种写法叫做**三指针滑动窗口**。<br>",
+                    "summary": "例如，要计算有多少个元素和**恰好等于** $k$ 的子数组，可以把问题变成：<br>- 计算有多少个元素和 $\\ge k$ 的子数组。<br>- 计算有多少个元素和 $> k$，也就是 $\\ge k + 1$ 的子数组。<br>答案就是元素和 $\\ge k$ 的子数组个数，减去元素和 $\\ge k + 1$ 的子数组个数。这里把 $>$ 转换成 $\\ge$，从而可以把滑窗逻辑封装成一个函数 `f`，然后用 `f(k) - f(k + 1)` 计算，无需编写两份滑窗代码。<br>**总结**：「恰好」可以拆分成两个「至少」，也就是两个「越长越合法」的滑窗问题。<br>**注**：也可以把问题变成 $\\le k$ 减去 $\\le k-1$（两个至多）。可根据题目选择合适的变形方式。<br>**注**：也可以把两个滑动窗口合并起来，维护同一个右端点 $\\textit{right}$ 和两个左端点 $\\textit{left}_1$ 和 $\\textit{left}_2$，我把这种写法叫做**三指针滑动窗口**。<br>",
                     "child": [
                         {
                             "title": "930. 和相同的二元子数组",
@@ -1316,17 +1316,17 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "448. 找到所有数组中消失的数字",
+                            "title": "442. 数组中重复的数据",
                             "sort": 10,
-                            "src": "/find-all-numbers-disappeared-in-an-array/",
+                            "src": "/find-all-duplicates-in-an-array/",
                             "score": null,
                             "solution": null,
                             "isPremium": false
                         },
                         {
-                            "title": "442. 数组中重复的数据",
+                            "title": "448. 找到所有数组中消失的数字",
                             "sort": 11,
-                            "src": "/find-all-duplicates-in-an-array/",
+                            "src": "/find-all-numbers-disappeared-in-an-array/",
                             "score": null,
                             "solution": null,
                             "isPremium": false
@@ -1617,7 +1617,7 @@ export default{
         {
             "title": "五、三指针",
             "sort": 5,
-            "summary": "注：部分题目已整理到「§2.3.3 恰好型滑动窗口」中。<br>",
+            "summary": "**注**：部分题目已整理到「§2.3.3 恰好型滑动窗口」中。<br>",
             "child": [
                 {
                     "title": "",

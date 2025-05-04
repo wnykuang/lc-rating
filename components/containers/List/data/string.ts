@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【算法题单】字符串（KMP/Z函数/Manacher/字符串哈希/AC自动机/后缀数组）",
     "original_src": "https://leetcode.cn/circle/discuss/SJFwQI",
-    "last_update": "2025-04-25 03:33:31",
+    "last_update": "2025-04-27 12:40:14",
     "sort": 0,
     "child": [
         {
@@ -21,7 +21,7 @@ export default{
             ]
         },
         {
-            "title": "一、KMP",
+            "title": "一、KMP（前缀的后缀）",
             "sort": 1,
             "summary": "",
             "child": [
@@ -29,7 +29,7 @@ export default{
                     "title": "",
                     "sort": 0,
                     "isLeaf": true,
-                    "summary": "定义 $s$ 的真前缀为不等于 $s$ 的前缀，$s$ 的真后缀为不等于 $s$ 的后缀。<br>定义 $s$ 的 $\\text{border}$ 为既是 $s$ 的真前缀又是 $s$ 的真后缀的字符串。例如在 $s=\\texttt{aabcaa}$ 中，$\\texttt{a}$ 和 $\\texttt{aa}$ 都是 $s$ 的 $\\text{border}$。<br>对于模式串 $p$ 的每个前缀 $p[:i]$，计算这个前缀的最长 $\\text{border}$ 长度，记在 $\\pi$ 数组中。<br>利用 $\\pi$ 数组，可以快速计算模式串 $p$ 出现在文本串 $t$ 的哪些位置上。代码模板见 <a href=\"https://leetcode.cn/problems/find-beautiful-indices-in-the-given-array-ii/solutions/2603695/kmper-fen-cha-zhao-by-endlesscheng-7bjm/\">我的题解</a>。<br>> 注：$\\pi$ 数组的定义参考《算法导论》，国内数据结构教材通常定义为 $\\textit{next}$ 数组。以严蔚敏那本为例，二者的关系是 $\\textit{next}[i+1] = \\pi[i]+1$，即 $\\pi$ 数组整体右移一位，元素值加一。<br>",
+                    "summary": "<a href=\"https://www.zhihu.com/question/21923021/answer/37475572\">KMP 原理讲解</a><br>定义 $s$ 的真前缀为不等于 $s$ 的前缀，$s$ 的真后缀为不等于 $s$ 的后缀。<br>定义 $s$ 的 $\\text{border}$ 为既是 $s$ 的真前缀又是 $s$ 的真后缀的字符串。例如在 $s=\\texttt{aabcaa}$ 中，$\\texttt{a}$ 和 $\\texttt{aa}$ 都是 $s$ 的 $\\text{border}$。<br>对于模式串 $p$ 的每个前缀 $p[:i]$，计算这个前缀的最长 $\\text{border}$ 长度，记在 $\\pi$ 数组中。<br>利用 $\\pi$ 数组，可以快速计算模式串 $p$ 出现在文本串 $t$ 的哪些位置上。<br>> 注：$\\pi$ 数组的定义参考《算法导论》，国内数据结构教材通常定义为 $\\textit{next}$ 数组。以严蔚敏那本为例，二者的关系是 $\\textit{next}[i+1] = \\pi[i]+1$，即 $\\pi$ 数组整体右移一位，元素值加一。<br>模板：<br>```py [sol-Python3]<br># 在文本串 text 中查找模式串 pattern，返回所有成功匹配的位置（pattern[0] 在 text 中的下标）<br>def kmp(text: str, pattern: str) -> List[int]:<br>m = len(pattern)<br>pi = [0] * m<br>cnt = 0<br>for i in range(1, m):<br>b = pattern[i]<br>while cnt and pattern[cnt] != b:<br>cnt = pi[cnt - 1]<br>if pattern[cnt] == b:<br>cnt += 1<br>pi[i] = cnt<br>pos = []<br>cnt = 0<br>for i, b in enumerate(text):<br>while cnt and pattern[cnt] != b:<br>cnt = pi[cnt - 1]<br>if pattern[cnt] == b:<br>cnt += 1<br>if cnt == len(pattern):<br>pos.append(i - m + 1)<br>cnt = pi[cnt - 1]<br>return pos<br>```<br>```java [sol-Java]<br>class Solution {<br>// 在文本串 text 中查找模式串 pattern，返回所有成功匹配的位置（pattern[0] 在 text 中的下标）<br>private List<Integer> kmp(char[] text, char[] pattern) {<br>int m = pattern.length;<br>int[] pi = new int[m];<br>int cnt = 0;<br>for (int i = 1; i < m; i++) {<br>char b = pattern[i];<br>while (cnt > 0 && pattern[cnt] != b) {<br>cnt = pi[cnt - 1];<br>}<br>if (pattern[cnt] == b) {<br>cnt++;<br>}<br>pi[i] = cnt;<br>}<br>List<Integer> pos = new ArrayList<>();<br>cnt = 0;<br>for (int i = 0; i < text.length; i++) {<br>char b = text[i];<br>while (cnt > 0 && pattern[cnt] != b) {<br>cnt = pi[cnt - 1];<br>}<br>if (pattern[cnt] == b) {<br>cnt++;<br>}<br>if (cnt == m) {<br>pos.add(i - m + 1);<br>cnt = pi[cnt - 1];<br>}<br>}<br>return pos;<br>}<br>}<br>```<br>```cpp [sol-C++]<br>// 在文本串 text 中查找模式串 pattern，返回所有成功匹配的位置（pattern[0] 在 text 中的下标）<br>vector<int> kmp(const string& text, const string& pattern) {<br>int m = pattern.size();<br>vector<int> pi(m);<br>int cnt = 0;<br>for (int i = 1; i < m; i++) {<br>char b = pattern[i];<br>while (cnt && pattern[cnt] != b) {<br>cnt = pi[cnt - 1];<br>}<br>if (pattern[cnt] == b) {<br>cnt++;<br>}<br>pi[i] = cnt;<br>}<br>vector<int> pos;<br>cnt = 0;<br>for (int i = 0; i < text.size(); i++) {<br>char b = text[i];<br>while (cnt && pattern[cnt] != b) {<br>cnt = pi[cnt - 1];<br>}<br>if (pattern[cnt] == b) {<br>cnt++;<br>}<br>if (cnt == m) {<br>pos.push_back(i - m + 1);<br>cnt = pi[cnt - 1];<br>}<br>}<br>return pos;<br>}<br>```<br>```go [sol-Go]<br>// 在文本串 text 中查找模式串 pattern，返回所有成功匹配的位置（pattern[0] 在 text 中的下标）<br>func kmp(text, pattern string) (pos []int) {<br>m := len(pattern)<br>pi := make([]int, m)<br>cnt := 0<br>for i := 1; i < m; i++ {<br>b := pattern[i]<br>for cnt > 0 && pattern[cnt] != b {<br>cnt = pi[cnt-1]<br>}<br>if pattern[cnt] == b {<br>cnt++<br>}<br>pi[i] = cnt<br>}<br>cnt = 0<br>for i, b := range text {<br>for cnt > 0 && pattern[cnt] != byte(b) {<br>cnt = pi[cnt-1]<br>}<br>if pattern[cnt] == byte(b) {<br>cnt++<br>}<br>if cnt == m {<br>pos = append(pos, i-m+1)<br>cnt = pi[cnt-1]<br>}<br>}<br>return<br>}<br>```<br>",
                     "child": [
                         {
                             "title": "28. 找出字符串中第一个匹配项的下标",
@@ -104,8 +104,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "686. 重复叠加字符串匹配",
+                            "title": "3529. 统计水平子串和垂直子串重叠格子的数目",
                             "sort": 9,
+                            "src": "/count-cells-in-overlapping-horizontal-and-vertical-substrings/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "686. 重复叠加字符串匹配",
+                            "sort": 10,
                             "src": "/repeated-string-match/",
                             "score": null,
                             "solution": null,
@@ -113,7 +121,7 @@ export default{
                         },
                         {
                             "title": "3455. 最短匹配子字符串",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/shortest-matching-substring/",
                             "score": 2303.1891955206,
                             "solution": null,
@@ -121,7 +129,7 @@ export default{
                         },
                         {
                             "title": "1397. 找到所有好字符串",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/find-all-good-strings/",
                             "score": 2666.668150845,
                             "solution": null,
@@ -129,7 +137,7 @@ export default{
                         },
                         {
                             "title": "3037. 在无限流中寻找模式 II",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/find-pattern-in-infinite-stream-ii/",
                             "score": null,
                             "solution": null,
@@ -140,7 +148,7 @@ export default{
             ]
         },
         {
-            "title": "二、Z 函数（扩展 KMP）",
+            "title": "二、Z 函数（后缀的前缀）",
             "sort": 2,
             "summary": "",
             "child": [
@@ -148,7 +156,7 @@ export default{
                     "title": "",
                     "sort": 0,
                     "isLeaf": true,
-                    "summary": "对于字符串 $s$，定义 $z[i]$ 表示后缀 $s[i:]$ 与 $s$ 的 LCP（最长公共前缀）的长度，其中 $s[i:]$ 表示从 $s[i]$ 到 $s[n-1]$ 的子串。<br>常用技巧是构造字符串 $\\textit{pattern}+\\textit{s}$，如果发现 $z[m+i]\\ge m$（$m$ 是 $\\textit{pattern}$ 的长度），则说明从 $s[i]$ 开始的子串与 $\\textit{pattern}$ 匹配。<br>所以上面的一些 KMP 题目（子串匹配相关的），也可以用 Z 函数解决。读者可以尝试用 Z 函数解决 <a href=\"https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/\">28. 找出字符串中第一个匹配项的下标</a>。<br>**LCP 数组**<br>",
+                    "summary": "> **注**：在国内算法竞赛圈，这个算法也叫扩展 KMP。<br>对于字符串 $s$，定义 $z[i]$ 表示后缀 $s[i:]$ 与 $s$ 的 LCP（最长公共前缀）的长度，其中 $s[i:]$ 表示从 $s[i]$ 到 $s[n-1]$ 的子串。<br>常用技巧是构造字符串 $\\textit{pattern}+\\textit{s}$，如果发现 $z[m+i]\\ge m$（$m$ 是 $\\textit{pattern}$ 的长度），则说明从 $s[i]$ 开始的子串与 $\\textit{pattern}$ 匹配。<br>所以上面的一些 KMP 题目（子串匹配相关的），也可以用 Z 函数解决。读者可以尝试用 Z 函数解决 <a href=\"https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/\">28. 找出字符串中第一个匹配项的下标</a>。<br>模板：<br>```py [sol-Python3]<br># 计算并返回 z 数组，其中 z[i] = |LCP(s[i:], s)|<br>def calc_z(s: str) -> List[int]:<br>n = len(s)<br>z = [0] * n<br>box_l = box_r = 0<br>for i in range(1, n):<br>if i <= box_r:<br>z[i] = min(z[i - box_l], box_r - i + 1)<br>while i + z[i] < n and s[z[i]] == s[i + z[i]]:<br>box_l, box_r = i, i + z[i]<br>z[i] += 1<br>z[0] = n<br>return z<br>```<br>```java [sol-Java]<br>class Solution {<br>// 计算并返回 z 数组，其中 z[i] = |LCP(s[i:], s)|<br>private int[] calcZ(char[] s) {<br>int n = s.length;<br>int[] z = new int[n];<br>int boxL = 0;<br>int boxR = 0;<br>for (int i = 1; i < n; i++) {<br>if (i <= boxR) {<br>z[i] = Math.min(z[i - boxL], boxR - i + 1);<br>}<br>while (i + z[i] < n && s[z[i]] == s[i + z[i]]) {<br>boxL = i;<br>boxR = i + z[i];<br>z[i]++;<br>}<br>}<br>z[0] = n;<br>return z;<br>}<br>}<br>```<br>```cpp [sol-C++]<br>// 计算并返回 z 数组，其中 z[i] = |LCP(s[i:], s)|<br>vector<int> calc_z(const string& s) {<br>int n = s.size();<br>vector<int> z(n);<br>int box_l = 0, box_r = 0;<br>for (int i = 1; i < n; i++) {<br>if (i <= box_r) {<br>z[i] = min(z[i - box_l], box_r - i + 1);<br>}<br>while (i + z[i] < n && s[z[i]] == s[i + z[i]]) {<br>box_l = i;<br>box_r = i + z[i];<br>z[i]++;<br>}<br>}<br>z[0] = n;<br>return z;<br>}<br>```<br>```go [sol-Go]<br>// 计算并返回 z 数组，其中 z[i] = |LCP(s[i:], s)|<br>func calcZ(s string) []int {<br>n := len(s)<br>z := make([]int, n)<br>boxL, boxR := 0, 0<br>for i := 1; i < n; i++ {<br>if i <= boxR {<br>z[i] = min(z[i-boxL], boxR-i+1)<br>}<br>for i+z[i] < n && s[z[i]] == s[i+z[i]] {<br>boxL, boxR = i, i+z[i]<br>z[i]++<br>}<br>}<br>z[0] = n<br>return z<br>}<br>```<br>**LCP 数组**<br>",
                     "child": [
                         {
                             "title": "2223. 构造字符串的总得分和",

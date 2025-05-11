@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【算法题单】常用数据结构（前缀和/栈/队列/堆/字典树/并查集/树状数组/线段树）",
     "original_src": "https://leetcode.cn/circle/discuss/mOr1u6",
-    "last_update": "2025-04-29 13:32:19",
+    "last_update": "2025-05-07 00:55:58",
     "sort": 0,
     "child": [
         {
@@ -2043,8 +2043,16 @@ export default{
                     "summary": "",
                     "child": [
                         {
-                            "title": "3508. 设计路由器",
+                            "title": "1670. 设计前中后队列",
                             "sort": 0,
+                            "src": "/design-front-middle-back-queue/",
+                            "score": 1610.1866391145,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3508. 设计路由器",
+                            "sort": 1,
                             "src": "/implement-router/",
                             "score": 1851.1720518145,
                             "solution": null,
@@ -2052,7 +2060,7 @@ export default{
                         },
                         {
                             "title": "225. 用队列实现栈",
-                            "sort": 1,
+                            "sort": 2,
                             "src": "/implement-stack-using-queues/",
                             "score": null,
                             "solution": null,
@@ -2060,7 +2068,7 @@ export default{
                         },
                         {
                             "title": "232. 用栈实现队列",
-                            "sort": 2,
+                            "sort": 3,
                             "src": "/implement-queue-using-stacks/",
                             "score": null,
                             "solution": null,
@@ -2068,7 +2076,7 @@ export default{
                         },
                         {
                             "title": "622. 设计循环队列",
-                            "sort": 3,
+                            "sort": 4,
                             "src": "/design-circular-queue/",
                             "score": null,
                             "solution": null,
@@ -2076,17 +2084,9 @@ export default{
                         },
                         {
                             "title": "641. 设计循环双端队列",
-                            "sort": 4,
+                            "sort": 5,
                             "src": "/design-circular-deque/",
                             "score": null,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
-                            "title": "1670. 设计前中后队列",
-                            "sort": 5,
-                            "src": "/design-front-middle-back-queue/",
-                            "score": 1610.1866391145,
                             "solution": null,
                             "isPremium": false
                         }
@@ -2394,8 +2394,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "2462. 雇佣 K 位工人的总代价",
+                            "title": "3478. 选出和最大的 K 个元素",
                             "sort": 16,
+                            "src": "/choose-k-elements-with-maximum-sum/",
+                            "score": 1753.278205425,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2462. 雇佣 K 位工人的总代价",
+                            "sort": 17,
                             "src": "/total-cost-to-hire-k-workers/",
                             "score": 1763.6404758359,
                             "solution": null,
@@ -2403,17 +2411,9 @@ export default{
                         },
                         {
                             "title": "1834. 单线程 CPU",
-                            "sort": 17,
+                            "sort": 18,
                             "src": "/single-threaded-cpu/",
                             "score": 1797.7466000366,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
-                            "title": "3478. 选出和最大的 K 个元素",
-                            "sort": 18,
-                            "src": "/choose-k-elements-with-maximum-sum/",
-                            "score": 1753.278205425,
                             "solution": null,
                             "isPremium": false
                         },

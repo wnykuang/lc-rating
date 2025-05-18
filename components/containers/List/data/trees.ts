@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【算法题单】链表、二叉树与回溯（前后指针/快慢指针/DFS/BFS/直径/LCA/一般树）",
     "original_src": "https://leetcode.cn/circle/discuss/K0n2gO",
-    "last_update": "2025-05-09 12:03:20",
+    "last_update": "2025-05-15 12:32:32",
     "sort": 0,
     "child": [
         {
@@ -2087,48 +2087,8 @@ export default{
                     "summary": "",
                     "child": [
                         {
-                            "title": "297. 二叉树的序列化与反序列化",
-                            "sort": 0,
-                            "src": "/serialize-and-deserialize-binary-tree/",
-                            "score": null,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
-                            "title": "449. 序列化和反序列化二叉搜索树",
-                            "sort": 1,
-                            "src": "/serialize-and-deserialize-bst/",
-                            "score": null,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
-                            "title": "331. 验证二叉树的前序序列化",
-                            "sort": 2,
-                            "src": "/verify-preorder-serialization-of-a-binary-tree/",
-                            "score": null,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
-                            "title": "652. 寻找重复的子树",
-                            "sort": 3,
-                            "src": "/find-duplicate-subtrees/",
-                            "score": null,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
-                            "title": "173. 二叉搜索树迭代器",
-                            "sort": 4,
-                            "src": "/binary-search-tree-iterator/",
-                            "score": null,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "1261. 在受污染的二叉树中查找元素",
-                            "sort": 5,
+                            "sort": 0,
                             "src": "/find-elements-in-a-contaminated-binary-tree/",
                             "score": 1439.5656079032,
                             "solution": null,
@@ -2136,7 +2096,7 @@ export default{
                         },
                         {
                             "title": "1104. 二叉树寻路",
-                            "sort": 6,
+                            "sort": 1,
                             "src": "/path-in-zigzag-labelled-binary-tree/",
                             "score": 1544.8391626032,
                             "solution": null,
@@ -2144,7 +2104,7 @@ export default{
                         },
                         {
                             "title": "987. 二叉树的垂序遍历",
-                            "sort": 7,
+                            "sort": 2,
                             "src": "/vertical-order-traversal-of-a-binary-tree/",
                             "score": 1675.9610355975,
                             "solution": null,
@@ -2152,7 +2112,7 @@ export default{
                         },
                         {
                             "title": "655. 输出二叉树",
-                            "sort": 8,
+                            "sort": 3,
                             "src": "/print-binary-tree/",
                             "score": null,
                             "solution": null,
@@ -2160,7 +2120,7 @@ export default{
                         },
                         {
                             "title": "979. 在二叉树中分配硬币",
-                            "sort": 9,
+                            "sort": 4,
                             "src": "/distribute-coins-in-binary-tree/",
                             "score": 1709.1461451873,
                             "solution": null,
@@ -2168,8 +2128,48 @@ export default{
                         },
                         {
                             "title": "222. 完全二叉树的节点个数",
-                            "sort": 10,
+                            "sort": 5,
                             "src": "/count-complete-tree-nodes/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "297. 二叉树的序列化与反序列化",
+                            "sort": 6,
+                            "src": "/serialize-and-deserialize-binary-tree/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "449. 序列化和反序列化二叉搜索树",
+                            "sort": 7,
+                            "src": "/serialize-and-deserialize-bst/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "331. 验证二叉树的前序序列化",
+                            "sort": 8,
+                            "src": "/verify-preorder-serialization-of-a-binary-tree/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "652. 寻找重复的子树",
+                            "sort": 9,
+                            "src": "/find-duplicate-subtrees/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "173. 二叉搜索树迭代器",
+                            "sort": 10,
+                            "src": "/binary-search-tree-iterator/",
                             "score": null,
                             "solution": null,
                             "isPremium": false
@@ -3433,6 +3433,54 @@ export default{
                             "sort": 4,
                             "src": "/letter-tile-possibilities/",
                             "score": 1740.5014205942,
+                            "solution": null,
+                            "isPremium": false
+                        }
+                    ]
+                },
+                {
+                    "title": "§4.8 折半枚举",
+                    "sort": 7,
+                    "isLeaf": true,
+                    "summary": "<a href=\"https://leetcode.cn/problems/target-sum/solutions/2119041/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-s1cx/\">讲解</a>（见文末）<br>",
+                    "child": [
+                        {
+                            "title": "805. 数组的均值分割",
+                            "sort": 0,
+                            "src": "/split-array-with-same-average/",
+                            "score": 1982.5085994817,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "494. 目标和",
+                            "sort": 1,
+                            "src": "/target-sum/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1755. 最接近目标值的子序列和",
+                            "sort": 2,
+                            "src": "/closest-subsequence-sum/",
+                            "score": 2363.5096568214,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2035. 将数组分成两个数组并最小化数组和的差",
+                            "sort": 3,
+                            "src": "/partition-array-into-two-arrays-to-minimize-sum-difference/",
+                            "score": 2489.6652421066,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "3267. 统计近似相等数对 II",
+                            "sort": 4,
+                            "src": "/count-almost-equal-pairs-ii/",
+                            "score": 2545.1080433595,
                             "solution": null,
                             "isPremium": false
                         }

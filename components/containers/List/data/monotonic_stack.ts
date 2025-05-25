@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享｜【算法题单】单调栈（矩形面积/贡献法/最小字典序）",
     "original_src": "https://leetcode.cn/circle/discuss/9oZFK9",
-    "last_update": "2025-05-09 03:32:53",
+    "last_update": "2025-05-19 05:16:33",
     "sort": 0,
     "child": [
         {
@@ -21,12 +21,12 @@ export default{
             ]
         },
         {
-            "title": "单调栈",
+            "title": "一、单调栈",
             "sort": 1,
             "summary": "",
             "child": [
                 {
-                    "title": "基础",
+                    "title": "§1.1 基础",
                     "sort": 0,
                     "isLeaf": true,
                     "summary": "<a href=\"https://www.bilibili.com/video/BV1VN411J7S7/\">单调栈【基础算法精讲 26】</a><br>",
@@ -82,7 +82,7 @@ export default{
                     ]
                 },
                 {
-                    "title": "进阶（选做）",
+                    "title": "§1.2 进阶（选做）",
                     "sort": 1,
                     "isLeaf": true,
                     "summary": "**思维扩展**：<br>",
@@ -216,8 +216,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1124. 表现良好的最长时间段",
+                            "title": "3542. 将所有元素变为 0 的最少操作次数",
                             "sort": 16,
+                            "src": "/minimum-operations-to-convert-all-elements-to-zero/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1124. 表现良好的最长时间段",
+                            "sort": 17,
                             "src": "/longest-well-performing-interval/",
                             "score": 1908.3866125757,
                             "solution": null,
@@ -228,7 +236,7 @@ export default{
             ]
         },
         {
-            "title": "矩形",
+            "title": "二、矩形",
             "sort": 2,
             "summary": "",
             "child": [
@@ -291,7 +299,7 @@ export default{
             ]
         },
         {
-            "title": "贡献法",
+            "title": "三、贡献法",
             "sort": 3,
             "summary": "",
             "child": [
@@ -378,7 +386,7 @@ export default{
             ]
         },
         {
-            "title": "最小字典序",
+            "title": "四、最小字典序",
             "sort": 4,
             "summary": "",
             "child": [

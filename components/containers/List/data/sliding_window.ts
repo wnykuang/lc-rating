@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【算法题单】滑动窗口与双指针（定长/不定长/单序列/双序列/三指针/分组循环）",
     "original_src": "https://leetcode.cn/circle/discuss/0viNMK",
-    "last_update": "2025-04-28 01:52:33",
+    "last_update": "2025-05-19 11:04:05",
     "sort": 0,
     "child": [
         {
@@ -1308,8 +1308,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1920. 基于排列构建数组",
+                            "title": "75. 颜色分类",
                             "sort": 9,
+                            "src": "/sort-colors/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1920. 基于排列构建数组",
+                            "sort": 10,
                             "src": "/build-array-from-permutation/",
                             "score": 1160.4439395369,
                             "solution": null,
@@ -1317,7 +1325,7 @@ export default{
                         },
                         {
                             "title": "442. 数组中重复的数据",
-                            "sort": 10,
+                            "sort": 11,
                             "src": "/find-all-duplicates-in-an-array/",
                             "score": null,
                             "solution": null,
@@ -1325,7 +1333,7 @@ export default{
                         },
                         {
                             "title": "448. 找到所有数组中消失的数字",
-                            "sort": 11,
+                            "sort": 12,
                             "src": "/find-all-numbers-disappeared-in-an-array/",
                             "score": null,
                             "solution": null,
@@ -1333,7 +1341,7 @@ export default{
                         },
                         {
                             "title": "41. 缺失的第一个正数",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/first-missing-positive/",
                             "score": null,
                             "solution": null,
@@ -1341,7 +1349,7 @@ export default{
                         },
                         {
                             "title": "287. 寻找重复数",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/find-the-duplicate-number/",
                             "score": null,
                             "solution": null,
@@ -1801,8 +1809,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1759. 统计同质子字符串的数目",
+                            "title": "2900. 最长相邻不相等子序列 I",
                             "sort": 13,
+                            "src": "/longest-unequal-adjacent-groups-subsequence-i/",
+                            "score": 1468.8739273624,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1759. 统计同质子字符串的数目",
+                            "sort": 14,
                             "src": "/count-number-of-homogenous-substrings/",
                             "score": 1490.8990184504,
                             "solution": null,
@@ -1810,7 +1826,7 @@ export default{
                         },
                         {
                             "title": "3011. 判断一个数组是否可以变为有序",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/find-if-array-can-be-sorted/",
                             "score": 1496.6441112156,
                             "solution": null,
@@ -1818,7 +1834,7 @@ export default{
                         },
                         {
                             "title": "1578. 使绳子变成彩色的最短时间",
-                            "sort": 15,
+                            "sort": 16,
                             "src": "/minimum-time-to-make-rope-colorful/",
                             "score": 1574.0392121288,
                             "solution": null,
@@ -1826,15 +1842,15 @@ export default{
                         },
                         {
                             "title": "1839. 所有元音按顺序排布的最长子字符串",
-                            "sort": 16,
+                            "sort": 17,
                             "src": "/longest-substring-of-all-vowels-in-order/",
                             "score": 1580.3620959714,
                             "solution": null,
                             "isPremium": false
                         },
                         {
-                            "title": "2765. 最长交替子序列",
-                            "sort": 17,
+                            "title": "2765. 最长交替子数组",
+                            "sort": 18,
                             "src": "/longest-alternating-subarray/",
                             "score": 1580.9748095835,
                             "solution": null,
@@ -1842,7 +1858,7 @@ export default{
                         },
                         {
                             "title": "3255. 长度为 K 的子数组的能量值 II",
-                            "sort": 18,
+                            "sort": 19,
                             "src": "/find-the-power-of-k-size-subarrays-ii/",
                             "score": 1595.0583171953,
                             "solution": null,
@@ -1850,7 +1866,7 @@ export default{
                         },
                         {
                             "title": "3350. 检测相邻递增子数组 II",
-                            "sort": 19,
+                            "sort": 20,
                             "src": "/adjacent-increasing-subarrays-detection-ii/",
                             "score": 1600.0334724549,
                             "solution": null,
@@ -1858,15 +1874,23 @@ export default{
                         },
                         {
                             "title": "3105. 最长的严格递增或递减子数组",
-                            "sort": 20,
+                            "sort": 21,
                             "src": "/longest-strictly-increasing-or-strictly-decreasing-subarray/",
                             "score": 1217.0003384199,
                             "solution": null,
                             "isPremium": false
                         },
                         {
+                            "title": "838. 推多米诺",
+                            "sort": 22,
+                            "src": "/push-dominoes/",
+                            "score": 1638.1281256708,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
                             "title": "467. 环绕字符串中唯一的子字符串",
-                            "sort": 21,
+                            "sort": 23,
                             "src": "/unique-substrings-in-wraparound-string/",
                             "score": null,
                             "solution": null,
@@ -1874,7 +1898,7 @@ export default{
                         },
                         {
                             "title": "3499. 操作后最大活跃区段数 I",
-                            "sort": 22,
+                            "sort": 24,
                             "src": "/maximize-active-section-with-trade-i/",
                             "score": 1729.1782719522,
                             "solution": null,
@@ -1882,7 +1906,7 @@ export default{
                         },
                         {
                             "title": "2948. 交换得到字典序最小的数组",
-                            "sort": 23,
+                            "sort": 25,
                             "src": "/make-lexicographically-smallest-array-by-swapping-elements/",
                             "score": 2047.3919190727,
                             "solution": null,
@@ -1890,7 +1914,7 @@ export default{
                         },
                         {
                             "title": "2593. 标记所有元素后数组的分数",
-                            "sort": 24,
+                            "sort": 26,
                             "src": "/find-score-of-an-array-after-marking-all-elements/",
                             "score": 1665.1885910815,
                             "solution": null,
@@ -1898,7 +1922,7 @@ export default{
                         },
                         {
                             "title": "2393. 严格递增的子数组个数",
-                            "sort": 25,
+                            "sort": 27,
                             "src": "/count-strictly-increasing-subarrays/",
                             "score": null,
                             "solution": null,
@@ -1906,7 +1930,7 @@ export default{
                         },
                         {
                             "title": "2436. 使子数组最大公约数大于一的最小分割数",
-                            "sort": 26,
+                            "sort": 28,
                             "src": "/minimum-split-into-subarrays-with-gcd-greater-than-one/",
                             "score": null,
                             "solution": null,
@@ -1914,7 +1938,7 @@ export default{
                         },
                         {
                             "title": "2495. 乘积为偶数的子数组数",
-                            "sort": 27,
+                            "sort": 29,
                             "src": "/number-of-subarrays-having-even-product/",
                             "score": null,
                             "solution": null,
@@ -1922,7 +1946,7 @@ export default{
                         },
                         {
                             "title": "3063. 链表频率",
-                            "sort": 28,
+                            "sort": 30,
                             "src": "/linked-list-frequency/",
                             "score": null,
                             "solution": null,

@@ -3,7 +3,7 @@ import ProblemCategory from "@components/ProblemCatetory";
 export default{
     "title": "分享丨【算法题单】图论算法（DFS/BFS/拓扑排序/基环树/最短路/最小生成树/网络流）",
     "original_src": "https://leetcode.cn/circle/discuss/01LUak",
-    "last_update": "2025-04-25 03:25:31",
+    "last_update": "2025-05-23 09:56:32",
     "sort": 0,
     "child": [
         {
@@ -29,7 +29,7 @@ export default{
                     "title": "§1.1 DFS 基础",
                     "sort": 0,
                     "isLeaf": true,
-                    "summary": "找连通块、判断是否有环等。部分题目**做法不止一种**。<br>",
+                    "summary": "找连通块、判断是否有环等。部分题目**做法不止一种**。<br>**思维扩展**：<br>",
                     "child": [
                         {
                             "title": "547. 省份数量",
@@ -198,6 +198,14 @@ export default{
                             "score": null,
                             "solution": null,
                             "isPremium": true
+                        },
+                        {
+                            "title": "1298. 你能从盒子里获得的最大糖果数",
+                            "sort": 21,
+                            "src": "/maximum-candies-you-can-get-from-boxes/",
+                            "score": 1824.829446341,
+                            "solution": null,
+                            "isPremium": false
                         }
                     ]
                 },
@@ -232,16 +240,8 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1298. 你能从盒子里获得的最大糖果数",
-                            "sort": 3,
-                            "src": "/maximum-candies-you-can-get-from-boxes/",
-                            "score": 1824.829446341,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
                             "title": "2039. 网络空闲的时刻",
-                            "sort": 4,
+                            "sort": 3,
                             "src": "/the-time-when-the-network-becomes-idle/",
                             "score": 1865.3441063734,
                             "solution": null,
@@ -249,7 +249,7 @@ export default{
                         },
                         {
                             "title": "2608. 图中的最短环",
-                            "sort": 5,
+                            "sort": 4,
                             "src": "/shortest-cycle-in-a-graph/",
                             "score": 1904.2279434479,
                             "solution": null,
@@ -257,7 +257,7 @@ export default{
                         },
                         {
                             "title": "815. 公交路线",
-                            "sort": 6,
+                            "sort": 5,
                             "src": "/bus-routes/",
                             "score": 1964.3793590858,
                             "solution": null,
@@ -270,7 +270,7 @@ export default{
         {
             "title": "二、拓扑排序",
             "sort": 2,
-            "summary": "!<a href=\"https://pic.leetcode.cn/1738131168-tWFNGZ-006-toposort.png\">图论题单 图论算法 图论题目 LeetCode 力扣图论 灵茶山艾府</a><br>把拓扑排序想象成一个黑盒，给它一堆杂乱的先修课约束，它会给你一个井井有条的课程学习安排。<br>这一种在图上的「排序」，可以把杂乱的点排成一排。<br>前提条件是图中无环，从而保证每条边是从排在前面的点，指向排在后面的点。<br>",
+            "summary": "!<a href=\"https://pic.leetcode.cn/1738131168-tWFNGZ-006-toposort.png\">图论题单 图论算法 图论题目 LeetCode 力扣图论 灵茶山艾府</a><br>把拓扑排序想象成一个黑盒，给它一堆杂乱的先修课约束，它会给你一个井井有条的课程学习安排。<br>这一种在图上的「排序」，可以把杂乱的点排成一排。前提条件是图中无环，从而保证每条边都是从排在前面的点，指向排在后面的点。即对于任意有向边 $x\\to y$，$x$ 一定在 $y$ 之前。<br>",
             "child": [
                 {
                     "title": "§2.1 拓扑排序",
@@ -367,8 +367,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "269. 火星词典",
+                            "title": "3481. 应用替换",
                             "sort": 11,
+                            "src": "/apply-substitutions/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": true
+                        },
+                        {
+                            "title": "269. 火星词典",
+                            "sort": 12,
                             "src": "/alien-dictionary/",
                             "score": null,
                             "solution": null,
@@ -376,7 +384,7 @@ export default{
                         },
                         {
                             "title": "444. 序列重建",
-                            "sort": 12,
+                            "sort": 13,
                             "src": "/sequence-reconstruction/",
                             "score": null,
                             "solution": null,
@@ -384,7 +392,7 @@ export default{
                         },
                         {
                             "title": "1059. 从始点到终点的所有路径",
-                            "sort": 13,
+                            "sort": 14,
                             "src": "/all-paths-from-source-lead-to-destination/",
                             "score": null,
                             "solution": null,
@@ -392,7 +400,7 @@ export default{
                         },
                         {
                             "title": "1136. 并行课程",
-                            "sort": 14,
+                            "sort": 15,
                             "src": "/parallel-courses/",
                             "score": 1710.0787625377,
                             "solution": null,
@@ -515,7 +523,7 @@ export default{
                     "title": "§3.1 单源最短路：Dijkstra 算法",
                     "sort": 0,
                     "isLeaf": true,
-                    "summary": "<a href=\"https://leetcode.cn/problems/network-delay-time/solution/liang-chong-dijkstra-xie-fa-fu-ti-dan-py-ooe8/\">Dijkstra 算法介绍</a><br>",
+                    "summary": "<a href=\"https://leetcode.cn/problems/network-delay-time/solution/liang-chong-dijkstra-xie-fa-fu-ti-dan-py-ooe8/\">Dijkstra 算法介绍</a><br>**分层图最短路**：<br>",
                     "child": [
                         {
                             "title": "743. 网络延迟时间",
@@ -662,8 +670,16 @@ export default{
                             "isPremium": false
                         },
                         {
-                            "title": "1928. 规定时间内到达终点的最小花费",
+                            "title": "818. 赛车",
                             "sort": 18,
+                            "src": "/race-car/",
+                            "score": 2391.8086687918,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "1928. 规定时间内到达终点的最小花费",
+                            "sort": 19,
                             "src": "/minimum-cost-to-reach-destination-in-time/",
                             "score": 2413.3969129689,
                             "solution": null,
@@ -671,7 +687,7 @@ export default{
                         },
                         {
                             "title": "787. K 站中转内最便宜的航班",
-                            "sort": 19,
+                            "sort": 20,
                             "src": "/cheapest-flights-within-k-stops/",
                             "score": 1786.4753467293,
                             "solution": null,
@@ -679,17 +695,9 @@ export default{
                         },
                         {
                             "title": "2699. 修改图中的边权",
-                            "sort": 20,
+                            "sort": 21,
                             "src": "/modify-graph-edge-weights/",
                             "score": 2873.9745576413,
-                            "solution": null,
-                            "isPremium": false
-                        },
-                        {
-                            "title": "LCP 35. 电动车游城市",
-                            "sort": 21,
-                            "src": "/DFPeFJ/",
-                            "score": null,
                             "solution": null,
                             "isPremium": false
                         },
@@ -718,17 +726,25 @@ export default{
                             "isPremium": true
                         },
                         {
-                            "title": "2714. 找到最短路径的 K 次跨越",
+                            "title": "2737. 找到最近的标记节点",
                             "sort": 25,
-                            "src": "/find-shortest-path-with-k-hops/",
+                            "src": "/find-the-closest-marked-node/",
                             "score": null,
                             "solution": null,
                             "isPremium": true
                         },
                         {
-                            "title": "2737. 找到最近的标记节点",
+                            "title": "LCP 35. 电动车游城市",
                             "sort": 26,
-                            "src": "/find-the-closest-marked-node/",
+                            "src": "/DFPeFJ/",
+                            "score": null,
+                            "solution": null,
+                            "isPremium": false
+                        },
+                        {
+                            "title": "2714. 找到 K 次跨越的最短路径",
+                            "sort": 27,
+                            "src": "/find-shortest-path-with-k-hops/",
                             "score": null,
                             "solution": null,
                             "isPremium": true

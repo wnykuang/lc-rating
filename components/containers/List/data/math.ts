@@ -171,6 +171,20 @@ export default{
                                     "last_update": ""
                                 },
                                 {
+                                    "title": "3591. 检查元素频次是否为质数",
+                                    "summary": "",
+                                    "src": "/check-if-any-element-has-prime-frequency/",
+                                    "original_src": "https://leetcode.cn/problems/check-if-any-element-has-prime-frequency/",
+                                    "sort": 0,
+                                    "isLeaf": true,
+                                    "solution": null,
+                                    "score": null,
+                                    "leafChild": [],
+                                    "nonLeafChild": [],
+                                    "isPremium": false,
+                                    "last_update": ""
+                                },
+                                {
                                     "title": "2761. 和等于目标值的质数对",
                                     "summary": "",
                                     "src": "/prime-pairs-with-target-sum/",
@@ -3179,7 +3193,7 @@ export default{
                         },
                         {
                             "title": "§5.4 凸包",
-                            "summary": "",
+                            "summary": "另见 <a href=\"/lc-rating/list/dynamic_programming\">动态规划题单</a> 的「**§11.7 斜率优化 DP**」。<br>",
                             "src": "",
                             "original_src": "",
                             "sort": 0,
@@ -3196,34 +3210,6 @@ export default{
                                     "isLeaf": true,
                                     "solution": null,
                                     "score": null,
-                                    "leafChild": [],
-                                    "nonLeafChild": [],
-                                    "isPremium": false,
-                                    "last_update": ""
-                                },
-                                {
-                                    "title": "3494. 酿造药水需要的最少总时间",
-                                    "summary": "",
-                                    "src": "/find-the-minimum-amount-of-time-to-brew-potions/",
-                                    "original_src": "https://leetcode.cn/problems/find-the-minimum-amount-of-time-to-brew-potions/",
-                                    "sort": 0,
-                                    "isLeaf": true,
-                                    "solution": null,
-                                    "score": 2042.1113250604,
-                                    "leafChild": [],
-                                    "nonLeafChild": [],
-                                    "isPremium": false,
-                                    "last_update": ""
-                                },
-                                {
-                                    "title": "3500. 将数组分割为子数组的最小代价",
-                                    "summary": "",
-                                    "src": "/minimum-cost-to-divide-array-into-subarrays/",
-                                    "original_src": "https://leetcode.cn/problems/minimum-cost-to-divide-array-into-subarrays/",
-                                    "sort": 0,
-                                    "isLeaf": true,
-                                    "solution": null,
-                                    "score": 2569.4068901457,
                                     "leafChild": [],
                                     "nonLeafChild": [],
                                     "isPremium": false,
@@ -3462,7 +3448,7 @@ export default{
                     "nonLeafChild": [
                         {
                             "title": "§7.1 回文数",
-                            "summary": "",
+                            "summary": "<a href=\"https://leetcode.cn/problems/sum-of-k-mirror-numbers/solutions/1113431/da-biao-zuo-fa-by-endlesscheng-7ojf/\">模板代码</a><br>",
                             "src": "",
                             "original_src": "",
                             "sort": 0,
@@ -4386,5 +4372,5 @@ export default{
         }
     ],
     "isPremium": false,
-    "last_update": "2025-06-15 23:02:16"
+    "last_update": "2025-06-22 23:30:55"
 } as ProblemCategory;

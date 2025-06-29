@@ -1066,7 +1066,7 @@ export default{
                     "nonLeafChild": [
                         {
                             "title": "答疑",
-                            "summary": "**问**：关于完全背包，有两种写法，一种是外层循环枚举物品，内层循环枚举体积；另一种是外层循环枚举体积，内层循环枚举物品。如何评价这两种写法的优劣？<br>**答**：两种写法都可以，但更推荐前者。外层循环枚举物品的写法，只会遍历物品数组一次；而内层循环枚举物品的写法，会遍历物品数组多次。从 cache 的角度分析，多次遍历数组会导致额外的 cache miss，带来额外的开销。所以虽然这两种写法的时间空间复杂度是一样的，但外层循环枚举物品的写法常数更小。<br>",
+                            "summary": "**问**：关于完全背包，有两种写法，一种是外层循环枚举物品，内层循环枚举体积；另一种是外层循环枚举体积，内层循环枚举物品。如何评价这两种写法的优劣？<br>**答**：两种写法都可以，但更推荐前者。外层循环枚举物品的写法，只会遍历物品数组一次；而内层循环枚举物品的写法，会遍历物品数组多次。从 cache 的角度分析，多次遍历数组会导致额外的 cache miss，带来额外的开销。所以虽然这两种写法的时间空间复杂度是一样的，但外层循环枚举物品的写法常数更小。<br>**思维扩展**：<br>",
                             "src": "",
                             "original_src": "",
                             "sort": 0,
@@ -1142,6 +1142,20 @@ export default{
                                     "leafChild": [],
                                     "nonLeafChild": [],
                                     "isPremium": true,
+                                    "last_update": ""
+                                },
+                                {
+                                    "title": "3592. 硬币面值还原",
+                                    "summary": "",
+                                    "src": "/inverse-coin-change/",
+                                    "original_src": "https://leetcode.cn/problems/inverse-coin-change/",
+                                    "sort": 0,
+                                    "isLeaf": true,
+                                    "solution": null,
+                                    "score": null,
+                                    "leafChild": [],
+                                    "nonLeafChild": [],
+                                    "isPremium": false,
                                     "last_update": ""
                                 }
                             ],
@@ -5499,7 +5513,7 @@ export default{
                 },
                 {
                     "title": "§9.4 子集状压 DP",
-                    "summary": "一般定义 $f[S]$ 表示未选（或者已选）的集合为 $S$ 时，和题目有关的最优值。通过枚举 $S$（或者 $S$ 的补集 $\\complement_US$）的子集来转移。<br>时间复杂度（通常来说）是 $\\mathcal{O}(3^n)$，证明：<br>对于大小为 $n$ 的集合，它的大小为 $m$ 的子集有 $\\binom n m$ 个，每个子集又有 $2^m$ 个子集。根据二项式定理，$\\sum\\limits_{m=0}^n \\binom n m 2^m = (2+1)^n = 3^n$，所以「枚举子集的子集」的总体时间复杂度为 $\\mathcal{O}(3^n)$。<br>值得注意的是，枚举子集的子集还可以用「选或不选」来做，对于存在无效状态的情况，可以做到更优的时间复杂度。具体见 <a href=\"https://leetcode.cn/problems/maximum-students-taking-exam/solution/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-9y5k/\">1349 题解</a> 最后的写法。<br>",
+                    "summary": "一般定义 $f[S]$ 表示未选（或者已选）的集合为 $S$ 时，和题目有关的最优值。通过枚举 $S$（或者 $S$ 的补集 $\\complement_US$）的子集来转移。<br>时间复杂度（通常来说）是 $\\mathcal{O}(3^n)$，证明：<br>对于大小为 $n$ 的集合，它的大小为 $m$ 的子集有 $\\binom n m$ 个，每个子集又有 $2^m$ 个子集。根据二项式定理，$\\sum\\limits_{m=0}^n \\binom n m 2^m = (2+1)^n = 3^n$，所以「枚举子集的子集」的总体时间复杂度为 $\\mathcal{O}(3^n)$。<br>值得注意的是，枚举子集的子集还可以用「选或不选」来做，对于存在无效状态的情况，可以做到更优的时间复杂度。具体见 <a href=\"https://leetcode.cn/problems/maximum-students-taking-exam/solution/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-9y5k/\">1349 题解</a> 最后的写法。<br>**相关问题**：<br>",
                     "src": "",
                     "original_src": "",
                     "sort": 0,
@@ -5715,6 +5729,20 @@ export default{
                             "leafChild": [],
                             "nonLeafChild": [],
                             "isPremium": true,
+                            "last_update": ""
+                        },
+                        {
+                            "title": "3594. 所有人渡河所需的最短时间",
+                            "summary": "",
+                            "src": "/minimum-time-to-transport-all-individuals/",
+                            "original_src": "https://leetcode.cn/problems/minimum-time-to-transport-all-individuals/",
+                            "sort": 0,
+                            "isLeaf": true,
+                            "solution": null,
+                            "score": null,
+                            "leafChild": [],
+                            "nonLeafChild": [],
+                            "isPremium": false,
                             "last_update": ""
                         }
                     ],
@@ -9745,5 +9773,5 @@ export default{
         }
     ],
     "isPremium": false,
-    "last_update": "2025-06-15 23:01:48"
+    "last_update": "2025-06-22 23:40:31"
 } as ProblemCategory;

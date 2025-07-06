@@ -2269,6 +2269,20 @@ export default{
                             "last_update": ""
                         },
                         {
+                            "title": "3599. 划分数组得到最小 XOR",
+                            "summary": "",
+                            "src": "/partition-array-to-minimize-xor/",
+                            "original_src": "https://leetcode.cn/problems/partition-array-to-minimize-xor/",
+                            "sort": 0,
+                            "isLeaf": true,
+                            "solution": null,
+                            "score": null,
+                            "leafChild": [],
+                            "nonLeafChild": [],
+                            "isPremium": false,
+                            "last_update": ""
+                        },
+                        {
                             "title": "410. 分割数组的最大值",
                             "summary": "",
                             "src": "/split-array-largest-sum/",
@@ -6983,14 +6997,14 @@ export default{
                                     "last_update": ""
                                 },
                                 {
-                                    "title": "140. 单词拆分 II",
+                                    "title": "2707. 字符串中的额外字符",
                                     "summary": "",
-                                    "src": "/word-break-ii/",
-                                    "original_src": "https://leetcode.cn/problems/word-break-ii/",
+                                    "src": "/extra-characters-in-a-string/",
+                                    "original_src": "https://leetcode.cn/problems/extra-characters-in-a-string/",
                                     "sort": 0,
                                     "isLeaf": true,
                                     "solution": null,
-                                    "score": null,
+                                    "score": 1735.8505509901,
                                     "leafChild": [],
                                     "nonLeafChild": [],
                                     "isPremium": false,
@@ -8724,6 +8738,20 @@ export default{
                     "score": 0,
                     "leafChild": [
                         {
+                            "title": "238. 除自身以外数组的乘积",
+                            "summary": "",
+                            "src": "/product-of-array-except-self/",
+                            "original_src": "https://leetcode.cn/problems/product-of-array-except-self/",
+                            "sort": 0,
+                            "isLeaf": true,
+                            "solution": null,
+                            "score": null,
+                            "leafChild": [],
+                            "nonLeafChild": [],
+                            "isPremium": false,
+                            "last_update": ""
+                        },
+                        {
                             "title": "724. 寻找数组的中心下标",
                             "summary": "",
                             "src": "/find-pivot-index/",
@@ -8914,6 +8942,20 @@ export default{
                             "isLeaf": true,
                             "solution": null,
                             "score": 1583.212966224,
+                            "leafChild": [],
+                            "nonLeafChild": [],
+                            "isPremium": false,
+                            "last_update": ""
+                        },
+                        {
+                            "title": "3598. 相邻字符串之间的最长公共前缀",
+                            "summary": "",
+                            "src": "/longest-common-prefix-between-adjacent-strings-after-removals/",
+                            "original_src": "https://leetcode.cn/problems/longest-common-prefix-between-adjacent-strings-after-removals/",
+                            "sort": 0,
+                            "isLeaf": true,
+                            "solution": null,
+                            "score": null,
                             "leafChild": [],
                             "nonLeafChild": [],
                             "isPremium": false,
@@ -9124,20 +9166,6 @@ export default{
                             "isLeaf": true,
                             "solution": null,
                             "score": 1912.8455659711,
-                            "leafChild": [],
-                            "nonLeafChild": [],
-                            "isPremium": false,
-                            "last_update": ""
-                        },
-                        {
-                            "title": "238. 除自身以外数组的乘积",
-                            "summary": "",
-                            "src": "/product-of-array-except-self/",
-                            "original_src": "https://leetcode.cn/problems/product-of-array-except-self/",
-                            "sort": 0,
-                            "isLeaf": true,
-                            "solution": null,
-                            "score": null,
                             "leafChild": [],
                             "nonLeafChild": [],
                             "isPremium": false,
@@ -9773,5 +9801,5 @@ export default{
         }
     ],
     "isPremium": false,
-    "last_update": "2025-06-22 23:40:31"
+    "last_update": "2025-07-01 23:20:07"
 } as ProblemCategory;
